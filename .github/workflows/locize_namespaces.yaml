@@ -20,17 +20,10 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install GitHub CLI
-        run: |
-          curl -sSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
-          echo "deb [signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | tee /etc/apt/sources.list.d/github-cli.list
-          apt update
-          apt install gh
-
       - name: Get changed files
         id: get_changed_files
         run: |
-          CHANGED_FILES=$(gh pr diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^src/locales/en/' || true)
+          CHANGED_FILES=$(git --no-pager diff --name-only --diff-filter=ACMRT ${{ github.event.before }} ${{ github.sha }} | grep '^src/locales/en/' || true)
           echo "::set-output name=files::$CHANGED_FILES"
 
       - name: Clone Mobile app
