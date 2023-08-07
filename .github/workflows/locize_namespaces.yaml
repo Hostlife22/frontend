@@ -27,7 +27,7 @@ jobs:
 
       - name: Copy Changes to Mobile app
         run: |
-          cp -r src/locales/en mp_app_mobile/assets/locales/en
+          cp -r src/locales/en mp_app_mobile/locales/en
 
       - name: Typecheck in Mobile app
         run: |
