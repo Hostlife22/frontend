@@ -1,4 +1,4 @@
-name: Locize namespaces
+name: Check locize namespaces
 
 on:
   pull_request:
@@ -12,7 +12,6 @@ jobs:
   validate:
     runs-on: ubuntu-20.04
     steps:
-      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Setup Node.js
@@ -20,25 +19,28 @@ jobs:
         with:
           node-version: 16
 
-      - name: Get changed files
-        id: get_changed_files
+      - name: Check for Locale Changes
+        id: check_locale_changes
         run: |
-          CHANGED_FILES=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.number }}/files" | jq -r '.[] | select(.filename | startswith("src/locales/en/")) | .filename')
-          echo "changes Version: $CHANGED_FILES"
-          echo "::set-output name=files::$CHANGED_FILES"
+          LOCALE_CHANGES=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.number }}/files" | jq -r '.[] | select(.filename | startswith("src/locales/en/")) | .filename')
+          if [[ -n "$LOCALE_CHANGES" ]]; then
+            echo "::set-output name=locale_changes::true"
+          else
+            echo "::set-output name=locale_changes::false"
+          fi
 
-      - name: Clone Mobile app
-        if: steps.get_changed_files.outputs.files != ''
+      - name: Clone Mobile App
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
           git clone https://github.com/Hostlife22/mobile.git
 
-      - name: Copy Changes to Mobile app
-        if: steps.get_changed_files.outputs.files != ''
+      - name: Copy Locale Changes to Mobile App
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
           rsync -av src/locales/en/ mobile/src/locales/en/
 
-      - name: Typecheck in Mobile app
-        if: steps.get_changed_files.outputs.files != ''
+      - name: Typecheck Mobile App
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
           cd mobile
           yarn install
