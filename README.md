@@ -26,3 +26,4 @@ Hello there! This is MP frontend repo.
 > Test reports will be available on edge.
 > See task [Hosted test reports](https://app.clickup.com/t/2179883/MP-6514)
 # mp_app_frontend
+# mp_app_frontend
