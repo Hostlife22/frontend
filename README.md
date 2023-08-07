@@ -27,3 +27,4 @@ Hello there! This is MP frontend repo.
 > See task [Hosted test reports](https://app.clickup.com/t/2179883/MP-6514)
 # mp_app_frontend
 # mp_app_frontend
+# mp_app_frontend
