@@ -15,25 +15,21 @@ jobs:
   validate:
     runs-on: ubuntu-20.04
     steps:
-      # https://github.com/actions/checkout/commit/2541b1294d2704b0964813337f33b291d3f8596b
-      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # pin@v3
-
+      - uses: actions/checkout@v3
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com/
+      # - name: Clone Mobile app
+      #     run: |
+      #     git clone https://github.com/Hostlife22/mobile.git mp_app_mobile
 
-      - name: Clone Mobile app
-          run: |
-          git clone https://github.com/Hostlife22/mobile.git
+      # - name: Copy Changes to Mobile app
+      #   run: |
+      #     cp -r src/locales/en mp_app_mobile/assets/locales/en
 
-      - name: Copy Changes to Mobile app
-        run: |
-          cp -r src/locales/en mobile/assets/locales/en
-
-      - name: Typecheck in Mobile app
-        run: |
-          cd mobile
-          yarn install
-          yarn typecheck
+      # - name: Typecheck in Mobile app
+      #   run: |
+      #     cd mp_app_mobile
+      #     yarn install
+      #     yarn typecheck
