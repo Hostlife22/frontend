@@ -1,0 +1,10 @@
+{
+  "content": {
+    "nothing_selected": "Midagi pole valitud"
+  },
+  "navbar": {
+    "by": "{{ who }} poolt",
+    "no_search_results": "Tulemused puuduvad",
+    "nothing_to_approve": "Pole midagi heaks kiita"
+  }
+}

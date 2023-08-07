@@ -1,0 +1,15 @@
+{
+  "create_document": {
+    "document_currency_mismatch": "Valutan matchar inte transaktionen"
+  },
+  "import_info": {
+    "ApproverCustomField": "Måste vara en e-postadress",
+    "CategoryCustomField": "Måste vara koden för en befintlig kategori",
+    "CostCentreCustomField": "Måste vara koden för ett befintligt kostnadsställe",
+    "DateCustomField": "Måste vara ett ISO 8601-kodat datum, t.ex. ÅÅÅÅ-MM-DD",
+    "SelectCustomField": "Måste vara koden för en befintlig datakälla"
+  },
+  "import_users": {
+    "security_roles_description": "Tilldela standardroller till alla nya användare"
+  }
+}

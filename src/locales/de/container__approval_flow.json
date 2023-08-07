@@ -1,0 +1,51 @@
+{
+  "approval_flow_editor": {
+    "add_step": "Schritt hinzufügen",
+    "ports_validator": {
+      "input_is_connected": "Eingabe ist verbunden",
+      "input_must_be_connected": "Eingabe muss verbunden sein",
+      "port_can_be_disconnected": "Port {{port}} kann getrennt werden",
+      "port_is_connected": "Port {{port}} ist verbunden",
+      "port_must_be_connected": "Port {{port}} muss angeschlossen werden"
+    },
+    "publishDescription": "Bitte bestätigen Sie die Veröffentlichung. Sie kann nicht rückgängig gemacht werden",
+    "publishTitle": "Genehmigungsablauf veröffentlichen",
+    "publish_changes": "Änderungen veröffentlichen",
+    "publish_notes_placeholder": "Bitte beschreiben Sie die vorgenommenen Änderungen und warum",
+    "start": "Start"
+  },
+  "approve_by_node": {
+    "assign_all": {
+      "ALL": "Erhalten Sie die Genehmigung ALLER Benutzer mit der Genehmigungsberechtigung"
+    },
+    "fieldLabelAssignees": "Beauftragte"
+  },
+  "formal_rules": {
+    "a": "Der Genehmigungsablauf muss mindestens Folgendes aufweisen: (i) eine automatische Genehmigung, (ii) eine automatische Ablehnung und (iii) entweder eine Genehmigungsbedingung oder eine Eingabeattribut-bedingung.",
+    "b": "Ein Schritt muss der erste sein, es kann jeder Typ sein, außer automatische Ablehnung und Virtuelle Karte ausstellen",
+    "c": "Alle Ports müssen verbunden sein, außer für die Ausgänge der letzten Schritte.",
+    "d": "Genehmigungsablauf muss zwei oder mehr letzte Schritte haben, diese können entweder \"automatisch genehmigen\" oder \"automatisch ablehnen\" oder \"virtuelle Karte ausstellen\" werden.",
+    "e": "Ein Ausgangsport kann mit nur einem Eingangsport verbunden werden.",
+    "f": "Ein Eingangsport kann Verbindungen mit mehreren Ausgangsports haben.",
+    "g": "Zwei Schritte können nur eine Verbindung haben, direkt oder über andere Schritte",
+    "h": "Schritt kann nicht mit sich selbst verbunden sein (keine Zirkelbeziehungen).",
+    "i": "Bedingte Schritte wie „Kondition“ oder „genehmigt von“ können nur einen Ausgang an einen automatischen Statusänderungsschritt eines bestimmten Typs haben - mit anderen Worten, nur eine automatische Genehmigung und eine automatische Ablehnung, falls vorhanden.",
+    "j": "Alle Felder in einem Genehmigungsvorgang müssen festgelegt werden.",
+    "k": "Der Ausgabeport der automatischen Genehmigung kann nur mit \"Ausgabe einer virtuellen Karte\" verbunden werden.",
+    "l": "Die Eingabe \"Ausgabe einer virtuellen Karte\" kann nur mit der automatischen Genehmigung verbunden werden."
+  },
+  "node": {
+    "footer": {
+      "false": "Falsch",
+      "output": "Ausgabe",
+      "true": "Wahr"
+    }
+  },
+  "validation": {
+    "subtitle": "Die folgenden Probleme müssen behoben werden, bevor eine neue Version veröffentlicht werden kann.",
+    "title": "Validierung"
+  },
+  "versions": {
+    "description": "Änderungen an einem Workflow müssen veröffentlicht werden, bevor sie ausgelöst werden können."
+  }
+}

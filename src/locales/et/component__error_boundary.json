@@ -1,0 +1,29 @@
+{
+  "common_errors": {
+    "application_updated": {
+      "description": "Välja on antud uus versioon. Palun värskendage lehte.",
+      "reset_button": "Värskenda lehte",
+      "title": "Rakendus värskendatud"
+    },
+    "forbidden": {
+      "description": "Ressurss, mida otsisite, on keelatud.",
+      "title": "Keelatud"
+    },
+    "not_found": {
+      "description": "Kahjuks tundub, et otsitavat lehte pole olemas.",
+      "title": "Ei leitud"
+    },
+    "unknown_error": {
+      "description": "Vabandust, me töötame lahenduse kallal.",
+      "reset_button": "Mine koju",
+      "title": "Midagi läks valesti"
+    }
+  },
+  "node_provider": {
+    "errors": {
+      "forbidden": "Kahjuks tundub, et teil pole {{ what }} vaatamiseks luba.",
+      "not_found": "Vabandust, {{ what }} mida otsite, pole olemas."
+    },
+    "sidebar_reset_button": "Sule külgriba"
+  }
+}

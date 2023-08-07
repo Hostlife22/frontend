@@ -1,0 +1,17 @@
+{
+  "form": {
+    "initial_comment": {
+      "label": "Was möchten Sie melden?",
+      "placeholder": "Beschreiben Sie das Problem."
+    },
+    "subscribers": {
+      "options": {
+        "approvers": "Genehmiger",
+        "requester": "Anfragender"
+      },
+      "title": "Gespräch beginnen mit"
+    }
+  },
+  "submit_button": "Report übermitteln",
+  "title": "Problem melden"
+}

@@ -1,0 +1,38 @@
+{
+  "approval_flow_editor": {
+    "ports_validator": {
+      "input_is_connected": "La porte d'entrée est connectée",
+      "input_must_be_connected": "La porte d' entrée doit être connectée",
+      "port_can_be_disconnected": "La porte {{port}} peut être déconnecté",
+      "port_is_connected": "La porte est connectée",
+      "port_must_be_connected": "La porte {{port}} doit être connectée"
+    },
+    "publishDescription": "Veuillez confirmer la publication. Cela ne peut pas être annulé",
+    "publishTitle": "Publier le flux d'approbation",
+    "start": "Début"
+  },
+  "approve_by_node": {
+    "fieldLabelAssignees": "Cessionnaires"
+  },
+  "formal_rules": {
+    "a": "Le flux doit avoir au minimum : (i) une approbation automatique, (ii) un rejet automatique et (iii) une condition d'approbation ou une condition de porte d'entrée.",
+    "b": "Une étape doit être la première, elle peut être de n'importe quel type sauf pour le rejet automatique et l'émission de la carte virtuelle.",
+    "c": "Tous les portes doivent être connectées, sauf pour les sorties des dernières étapes.",
+    "d": "Le flux doit comporter au moins deux dernières étapes, et elles peuvent être soit approbation automatique, soit rejet automatique, soit émettre une carte virtuelle.",
+    "e": "Un porte de sortie peut être connecté à un seul porte d'entrée.",
+    "f": "Un porte d'entrée peut avoir des connexions avec plusieurs portes de sortie.",
+    "g": "Deux étapes peuvent avoir une seule connexion, directement ou via d'autres étapes",
+    "h": "L'étape ne peut pas se connecter avec elle-même (pas de relations circulaires).",
+    "i": "Une étape conditionnelle telle que Condition ou ApprouvéPar peut n'avoir qu'une seule sortie vers une étape de changement d'état automatique d'un type spécifique, en d'autres termes, une seule approbation automatique et un seul rejet automatique, le cas échéant.",
+    "j": "Tous les champs d'un flux doivent être définis.",
+    "k": "La porte de sortie de l'approbation automatique ne peut se connecter qu'à émission-carte-virtuelle",
+    "l": "La porte d'entrée de la carte virtuelle ne peut se connecter qu'avec l'approbation automatique."
+  },
+  "node": {
+    "footer": {
+      "false": "Faux",
+      "output": "Porte de sortie",
+      "true": "Vrai"
+    }
+  }
+}

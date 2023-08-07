@@ -1,0 +1,57 @@
+{
+  "definition": {
+    "bymonth": "In {{month}}",
+    "bymonthday": "On {{monthday}}",
+    "byweekday": "On {{weekday}}",
+    "freq": "Repeat {{frequency}}",
+    "interval": "Every {{interval}}"
+  },
+  "errors": {
+    "ends_at": {
+      "must_be_in_future": "End at date can't be in the past and before start date"
+    },
+    "starts_at": {
+      "must_be_in_present_or_future": "Start at date must not be in the past and after ends date"
+    }
+  },
+  "frequency": {
+    "DAILY": "Daily",
+    "MONTHLY": "Monthly",
+    "WEEKLY": "Weekly",
+    "YEARLY": "Yearly"
+  },
+  "interval": {
+    "DAILY": "Day",
+    "DAILY_plural": "Days",
+    "MONTHLY": "Month",
+    "MONTHLY_plural": "Months",
+    "WEEKLY": "Week",
+    "WEEKLY_plural": "Weeks",
+    "YEARLY": "Year",
+    "YEARLY_plural": "Years"
+  },
+  "month": [
+    null,
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "weekday": {
+    "FR": "Friday",
+    "MO": "Monday",
+    "SA": "Saturday",
+    "SU": "Sunday",
+    "TH": "Thursday",
+    "TU": "Tuesday",
+    "WE": "Wednesday"
+  }
+}

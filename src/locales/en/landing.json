@@ -1,0 +1,79 @@
+{
+  "common": {
+    "subtitle": "Procurement is demanding. <b>Demand smarter software.</b>",
+    "title": "Welcome <b>to Mazepay</b>",
+    "website_link": "Read more on our website",
+    "website_link_title": "Want to know more?"
+  },
+  "forms": {
+    "back_to_sign_in": "Back to Sign in",
+    "email": {
+      "errors": {
+        "invalid": "Email is not valid",
+        "required": "Email is required"
+      },
+      "label": "Email",
+      "placeholder": "Enter company email"
+    },
+    "header": {
+      "subtitle": {
+        "/accept_invitation": "You have been invited to join Mazepay. Please choose a password to accept the invitation.",
+        "/reset_password/send_email": "Enter the email address you use to sign in to Mazepay",
+        "/reset_password/set_password": "Choose a new password for your Mazepay account",
+        "/signin": "Mazepay App"
+      },
+      "title": {
+        "/accept_invitation": "Choose password",
+        "/reset_password/send_email": "Reset password",
+        "/reset_password/set_password": "New password",
+        "/signin": "Sign in"
+      }
+    },
+    "invite_errors": {
+      "link_is_invalid": "Confirmation link is invalid",
+      "token_not_found": "Token not found or outdated"
+    },
+    "otp_header": {
+      "subtitle": "Enter the six digit code from your authenticator app",
+      "title": "Two-factor authentication"
+    },
+    "password": {
+      "confirmation_label": "Confirm password",
+      "errors": {
+        "passwords_do_not_match": "Passwords do not match",
+        "required": "Password is required",
+        "too_short": "Password is too short (minimum is 6 characters)"
+      },
+      "label": "Password",
+      "placeholder": "Enter password"
+    },
+    "submit": {
+      "confirm_invite": "Accept invitation",
+      "continue": "Continue",
+      "reset_password_email": "Reset",
+      "set_password": "Set password",
+      "sign_in": "Sign in",
+      "verify_otp": "Verify"
+    },
+    "unlock": {
+      "error": "Failed to unlock you",
+      "unlocked": "You are unlocked",
+      "unlocking": "Unlocking you..."
+    },
+    "validation_errors": {
+      "reset_password_token": {
+        "invalid": "Token is invalid"
+      }
+    }
+  },
+  "links": {
+    "change": "Change",
+    "reset_password": "Reset password"
+  },
+  "page_title": {
+    "/accept_invitation/buyer": "Accept invitation",
+    "/accept_invitation/supplier": "Accept invitation",
+    "/reset_password": "Reset password",
+    "/signin": "Sign-in"
+  }
+}

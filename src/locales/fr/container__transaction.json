@@ -1,0 +1,44 @@
+{
+  "approver_amount": "Approuvé <b>{{approvalCount}}</b> article pour un total de <b>{{totalApprovedAmount}}</b>",
+  "approver_amount_plural": "Approuvé <b>{{approvalCount}}</b> articles pour un total de <b>{{totalApprovedAmount}}</b>",
+  "personal_reminder": {
+    "description": "Voulez-vous envoyer un rappel personnel?",
+    "label": "Message",
+    "placeholder": "Entrez le message à {{who}}",
+    "snooze": "Snooze avis pendant 7 jours",
+    "submit": "Envoyer un rappel personnel"
+  },
+  "reminders_sent": {
+    "label": "Rappels envoyés",
+    "opened": "Ouvert"
+  },
+  "resolved_reporting": {
+    "resolved": "Révision approuvée"
+  },
+  "sidebar": {
+    "document": "Documents ",
+    "reporting": "Signalement"
+  },
+  "trust_score": {
+    "approvers": {
+      "title": "Approbateurs"
+    },
+    "merchant": {
+      "title": "Marchand"
+    },
+    "purchase_order": {
+      "title": "Bon de commande"
+    },
+    "requester": {
+      "title": "Demandeur"
+    },
+    "title": "Score de confiance",
+    "transaction": {
+      "title": "Transaction"
+    }
+  },
+  "unresolved_reporting": {
+    "alert": "Cette transaction a un rapport non résolu",
+    "mark_resolved": "Marqué résolu"
+  }
+}

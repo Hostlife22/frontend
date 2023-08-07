@@ -1,0 +1,27 @@
+{
+  "header": {
+    "no_pending_approvals": "Keine ausstehenden Genehmigungen",
+    "pending_approvals_by": "Ausstehende Genehmigungen von"
+  },
+  "items": {
+    "approval": {
+      "excess_spend_limit": "Das Ausgabenlimit darf nicht höher sein als das zuvor genehmigte.",
+      "in_purchase_order": "Im Auftrag (PO)",
+      "spend_limit_description": "Inklusive Umsatzsteuer und Versand",
+      "spend_limit_title": "Betrag genehmigen",
+      "undo_approve": "Genehmigung rückgängig machen",
+      "undo_cancel": "Stornieren rückgängig machen",
+      "undo_initiate": "Einleiten rückgängig machen",
+      "undo_reject": "Ablehnung rückgängig machen",
+      "view_purchase_order": "Bestellung (PO) ansehen"
+    },
+    "current_spend": {
+      "description": "Einschließlich vorgeschlagenem Limit für aktuellen Artikel",
+      "title": "Ausgeben bis <0>{{who}}</0>"
+    },
+    "subscription_tooltip": {
+      "subscribe": "Klicken Sie hier, um Aktivitätsaktualisierungen zu abonnieren",
+      "unsubscribe": "Sie haben Aktivitätsaktualisierungen abonniert"
+    }
+  }
+}

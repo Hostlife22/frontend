@@ -1,0 +1,17 @@
+{
+  "form": {
+    "initial_comment": {
+      "label": "What are you reporting?",
+      "placeholder": "Describe the issue"
+    },
+    "subscribers": {
+      "options": {
+        "approvers": "Approvers",
+        "requester": "Requester"
+      },
+      "title": "Start conversation with"
+    }
+  },
+  "submit_button": "Submit Report",
+  "title": "Report Issue"
+}

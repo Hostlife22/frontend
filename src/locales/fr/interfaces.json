@@ -1,0 +1,302 @@
+{
+  "ApprovalFlowSettings": {
+    "requestForPurchase": "Demande d'achat",
+    "requestForPurchase_description": "En commençant par l'utilisateur soumettant une demande"
+  },
+  "__typename": {
+    "ApproverCustomField": "Champ personnalisé d'approbateur",
+    "Attachment": "Pièces jointes",
+    "AttachmentCustomField": "Champ personnalisé de pièce jointe",
+    "BankAccount": "Compte bancaire",
+    "Category": "Catégorie",
+    "CategoryCustomField": "Champ personnalisé de catégorie",
+    "CategorySet": "Ensemble de catégories",
+    "CheckboxCustomField": "Champ personnalisé de case à cocher",
+    "Comment": "Commentaire",
+    "CostCentre": "Centre de coûts",
+    "CostCentreCustomField": "Champ personnalisé de centre de coûts",
+    "DataSource": "Source de données",
+    "DataSourceItem": "Source des données",
+    "DataView": "Vue des données",
+    "DataViewField": "Champ d'affichage des données",
+    "DateCustomField": "Champ personnalisé de date",
+    "Document": "Document",
+    "IntegerCustomField": "Champ personnalisé du entier",
+    "IssuerIntegration": "Intégration de l' émetteur",
+    "IssuerIntegrationConsumer": "Intégrations de l' émetteur",
+    "IssuerIntegrationRule": "Règle d'intégration de l'émetteur",
+    "Location": "Emplacement",
+    "Merchant": "Marchand",
+    "OrganisationUnit": "Unité d'organisation",
+    "PurchaseOrder": "Bon de commande",
+    "PurchaseRequest": "Demande d'achat",
+    "PurchaseRequestItem": "Article de demande d'achat",
+    "Report": "Rapport",
+    "ReportTemplate": "Modèle de rapport",
+    "SelectCustomField": "Sélectionne un champ personnalisé",
+    "SpendLimit": "Limite de dépenses",
+    "SupplierAccount": "Compte fournisseur",
+    "TextAreaCustomField": "Champ personnalisé de zone de texte",
+    "TextCustomField": "Champ personnalisé du texte",
+    "Transaction": "Transaction",
+    "User": "Utilisateur",
+    "VirtualCard": "Carte virtuelle"
+  },
+  "address": {
+    "streetName": "Rue",
+    "streetNumber": "Numéro civique"
+  },
+  "appearance_settings": {
+    "theme_description": "Durée de vie prolongée de la batterie et exposition réduite à la lumière bleue"
+  },
+  "approval": {
+    "confirmedAt": "Confirmé à",
+    "confirmedBy": "Confirmé par"
+  },
+  "approval_flow": {
+    "flowSteps": {
+      "node": "Étape de flux",
+      "node_plural": "Étapes de flux"
+    }
+  },
+  "archivable": {
+    "archivedAt": "Archivé à"
+  },
+  "attachment": {
+    "byteSize": "Taille",
+    "contentType": "Type de fichier",
+    "filename": "Nom de fichier"
+  },
+  "bank_account": {
+    "iban": "IBAN",
+    "verifiedAt": "Vérifié à"
+  },
+  "buyer_account": {
+    "accountType": "Type de compte",
+    "createdAt": "Actif depuis",
+    "publicPhone": "Téléphone"
+  },
+  "category": {
+    "childrenCount": "Sous-catégories",
+    "parentCode": "Code parent",
+    "parentId": "Categorie mère"
+  },
+  "category_set": {
+    "categories": "Catégories"
+  },
+  "create_select_custom_field_input": {
+    "dataSourceId": "Source des données"
+  },
+  "create_user_input_attributes": {
+    "personalInvitationMessage": "Message d'invitation personnel"
+  },
+  "custom_field": {
+    "__typename": {
+      "ApproverCustomField": "Approbateur",
+      "AttachmentCustomField": "Pièces jointes",
+      "CategoryCustomField": "Catégorie",
+      "CheckboxCustomField": "Case à cocher",
+      "CostCentreCustomField": "Centre de coût",
+      "DateCustomField": "Date",
+      "IntegerCustomField": "Entier",
+      "SelectCustomField": "Sélectionner",
+      "TextAreaCustomField": "Texte riche",
+      "TextCustomField": "Texte",
+      "__typename": "Type"
+    },
+    "formableClass": "Resource",
+    "required": "Obligatoire",
+    "tooltip": "infobulle"
+  },
+  "data_source": {
+    "items": "Articles"
+  },
+  "data_source_item": {
+    "dataSource": "Source des données"
+  },
+  "data_view": {
+    "resourceType": "Resource"
+  },
+  "data_view_field": {
+    "formatString": "Format",
+    "path": "Valeur de"
+  },
+  "document": {
+    "classification": "Type de document",
+    "createdBy": "Ajouté par",
+    "purchaseOrder": "Bon de commande",
+    "totalAmount": "Montant total",
+    "transactions": "Transactions",
+    "vatAmount": "Montant de la TVA"
+  },
+  "flow_step_condition": {
+    "comparator": "Comparateur"
+  },
+  "issuer_integration": {
+    "cardUseInvoice": "Facture d'achat",
+    "cardUseMulti": "Multi-usage",
+    "cardUseSingle": "Usage unique",
+    "consumers": "Consommateurs",
+    "consumers_description": "Gérez qui peut émettre des cartes virtuelles en utilisant l'intégration. L'accès est hérité par les utilisateurs, les unités d'organisation et les centres de coûts.",
+    "paymentType": "Type de paiement"
+  },
+  "issuer_integration_consumer": {
+    "fallback": "Alternative",
+    "fallback_description": "Autorisez l'utilisation de l'intégration comme alternative si aucune  intégration ne correspond pas aux critères définis dans les règles."
+  },
+  "issuer_integration_rule": {
+    "criteria": "Correspondance par",
+    "position": "Position",
+    "strict": "Strict",
+    "strict_description": "Si la valeur est false, la règle sera ignorée si aucune correspondance n'est pas trouvée."
+  },
+  "localisation_settings": {
+    "displayInCurrency": "Présente en devise",
+    "interfaceLanguage": "Langue de l’interface",
+    "timezone": "Fuseau horaire"
+  },
+  "merchant": {
+    "establishedOn": "Établi le",
+    "legalCorporateName": "Dénomination sociale légale ",
+    "merchantCategoryCode": "MCC",
+    "merchantCategoryCode_abbr": "MCC",
+    "merchantName": "Nom",
+    "naicsCode": "Code SCIAN"
+  },
+  "notification_setting": {
+    "web": "Dans là application"
+  },
+  "organisation_unit": {
+    "childrenCount": "Sous-unités",
+    "classification": "Type de unité ",
+    "legalEntity": "Entité juridique",
+    "parentId": "Unité principale"
+  },
+  "payment_settings": {
+    "baseCurrency": "Devise de base",
+    "baseCurrency_description": "La devise de base est utilisée dans toute l'application, dans le formulaire de demande"
+  },
+  "purchase_order": {
+    "approvedBaseAmount": "Montant approuvé",
+    "poNumber": "Bon de commande ",
+    "purchaseRequest": "Requête ",
+    "purchaseType": "Type d'achat",
+    "requestedBy": "Demandé par",
+    "title": "Sujet"
+  },
+  "purchase_request": {
+    "createdAt": "Demandé à",
+    "items": "Articles",
+    "requestedBy": "Demandé par",
+    "subject": "Sujet",
+    "submittedAt": "Demandé le"
+  },
+  "purchase_request_item": {
+    "approvedBaseAmount": "Montant approuvé",
+    "purchaseRequest": "Demande d'achat",
+    "purchaseType": "$t(interfaces:purchase_order.purchaseType)",
+    "requestedAmount": "Montant demandé",
+    "requestedBaseAmount": "Montant demandé"
+  },
+  "query": {
+    "categories": "Catégories",
+    "categorySets": "Ensemble de catégories",
+    "comments": "Commentaires",
+    "costCentres": "Centres de coûts",
+    "customFields": "Champs personalisés",
+    "dataSourceItems": "Source des données",
+    "dataSources": "Sources de données",
+    "dataViewFields": "champ d'affichage des données",
+    "dataViews": "Vues de données",
+    "issuerIntegrationRules": "Règles d'intégration de l'émetteur",
+    "issuerIntegrationRules_description": "Un compte peut avoir une ou plusieurs intégrations d'émetteur activées pour l'émission de cartes virtuelles. Les règles de correspondance aident à sélectionner la bonne intégration d'émetteur pour un scénario donné. Les règles sont appliquées dans l'ordre relatif à leur position.",
+    "issuerIntegrations": "Intégrations de l' émetteur",
+    "locations": "Emplacements",
+    "organisationUnits": "Unité d'organisation",
+    "purchaseOrders": "Bons de commande ",
+    "purchaseRequests": "Requêtes d'achat",
+    "reportTemplates": "Modèles de rapport",
+    "reports": "Rapports",
+    "suppliers": "Fournisseurs",
+    "transactions": "Transactions",
+    "users": "Utilisateurs",
+    "virtualCards": "Cartes virtuelles"
+  },
+  "range": {
+    "criterion": "Critère",
+    "end": "Fin de gamme",
+    "start": "Début de gamme"
+  },
+  "report": {
+    "reportTemplate": "Modèle"
+  },
+  "report_template": {
+    "dataView": "Vue des donnée",
+    "exportFormat": "Format d'exportation",
+    "range": "Plage des dates ",
+    "schedule": "Programme",
+    "title": "$t(common:title)"
+  },
+  "schedule": {
+    "definition": {
+      "interval": "Intervalle"
+    },
+    "endsAt": "Se termine le",
+    "startsAt": "Commence à"
+  },
+  "single_use_card": {
+    "defaultTtlDays": "TTL par défaut",
+    "defaultTtlDays_description": "L'expiration suggérée par défaut en jours pour les nouvelles demandes.",
+    "maxTtlDays": "TTL Max",
+    "maxTtlDays_description": "Valeur maximale pouvant être sélectionnée par un demandeur."
+  },
+  "spend_limit": {
+    "amount": "Limite",
+    "earlyWarningAmount": "Alerte précoce du montant ",
+    "runningPeriodInDays": "Durée de marche",
+    "scope": "Portée"
+  },
+  "transaction": {
+    "billedAmount": "Montant facturé",
+    "createdAt": "Date d'autorisation",
+    "document": "Document",
+    "merchant": "Marchand",
+    "originalAmount": "Montant",
+    "postingDate": "Date d'affichage",
+    "purchaseOrder": "Bon de commande",
+    "review": "Examen de vérification",
+    "transactionDate": "Date",
+    "transactionId": "Identifiant de transaction",
+    "transactionType": "Type de transaction",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "user": {
+    "currentSpend": "Dépense",
+    "firstName": "Prénom",
+    "is2faEnabled": "2FA",
+    "is2faEnabled_description": "Utilisez l'application d'authentification Google ou similairE",
+    "lastName": "Nom ",
+    "location": "Lieu",
+    "mobilePhone": "Téléphone mobile",
+    "organisationUnit": "Unité d'organisation",
+    "securityRoles": "Autorisations"
+  },
+  "user_settings": {
+    "appearance": "Apparence",
+    "localisation": "Localisation",
+    "security": "Sécurité"
+  },
+  "virtual_card": {
+    "actualExpiryDate": "Date d'expiration",
+    "actualLimit": "Limite",
+    "actualNameOnCard": "Nom sur la carte",
+    "cardNumberLastFour": "Numéro de carte",
+    "cardUseType": "Type de carte",
+    "issuedAt": "Délivrée en",
+    "issuedTo": "Délivré à",
+    "issuerIntegration": "Intégration de l'émetteur",
+    "purchaseOrder": "Bon de commande",
+    "requestedLimit": "Limite demandée",
+    "status": "$t(common:status)"
+  }
+}

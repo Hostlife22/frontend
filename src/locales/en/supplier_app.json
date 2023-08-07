@@ -1,0 +1,40 @@
+{
+  "alerts": {
+    "bank_account_missing": {
+      "button": "Set up bank account",
+      "description": "In order to receive payments, you must set up and verify your company bank account",
+      "title": "Set up bank account for payouts"
+    },
+    "iban_verification_warning": {
+      "body": {
+        "line1": "In order to verify that this account is owned by {{ who }}, you must send a transaction with the smallest amount allowed by your bank to the following bank account.",
+        "line2": "This allows us to compare the account holder name with the name of your company."
+      },
+      "title": "Verify ownership"
+    },
+    "review_in_progress": {
+      "description": "Your application is currently being reviewed by the Mazepay onboarding team. If you have any questions, please contact info@mazepay.com",
+      "title": "Review in progress"
+    }
+  },
+  "bank_accounts": {
+    "description": "The payments made to you by buyers on the Mazepay platform will be paid out to your bank account automatically",
+    "verification_status": {
+      "false": "Pending verification",
+      "true": "$t(common:verified)"
+    }
+  },
+  "modals": {
+    "add_bank_account": {
+      "body": {
+        "description": "Add a bank account to receive payments from your buyers. The account must be owned by your company.",
+        "submit": "Add bank account",
+        "verify_ownership": {
+          "description": "When the account is added, the ownership must be verified. See instructions after adding account.",
+          "title": "Verifying ownership"
+        }
+      },
+      "title": "New bank account"
+    }
+  }
+}

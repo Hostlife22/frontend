@@ -1,0 +1,10 @@
+{
+  "content": {
+    "nothing_selected": "Inget valt"
+  },
+  "navbar": {
+    "by": "Av {{ who }}",
+    "no_search_results": "Inga resultat",
+    "nothing_to_approve": "Inget att godkänna"
+  }
+}

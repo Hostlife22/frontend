@@ -1,0 +1,18 @@
+{
+  "countable_users_to_invite": "{{ count }} bruker er klar til å inviteres",
+  "countable_users_to_invite_plural": "{{ count }} brukere er klare til å bli invitert",
+  "description": "Utkastbrukere kan brukes i konfigurasjonen, men vil ikke ha tilgang til kontoen før de blir invitert.",
+  "invite_all": "Inviter alle",
+  "modal": {
+    "countable_invited_users_number": "Invitasjonen vil bli sendt til {{ count }} bruker",
+    "countable_invited_users_number_plural": "Invitasjoner vil bli sendt til {{ count }} brukere",
+    "send_invitations": "Send invitasjoner",
+    "title": "Inviter utkastbrukere"
+  },
+  "reset_filter": "Nullstill filteret",
+  "toasts": {
+    "invite_users_success": "{{count}} bruker har blitt invitert",
+    "invite_users_success_plural": "{{count}} brukere har blitt invitert"
+  },
+  "view_all": "Vis alle"
+}

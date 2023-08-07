@@ -1,0 +1,31 @@
+{
+  "create_custom_field": {
+    "body": {
+      "step1": {
+        "subtitle": "Med anpassade fält kan du utöka informationsskiktet för befintliga resurser. Fälten kan även användas i arbetsflöden.",
+        "title": "Välj resurs"
+      },
+      "step2": {
+        "groups": {
+          "association": "Förbindelse",
+          "basic": "Grundläggande"
+        },
+        "title": "Välj typ"
+      },
+      "step3": {
+        "general": "Allmän",
+        "select_options": "Välj alternativ",
+        "validation": "Validering"
+      }
+    },
+    "title": "Nytt anpassat fält"
+  },
+  "update_custom_field": {
+    "responsive_columns": {
+      "description": "En rad kan ha upp till 4 kolumner beroende på visningsområdets bredd.",
+      "minimum_width": "Minsta bredd",
+      "title": "Visningsstil"
+    },
+    "title": "Uppdatera anpassat fält"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "breadcrumbs": {
+    "/settings/organisation?tab=organisation_units": "Organisaatioyksiköt",
+    "/users/": {
+      "id?tab=roles": "Roolit & Käyttöoikeudet"
+    }
+  }
+}

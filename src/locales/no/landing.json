@@ -1,0 +1,79 @@
+{
+  "common": {
+    "subtitle": "Innkjøp er krevende. <b>Krev smartere software.</b>",
+    "title": "Velkommen <b>til Mazepay</b>",
+    "website_link": "Les mer på nettsiden vår",
+    "website_link_title": "Ønsker du å vite mer?"
+  },
+  "forms": {
+    "back_to_sign_in": "Tilbake til Logg in",
+    "email": {
+      "errors": {
+        "invalid": "E-post er ikke gyldig",
+        "required": "E-post er påkrevd "
+      },
+      "label": "E-post",
+      "placeholder": "Angi firmaets e-postadresse"
+    },
+    "header": {
+      "subtitle": {
+        "/accept_invitation": "Du har blitt invitert til å bli med i Mazepay. Velg et passord for å godta invitasjonen.",
+        "/reset_password/send_email": "Angi e-postadressen du bruker for å logge på Mazepay",
+        "/reset_password/set_password": "Velg et nytt passord for din Mazepay-konto",
+        "/signin": "Mazepay-appen"
+      },
+      "title": {
+        "/accept_invitation": "Velg passord",
+        "/reset_password/send_email": "Tilbakestill passord",
+        "/reset_password/set_password": "Nytt passord",
+        "/signin": "Logg inn"
+      }
+    },
+    "invite_errors": {
+      "link_is_invalid": "Bekreftelseslenken er ugyldig",
+      "token_not_found": "Token ikke funnet eller utdatert"
+    },
+    "otp_header": {
+      "subtitle": "Angi den sekssifrede koden fra autentiseringsappen din",
+      "title": "To-faktor autentisering"
+    },
+    "password": {
+      "confirmation_label": "Bekreft passord",
+      "errors": {
+        "passwords_do_not_match": "Passordene samsvarer ikke",
+        "required": "Passord er påkrevd",
+        "too_short": "Passordet er for kort (minimum 6 tegn)"
+      },
+      "label": "Passord",
+      "placeholder": "Skriv inn passord"
+    },
+    "submit": {
+      "confirm_invite": "Godta invitasjon",
+      "continue": "Fortsett",
+      "reset_password_email": "Tilbakestill",
+      "set_password": "Lag et passord",
+      "sign_in": "Logg inn",
+      "verify_otp": "Verifiser"
+    },
+    "unlock": {
+      "error": "Kunne ikke låse deg opp",
+      "unlocked": "Du er låst opp",
+      "unlocking": "Låser deg opp..."
+    },
+    "validation_errors": {
+      "reset_password_token": {
+        "invalid": "Token er ugyldig"
+      }
+    }
+  },
+  "links": {
+    "change": "Endre",
+    "reset_password": "Tilbakestill passord"
+  },
+  "page_title": {
+    "/accept_invitation/buyer": "Godta invitasjon",
+    "/accept_invitation/supplier": "Godta invitasjon",
+    "/reset_password": "Tilbakestill passord",
+    "/signin": "Logg inn"
+  }
+}

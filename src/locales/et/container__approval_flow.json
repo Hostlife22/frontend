@@ -1,0 +1,38 @@
+{
+  "approval_flow_editor": {
+    "ports_validator": {
+      "input_is_connected": "Sisend on ühendatud",
+      "input_must_be_connected": "Sisend peab olema ühendatud",
+      "port_can_be_disconnected": "Port {{port}} saab lahti ühendada",
+      "port_is_connected": "Port {{port}} on ühendatud",
+      "port_must_be_connected": "Port {{port}} peab olema ühendatud"
+    },
+    "publishDescription": "Kinnitage avaldamine. Seda ei saa tagasi võtta",
+    "publishTitle": "Avalda kinnitusvoog",
+    "start": "Alusta"
+  },
+  "approve_by_node": {
+    "fieldLabelAssignees": "Määratud isikud"
+  },
+  "formal_rules": {
+    "a": "Vool peab olema vähemalt: (i) üks automaatne kinnitamine, (ii) üks automaatne tagasilükkamine ja (iii) kas kinnitaja tingimus või sisendatribuudi tingimus.",
+    "b": "Üks samm peab olema esimene, see võib olla mis tahes tüüpi, välja arvatud automaatne tagasilükkamine ja virtuaalse kaardi väljastamine.",
+    "c": "Kõik pordid peavad olema ühendatud, peale viimaste sammude väljundeid.",
+    "d": "Vool peab olema kaks või enam viimast sammu ja need võivad olla kas automaatne kinnitamine või automaatne tagasilükkamine või virtuaalse kaardi väljastamine.",
+    "e": "Ühe väljundipordi saab ühendada ainult ühe sisendpordiga.",
+    "f": "Ühel sisendpordil võib olla ühendusi mitme väljundpordiga.",
+    "g": "Kahel etapil võib olla ainult üks ühendus, otse või muude etappide kaudu",
+    "h": "Sammu ei saa iseendaga ühendada (puuduvad ringsuhted).",
+    "i": "Tingimuslikel sammudel (nt Tingimus või Heakskiitnud) võib olla ainult üks väljund teatud tüüpi automaatse olekumuutuse sammule, teisisõnu ainult üks automaatne kinnitamine ja üks automaatne tagasilükkamine, kui üldse.",
+    "j": "Kõik voo väljad tuleb seadistada.",
+    "k": "Automaatse kinnitamise väljundporti saab ühendada ainult virtuaalse kaardi väljastamisega.",
+    "l": "Virtuaalkaardi väljastamise sisendi saab ühendada ainult automaatse kinnitamise funktsiooniga."
+  },
+  "node": {
+    "footer": {
+      "false": "Vale",
+      "output": "Väljund",
+      "true": "Tõsi"
+    }
+  }
+}

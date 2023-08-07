@@ -1,0 +1,10 @@
+{
+  "content": {
+    "nothing_selected": "Ingenting er valgt"
+  },
+  "navbar": {
+    "by": "Av {{ who }}",
+    "no_search_results": "Ingen resultater",
+    "nothing_to_approve": "Ingenting å godkjenne"
+  }
+}

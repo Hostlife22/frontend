@@ -1,0 +1,309 @@
+{
+  "ApprovalFlowSettings": {
+    "requestForPurchase": "Anfrage zum Kauf",
+    "requestForPurchase_description": "Beginnend mit dem Senden einer Anfrage durch den Benutzer"
+  },
+  "__typename": {
+    "ApproverCustomField": "Benutzerdefiniertes Feld genehmigen",
+    "Attachment": "Anhang",
+    "AttachmentCustomField": "benutzerdefiniertes Anhangsfeld",
+    "BankAccount": "Bankkonto",
+    "Category": "Kategorie",
+    "CategoryCustomField": "Kategorie benutzerdefiniertes Feld",
+    "CategorySet": "Kategorie festgelegt",
+    "CheckboxCustomField": "Kontrollkästchen benutzerdefiniertes Feld",
+    "Comment": "Kommentar",
+    "CostCentre": "Kostenstelle",
+    "CostCentreCustomField": "benutzerdefiniertes Feld für Kostenstellen",
+    "DataSource": "Datenquelle",
+    "DataSourceItem": "Datenquellenelement",
+    "DataView": "Datenansicht",
+    "DataViewField": "Datenansichtsfeld",
+    "DateCustomField": "Datum benutzerdefiniertes Feld",
+    "Document": "Dokument",
+    "IntegerCustomField": "ganzzahliges benutzerdefiniertes Feld",
+    "IssuerIntegration": "Emittentenintegration",
+    "IssuerIntegrationConsumer": "Emittenten-Integration Verbraucher",
+    "IssuerIntegrationRule": "Emittentenintegrationsregel",
+    "Location": "Standort",
+    "Merchant": "Händler",
+    "OrganisationUnit": "Organisationseinheit",
+    "PurchaseOrder": "Auftragsbestätigung (PO)",
+    "PurchaseRequest": "Kaufanfrage",
+    "PurchaseRequestItem": "Artikel der Kaufanfrage",
+    "Report": "Bericht",
+    "ReportTemplate": "Berichtsvorlage",
+    "SelectCustomField": "benutzerdefiniertes Feld auswählen",
+    "SpendLimit": "Ausgabenlimit",
+    "SupplierAccount": "Lieferantenkonto",
+    "TextAreaCustomField": "Textbereich benutzerdefiniertes Feld",
+    "TextCustomField": "benutzerdefiniertes Textfeld",
+    "Transaction": "Transaktion",
+    "User": "Nutzer",
+    "VirtualCard": "Virtuelle Karte"
+  },
+  "address": {
+    "streetName": "Straßenname",
+    "streetNumber": "Hausnummer"
+  },
+  "appearance_settings": {
+    "theme_description": "Verlängerte Akkulaufzeit und reduzierte Blaulichtbelastung"
+  },
+  "approval": {
+    "confirmedAt": "Bestätigt um",
+    "confirmedBy": "Bestätigt von"
+  },
+  "approval_flow": {
+    "flowSteps": {
+      "node": "Ablaufschritt",
+      "node_plural": "Ablaufschritte"
+    }
+  },
+  "archivable": {
+    "archivedAt": "Archiviert am"
+  },
+  "attachment": {
+    "byteSize": "Dateigröße",
+    "contentType": "Dateityp",
+    "filename": "Dateiname"
+  },
+  "bank_account": {
+    "iban": "IBAN",
+    "verifiedAt": "Verifiziert am"
+  },
+  "buyer_account": {
+    "accountType": "Art des Kontos",
+    "createdAt": "Aktiv seit",
+    "publicPhone": "Telefon"
+  },
+  "category": {
+    "childrenCount": "Unterkategorien",
+    "parentCode": "Übergeordneter Code",
+    "parentId": "Übergeordnete Kategorie"
+  },
+  "category_set": {
+    "categories": "Kategorien"
+  },
+  "create_select_custom_field_input": {
+    "dataSourceId": "Datenquelle"
+  },
+  "create_user_input_attributes": {
+    "personalInvitationMessage": "Persönliche Einladungsnachricht"
+  },
+  "custom_field": {
+    "__typename": {
+      "ApproverCustomField": "Genehmiger",
+      "AttachmentCustomField": "Anhänge",
+      "CategoryCustomField": "Kategorie",
+      "CheckboxCustomField": "Kontrollkästchen",
+      "CostCentreCustomField": "Kostenstelle",
+      "DateCustomField": "Datum",
+      "IntegerCustomField": "Integer",
+      "SelectCustomField": "Datenquelle",
+      "TextAreaCustomField": "Text - mehrzeilig",
+      "TextCustomField": "Text",
+      "__typename": "Art"
+    },
+    "formableClass": "Ressource",
+    "required": "Erforderlich",
+    "tooltip": "Hinweis"
+  },
+  "data_source": {
+    "items": "Artikel"
+  },
+  "data_source_item": {
+    "dataSource": "Datenquelle"
+  },
+  "data_view": {
+    "resourceType": "Ressource"
+  },
+  "data_view_field": {
+    "formatString": "Format",
+    "path": "Wert von"
+  },
+  "document": {
+    "classification": "Dokumententyp",
+    "createdBy": "Hinzugefügt von",
+    "purchaseOrder": "Auftragsbestätigung (PO)",
+    "totalAmount": "Gesamtsumme",
+    "transactions": "Transaktionen",
+    "vatAmount": "USt.-Betrag"
+  },
+  "flow_step_condition": {
+    "comparator": "Komparator"
+  },
+  "issuer_integration": {
+    "cardUseInvoice": "Rechnung",
+    "cardUseMulti": "Mehrmalige Verwendung",
+    "cardUseSingle": "Zur einmaligen Verwendung",
+    "consumers": "Verbraucher",
+    "consumers_description": "Verwalten Sie mithilfe der Integration, wer befugt sein soll, virtuelle Karten auszustellen. Der Zugriff wird von Benutzern, Organisationseinheiten und Kostenstellen vererbt.",
+    "paymentType": "Zahlungsart"
+  },
+  "issuer_integration_consumer": {
+    "fallback": "Fallback",
+    "fallback_description": "Zulassen, dass die Integration als Fallback verwendet wird, wenn keine anderen Integrationen den in Regeln definierten Kriterien entsprechen."
+  },
+  "issuer_integration_rule": {
+    "criteria": "Übereinstimmung mit",
+    "position": "Position",
+    "strict": "Strikt",
+    "strict_description": "Wenn der Wert auf „falsch“ gesetzt ist, wird die Regel ignoriert, wenn keine Übereinstimmungen gefunden werden."
+  },
+  "localisation_settings": {
+    "displayInCurrency": "Anzeigen in Währung",
+    "interfaceLanguage": "Sprache der Benutzeroberfläche",
+    "timezone": "Zeitzone"
+  },
+  "merchant": {
+    "establishedOn": "Festgestellt am",
+    "legalCorporateName": "Juristischer Firmenname",
+    "merchantCategoryCode": "Händler-Kategorie-Code",
+    "merchantCategoryCode_abbr": "MCC",
+    "merchantName": "Händlername",
+    "naicsCode": "Naics-Code"
+  },
+  "notification_setting": {
+    "web": "In App"
+  },
+  "organisation_unit": {
+    "childrenCount": "Untereinheiten",
+    "classification": "Einheitentyp",
+    "legalEntity": "Rechtsperson",
+    "parentId": "Übergeordnete Einheit"
+  },
+  "payment_settings": {
+    "baseCurrency": "Basiswährung",
+    "baseCurrency_description": "Die Basiswährung wird im gesamten Antrag verwendet, einschließlich des Antragsformulars"
+  },
+  "purchase_order": {
+    "approvedBaseAmount": "Genehmigter Betrag",
+    "poNumber": "Bestellnummer (PO Nummer)",
+    "purchaseRequest": "Anfrage",
+    "purchaseType": "Art des Kaufs",
+    "requestedBy": "Angefragt von",
+    "title": "Betreff"
+  },
+  "purchase_request": {
+    "createdAt": "Erstellt am",
+    "items": "Artikel",
+    "requestedBy": "Angefragt von",
+    "subject": "Betreff",
+    "submittedAt": "Angefragt am"
+  },
+  "purchase_request_item": {
+    "approvedBaseAmount": "Genehmigter Betrag",
+    "purchaseRequest": "Kaufanfrage",
+    "purchaseType": "$t(interfaces:purchase_order.purchaseType)",
+    "requestedAmount": "Angefragter Betrag",
+    "requestedBaseAmount": "Angeforderter Betrag"
+  },
+  "query": {
+    "categories": "Kategorien",
+    "categorySets": "Kategoriesätze",
+    "comments": "Kommentare",
+    "costCentres": "Kostenstelle",
+    "customFields": "Benutzerdefiniertes Feld",
+    "dataSourceItems": "Elemente der Datenquelle",
+    "dataSources": "Datenquelle",
+    "dataViewFields": "Datenanzeigefeld",
+    "dataViews": "Datenansichten",
+    "issuerIntegrationRules": "Emittentenintegrationsregeln",
+    "issuerIntegrationRules_description": "Für ein Konto können eine oder mehrere Emittentenintegrationen für die Ausgabe virtueller Karten aktiviert sein. Passende Regeln helfen bei der Auswahl der richtigen Emittentenintegration für ein bestimmtes Szenario. Die Regeln werden in Bezug auf ihre Position der Reihe nach angewendet.",
+    "issuerIntegrations": "Emittentenintegrationen",
+    "locations": "Standorte",
+    "organisationUnits": "Organisationseinheiten",
+    "purchaseOrders": "Bestellungen (PO)",
+    "purchaseRequests": "Kaufanfragen",
+    "reportTemplates": "Berichtsvorlagen",
+    "reports": "Berichte",
+    "suppliers": "Lieferanten",
+    "transactions": "Transaktionen",
+    "users": "Nutzer",
+    "virtualCards": "Virtuelle Karte"
+  },
+  "range": {
+    "criterion": "Kriterium",
+    "end": "Bereichsende",
+    "start": "Bereichsbeginn"
+  },
+  "report": {
+    "createdAt": "$t(common:created_at)",
+    "exportFile": "$t(common:file)",
+    "reportTemplate": "Vorlage"
+  },
+  "report_template": {
+    "dataView": "Datenansicht",
+    "description": "$t(common:description)",
+    "exportFormat": "Exportformat",
+    "range": "Datumsbereich",
+    "schedule": "Zeitplan",
+    "title": "$t(common:title)"
+  },
+  "schedule": {
+    "definition": {
+      "interval": "Intervall"
+    },
+    "endsAt": "Endet am",
+    "startsAt": "Startet am"
+  },
+  "single_use_card": {
+    "defaultTtlDays": "Standard-TTL",
+    "defaultTtlDays_description": "Standardmäßig vorgeschlagenes Ablaufdatum in Tagen für neue Anfragen.",
+    "maxTtlDays": "Maximale TTL",
+    "maxTtlDays_description": "Maximalwert, der von einem Anforderer ausgewählt werden kann."
+  },
+  "spend_limit": {
+    "amount": "Limit",
+    "earlyWarningAmount": "Frühwarnbetrag",
+    "runningPeriodInDays": "Laufzeit",
+    "scope": "Umfang"
+  },
+  "transaction": {
+    "billedAmount": "Abgerechneter Betrag",
+    "createdAt": "Datum der Genehmigung",
+    "document": "Dokument",
+    "merchant": "Händler",
+    "originalAmount": "Ursprünglicher Betrag",
+    "postingDate": "Buchungsdatum",
+    "purchaseOrder": "Auftragsbestätigung (PO)",
+    "review": "Revisionsprüfung",
+    "transactionDate": "Transaktionsdatum",
+    "transactionId": "Transaktions-ID",
+    "transactionType": "Transaktionsart",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "user": {
+    "archived": "$t(common:archived)",
+    "currentSpend": "Ausgaben",
+    "email": "$t(common:email)",
+    "firstName": "Vorname",
+    "fullName": "$t(common:name)",
+    "is2faEnabled": "Zwei-Faktor-Authentifizierung (2FA)",
+    "is2faEnabled_description": "Google Authenticator oder eine ähnliche Anwendung verwenden",
+    "lastName": "Nachname",
+    "location": "Standort",
+    "mobilePhone": "Handy",
+    "organisationUnit": "Organisationseinheit",
+    "securityRoles": "Genehmigungen",
+    "status": "$t(common:status)"
+  },
+  "user_settings": {
+    "appearance": "Auftreten",
+    "localisation": "Lokalisierung",
+    "security": "Sicherheit"
+  },
+  "virtual_card": {
+    "actualExpiryDate": "Ablaufdatum",
+    "actualLimit": "Limit",
+    "actualNameOnCard": "Name auf der Karte",
+    "cardNumberLastFour": "Kartennummer",
+    "cardUseType": "Kartenart",
+    "issuedAt": "Ausgestellt am",
+    "issuedTo": "Ausgestellt für",
+    "issuerIntegration": "Emittentenintegration",
+    "purchaseOrder": "Auftragsbestätigung (PO)",
+    "requestedLimit": "Angefordertes Limit",
+    "status": "$t(common:status)"
+  }
+}

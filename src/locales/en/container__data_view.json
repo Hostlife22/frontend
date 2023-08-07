@@ -1,0 +1,14 @@
+{
+  "create_report_modal": {
+    "file_format": "File format",
+    "generating_report": "Generating report",
+    "report_generated": "Report is being generated.",
+    "select_date": "Select date",
+    "send_notification": "We will send you a notification when the report is ready."
+  },
+  "generate_report_section": {
+    "description": "Create a report based on this data view with a custom start and end date",
+    "generate_report": "Generate report",
+    "new_report": "New report"
+  }
+}

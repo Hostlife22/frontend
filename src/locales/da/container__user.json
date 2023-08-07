@@ -1,0 +1,10 @@
+{
+  "2fa_modal": {
+    "backup_codes": "Skriv disse backupkoder ned på et sikkert sted. De kan bruges én gang til at logge ind på din konto, hvis din 2FA-enhed ikke er tilgængelig. De vil aldrig blive vist igen af sikkerhedsmæssige årsager.",
+    "disable_2fa": "Deaktiver 2FA",
+    "enable_2fa": "Aktiver 2FA",
+    "enter_code": "Indtast kode",
+    "scan_qr": "Scan QR ved hjælp af autentificeringsappen",
+    "secret_codes": "Kopier hemmelige koder til et sikkert sted"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "approved_suppliers": "Approved suppliers",
+  "document_dropzone": "Do you have a receipt but no transaction yet? Click or drop to add it here.",
+  "invoices": {
+    "cancel_invoice": "Cancel payment",
+    "collapse_description_trans": {
+      "CANCELLED": "Payment cancelled by <0>{{who}}</0>",
+      "SCHEDULED": "Payment scheduled by <0>{{who}}</0>"
+    },
+    "invoices": "Invoices",
+    "scheduled_for": "Scheduled for",
+    "upload_invoice": "Upload invoice",
+    "uploaded_by_who": "$t(common:uploaded_by)"
+  },
+  "line_items": {
+    "goods_received": {
+      "question": "Goods received?",
+      "statement": "Goods received on <0>{{date}}</0>"
+    }
+  },
+  "status": {
+    "description": "The associated virtual card has expired and all transactions are reconciled. If a new transaction is registered, the purchase order will automatically re-open.",
+    "title": "Closed"
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} missing receipt",
+    "countable_missing_receipts_plural": "{{ count }} missing receipts",
+    "ignored_by": "Missing receipt ignored by <0>{{who}}</0>",
+    "mark_as_review_approved": "Mark as review approved"
+  },
+  "virtual_card": {
+    "open_preview": "View card details",
+    "title": "$t(common:virtual_card)"
+  }
+}

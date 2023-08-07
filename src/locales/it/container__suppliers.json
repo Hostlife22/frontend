@@ -1,0 +1,59 @@
+{
+  "invitation_sidebar": {
+    "body": {
+      "invite": {
+        "company": {
+          "change_company": "Modifica",
+          "description": "Corrispondente per numero di partita IVA",
+          "title": "Fornitore"
+        },
+        "forms": {
+          "add_supplier": {
+            "description": "<b>{{ who }}</b> è già su Mazepay e abilitato per il pagamento delle fatture.",
+            "submit": "Aggiungi fornitore"
+          },
+          "invite_supplier": {
+            "contact": {
+              "description": "A chi dobbiamo inviare l'invito?",
+              "fields": {
+                "email": "$t(common:email)",
+                "message": "Messaggio personale",
+                "name": "$t(common:name)",
+                "phone": "Telefono"
+              },
+              "title": "Contatto"
+            },
+            "submit": "Invita fornitore"
+          }
+        }
+      },
+      "lookup": {
+        "description": "Ricerca fornitore per paese e partita IVA",
+        "search_result": {
+          "empty": "Nessuna corrispondenza trovata per questa IVA",
+          "subtitle": "Abbinato per partita IVA",
+          "title": "Seleziona fornitore"
+        },
+        "submit": "Ricerca",
+        "title": "Partita IVA"
+      },
+      "success": {
+        "actions": {
+          "close": "$t(common:close)",
+          "invite_more": "Invita altri"
+        },
+        "add_supplier": {
+          "description": "Puoi iniziare a pagare immediatamente le fatture.",
+          "title": "{{ who }} aggiunto"
+        },
+        "invite_supplier": {
+          "description": "{{ who }} riceverà un'e-mail con un link per completare l'onboarding.",
+          "title": "{{ who }} invitato"
+        }
+      }
+    },
+    "header": {
+      "title": "Aggiungi fornitore"
+    }
+  }
+}

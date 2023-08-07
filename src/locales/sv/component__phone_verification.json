@@ -1,0 +1,31 @@
+{
+  "buttons": {
+    "change_phone": "Ändra",
+    "generate_code": "Skicka verifieringskod",
+    "resend_code": "Skicka koden igen"
+  },
+  "code_expiry_status": {
+    "expired": "Löpt ut",
+    "will_expire": "Kommer att gå ut <0></0>"
+  },
+  "code_status": {
+    "expired": "En verifieringskod har gått ut",
+    "sent": "En verifieringskod skickades till din telefon"
+  },
+  "fields": {
+    "code": {
+      "label": "Verifierings kod",
+      "placeholder": "Ange verifieringskod"
+    },
+    "phone": {
+      "error": "Ange mobiltelefon",
+      "label": "Mobiltelefon",
+      "placeholder": "Ange telefonnummer"
+    }
+  },
+  "header": {
+    "add_phone": "Lägg till mobilnummer",
+    "change_phone": "Ändra mobiltelefon"
+  },
+  "subtitle": "Virtuella kort delas med dig som ett SMS. Vänligen verifiera ditt telefonnummer för att låsa upp förfrågningsformuläret."
+}

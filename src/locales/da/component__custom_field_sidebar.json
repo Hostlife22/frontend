@@ -1,0 +1,35 @@
+{
+  "create_custom_field": {
+    "body": {
+      "step1": {
+        "title": "Vælg resource"
+      },
+      "step2": {
+        "groups": {
+          "association": "Relation",
+          "basic": "Basis"
+        },
+        "title": "Vælg type"
+      },
+      "step3": {
+        "general": "Generelt",
+        "select_options": "Vælg",
+        "validation": "Validering"
+      }
+    },
+    "title": "Nyt brugerdefineret felt"
+  },
+  "update_custom_field": {
+    "responsive_columns": {
+      "minimum_width": "Minimum bredde",
+      "title": "Visning"
+    },
+    "title": "Opdater"
+  },
+  "view_custom_field": {
+    "required_field": {
+      "no": "Nej",
+      "yes": "Ja"
+    }
+  }
+}

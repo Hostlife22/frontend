@@ -1,0 +1,37 @@
+{
+  "create_custom_field": {
+    "body": {
+      "step1": {
+        "subtitle": "Mit benutzerdefinierten Feldern können Sie die Informationsebene vorhandener Ressourcen erweitern. Die Felder können auch in Workflows verwendet werden.",
+        "title": "Ressource auswählen"
+      },
+      "step2": {
+        "groups": {
+          "association": "Zuordnung",
+          "basic": "Basic"
+        },
+        "title": "Art auswählen"
+      },
+      "step3": {
+        "general": "Allgemein",
+        "select_options": "Optionen wählen",
+        "validation": "Validierung"
+      }
+    },
+    "title": "Neues benutzerdefiniertes Feld"
+  },
+  "update_custom_field": {
+    "responsive_columns": {
+      "description": "Eine Zeile kann je nach Breite des Ansichtsfensters bis zu 4 Spalten haben.",
+      "minimum_width": "Mindestbreite",
+      "title": "Darstellung"
+    },
+    "title": "Benutzerdefiniertes Feld aktualisieren"
+  },
+  "view_custom_field": {
+    "required_field": {
+      "no": "NEIN",
+      "yes": "Ja"
+    }
+  }
+}

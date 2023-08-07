@@ -1,0 +1,56 @@
+{
+  "approval_flow_editor": {
+    "add_step": "Lägg till steg",
+    "ports_validator": {
+      "input_is_connected": "Inmatning är ansluten",
+      "input_must_be_connected": "Inmatning måste anslutas",
+      "port_can_be_disconnected": "Port {{port}} kan kopplas bort",
+      "port_is_connected": "Port {{port}} är ansluten",
+      "port_must_be_connected": "Port {{port}} måste anslutas"
+    },
+    "publishDescription": "Bekräfta publicering. Det kan inte ångras",
+    "publishTitle": "Publicera godkännandeflöde",
+    "publish_changes": "Publicera ändringar",
+    "publish_notes_placeholder": "Beskriv vilka ändringar som gjorts och varför",
+    "start": "Start"
+  },
+  "approve_by_node": {
+    "assign_all": {
+      "ALL": "Få godkännande från ALLA användare med godkännandebehörighet",
+      "ANY": "Få godkännande från vilken som helst användare med godkännandebehörighet"
+    },
+    "fieldLabelAssignees": "Ansvariga",
+    "title": {
+      "ALL": "Få godkännande från ALLA",
+      "ANY": "Få godkännande från NÅGON av"
+    }
+  },
+  "formal_rules": {
+    "a": "Flödet måste ha som minimum: (i) ett autogodkännande, (ii) ett autoavvisande och (iii) antingen godkännarvillkor eller inmatningsattribut-villkor.",
+    "b": "Ett steg måste vara det första, det kan vara vilken typ som helst förutom auto-avvisa och utfärda-virtuellt-kort.",
+    "c": "Alla portar måste vara anslutna, förutom utgångar från de sista stegen.",
+    "d": "Flödet måste ha två eller flera sista steg, och de kan antingen vara auto-godkänna eller auto-avvisa eller utfärda-virtuelt-kort.",
+    "e": "En utgångsport kan anslutas till endast en ingångsport.",
+    "f": "En ingångsport kan ha anslutningar med flera utgångsportar.",
+    "g": "Två steg kan ha bara en anslutning, direkt eller genom andra steg",
+    "h": "Steget kan inte ansluta till sig själv (inga cirkulära relationer).",
+    "i": "Villkorligt steg som Villkor eller GodkändAv kan ha bara en utgång till ett automatiskt tillståndsändringssteg av någon specifik typ, med andra ord bara en auto-godkännande och bara en auto-avvisning om någon.",
+    "j": "Alla fält i ett flöde måste fyllas i.",
+    "k": "Utgångsporten för auto-godkännande kan endast anslutas till utfärda-virtuellt-kort.",
+    "l": "Inmatning av utfärda-virtuellt-kort kan endast anslutas med auto-godkännande."
+  },
+  "node": {
+    "footer": {
+      "false": "Falskt",
+      "output": "Utmatning",
+      "true": "Sant"
+    }
+  },
+  "validation": {
+    "subtitle": "Följande problem måste åtgärdas innan en ny version kan publiceras.",
+    "title": "Validering"
+  },
+  "versions": {
+    "description": "Ändringar av ett flöde måste publiceras innan det kan utlösas."
+  }
+}

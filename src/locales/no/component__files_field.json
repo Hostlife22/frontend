@@ -1,0 +1,11 @@
+{
+  "dropzone": "Velg eller slipp filer",
+  "errors": {
+    "file_is_too_large": "Filen er for stor",
+    "upload_failure": "Kunne ikke laste opp filen"
+  },
+  "tooltip": {
+    "label": "Filer som støttes",
+    "popover": "Du kan laste opp PDF- og bildefil, ikke større enn {{size}}"
+  }
+}

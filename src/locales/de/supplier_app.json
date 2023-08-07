@@ -1,0 +1,39 @@
+{
+  "alerts": {
+    "bank_account_missing": {
+      "button": "Bankkonto einrichten",
+      "description": "Um Zahlungen zu erhalten, müssen Sie Ihr Firmenbankkonto einrichten und verifizieren",
+      "title": "Bankkonto für Auszahlungen einrichten"
+    },
+    "iban_verification_warning": {
+      "body": {
+        "line1": "Um zu überprüfen, ob dieses Konto Eigentum von {{ who }} ist, müssen Sie eine Transaktion mit dem kleinsten von Ihrer Bank zugelassenen Betrag an das folgende Bankkonto senden.",
+        "line2": "Dadurch können wir den Namen des Kontoinhabers mit dem Namen Ihres Unternehmens abgleichen."
+      },
+      "title": "Besitz bestätigen"
+    },
+    "review_in_progress": {
+      "description": "Ihre Bewerbung wird derzeit vom Onboarding-Team von Mazepay geprüft. Bei Fragen wenden Sie sich bitte an info@mazepay.com",
+      "title": "Überprüfung läuft"
+    }
+  },
+  "bank_accounts": {
+    "description": "Die Zahlungen von Käufern auf der Mazepay-Plattform an Sie werden automatisch auf Ihr Bankkonto ausgezahlt",
+    "verification_status": {
+      "false": "Bestätigung ausstehend"
+    }
+  },
+  "modals": {
+    "add_bank_account": {
+      "body": {
+        "description": "Fügen Sie ein Bankkonto hinzu, um Zahlungen von Ihren Käufern zu erhalten. Das Konto muss Ihrem Unternehmen gehören.",
+        "submit": "Bankkonto hinzufügen",
+        "verify_ownership": {
+          "description": "Wenn das Konto hinzugefügt wird, muss der Besitz verifiziert werden. Siehe Anweisungen nach dem Hinzufügen des Kontos.",
+          "title": "Überprüfung des Besitzes"
+        }
+      },
+      "title": "Neues Bankkonto"
+    }
+  }
+}

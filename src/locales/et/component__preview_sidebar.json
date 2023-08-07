@@ -1,0 +1,9 @@
+{
+  "import_info": {
+    "ApproverCustomField": "Peab olema meiliaadress",
+    "CategoryCustomField": "Peab olema olemasoleva kategooria kood",
+    "CostCentreCustomField": "Peab olema olemasoleva kulukeskuse kood",
+    "DateCustomField": "Peab olema ISO 8601 kodeeritud kuupäev, nt. AAAA-KK-PP",
+    "SelectCustomField": "Peab olema olemasoleva andmeallika üksuse kood"
+  }
+}

@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+jest_html_reporters.html
+
+# production
+/build
+/storybook-static
+
+# misc
+.DS_Store
+.env.local
+.env.test.local
+.env.development
+.env.development.local
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IntelliJ IDEA project files
+.idea
+*.iml
+
+# Cypress
+/cypress/reports
+/cypress/results
+/cypress/screenshots
+/cypress/snapshots/darwin
+/cypress/videos
+__diff_output__
+cypress.env.json
+(failed).snap.png
+
+# pact
+/pact/logs
+
+# GraphQL Code Generator
+src/graphql/codegen_plugins/dist
+
+#Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/

@@ -1,0 +1,10 @@
+{
+  "2fa_modal": {
+    "backup_codes": "Skriv ner dessa säkerhetskopior på ett säkert ställe. De kan användas en gång för att logga in på ditt konto om din 2FA-enhet inte är tillgänglig. De kommer aldrig att visas igen för säkerhets skull.",
+    "disable_2fa": "Inaktivera 2FA",
+    "enable_2fa": "Aktivera 2FA",
+    "enter_code": "Ange kod",
+    "scan_qr": "Skanna QR med autentiseringsappen",
+    "secret_codes": "Kopiera den hemliga koden till ett säkert ställe"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "header": {
+    "active_since": "Attivo da",
+    "amount_left_on_current_card": "Importo rimanente nella carta attuale",
+    "amount_left_value": "<0/> di <1/>",
+    "next_card_renewal": "Prossimo rinnovo carta"
+  }
+}

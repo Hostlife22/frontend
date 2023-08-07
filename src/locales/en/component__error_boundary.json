@@ -1,0 +1,29 @@
+{
+  "common_errors": {
+    "application_updated": {
+      "description": "A new version has been released. Please refresh page.",
+      "reset_button": "Refresh page",
+      "title": "Application updated"
+    },
+    "forbidden": {
+      "description": "The resource you were looking for is forbidden.",
+      "title": "Forbidden"
+    },
+    "not_found": {
+      "description": "Sorry, looks like the page you are looking for does not exist.",
+      "title": "Not found"
+    },
+    "unknown_error": {
+      "description": "Sorry, we are working on this.",
+      "reset_button": "Go home",
+      "title": "Something went wrong"
+    }
+  },
+  "node_provider": {
+    "errors": {
+      "forbidden": "Sorry, looks like you have no permission to see {{ what }}.",
+      "not_found": "Sorry, looks like {{ what }} you are looking for does not exist."
+    },
+    "sidebar_reset_button": "Close sidebar"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "buttons": {
+    "change_phone": "Change",
+    "generate_code": "Send verification code",
+    "resend_code": "Resend code"
+  },
+  "code_expiry_status": {
+    "expired": "Expired",
+    "will_expire": "Will expire <0></0>"
+  },
+  "code_status": {
+    "expired": "A verification code has expired",
+    "sent": "A verification code was sent to your phone"
+  },
+  "fields": {
+    "code": {
+      "label": "Verification code",
+      "placeholder": "Enter verification code"
+    },
+    "phone": {
+      "error": "Enter mobile phone",
+      "label": "Mobile phone",
+      "placeholder": "Enter phone number"
+    }
+  },
+  "header": {
+    "add_phone": "Add mobile phone number",
+    "change_phone": "Change mobile phone number"
+  },
+  "subtitle": "Virtual cards are shared with you as an SMS. Please verify your phone number to unlock the request form."
+}

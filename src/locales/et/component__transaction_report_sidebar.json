@@ -1,0 +1,17 @@
+{
+  "form": {
+    "initial_comment": {
+      "label": "Mida sa teatad?",
+      "placeholder": "Kirjeldage probleemi"
+    },
+    "subscribers": {
+      "options": {
+        "approvers": "Heakskiitjad",
+        "requester": "Taotleja"
+      },
+      "title": "Alusta vestlust"
+    }
+  },
+  "submit_button": "Esitage aruanne",
+  "title": "Teata probleemist"
+}

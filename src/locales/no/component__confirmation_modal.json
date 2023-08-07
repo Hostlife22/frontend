@@ -1,0 +1,28 @@
+{
+  "cancel_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Vennligst oppgi hvorfor du avbryter",
+    "placeholder": "Beskriv hvorfor du avbryter",
+    "submit": "Avbryt vare",
+    "title": "Er du sikker på at du vil avbryte?"
+  },
+  "delete": {
+    "close": "$t(common:cancel)",
+    "description": "Sletting av {{what}} kan ikke angres",
+    "submit": "$t(common:delete)",
+    "title": "Slett {{what}}?"
+  },
+  "reject_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Vennligst oppgi en begrunnelse for avvisningen",
+    "placeholder": "Beskriv begrunnelsen til avvisningen",
+    "submit": "$t(common:reject)",
+    "title": "Er du sikker på at du vil avvise?"
+  },
+  "revoke_virtual_card": {
+    "close": "$t(common:cancel)",
+    "description": "Tilbakekalling av virtuelt kort kan ikke angres",
+    "submit": "$t(common:revoke)",
+    "title": "Er du sikker på at du vil tilbakekalle?"
+  }
+}

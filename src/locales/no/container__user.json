@@ -1,0 +1,22 @@
+{
+  "2fa_modal": {
+    "backup_codes": "Skriv disse reservekodene ned på et trygt sted. De kan brukes én gang til å logge på kontoen din hvis 2FA-enheten din ikke er tilgjengelig. De vil aldri bli vist igjen av sikkerhetsmessige årsaker.",
+    "disable_2fa": "Deaktiver 2FA",
+    "enable_2fa": "Aktiver 2FA",
+    "enter_code": "Angi kode",
+    "scan_qr": "Skann QR med autentiseringsappen",
+    "secret_codes": "Kopier hemmelige koder til et trygt sted"
+  },
+  "delegations": {
+    "header": {
+      "from_you": {
+        "subtitle": "Tillat en kollega å godkjenne på dine vegne. Du vil fremdeles bli varslet om ventende godkjenninger under delegering",
+        "title": "Fra deg"
+      },
+      "to_you": {
+        "subtitle": "Godkjenninger delegert til deg av andre godkjennere i organisasjonen din",
+        "title": "Til deg"
+      }
+    }
+  }
+}

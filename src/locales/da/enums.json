@@ -1,0 +1,146 @@
+{
+  "AccountUseType": {
+    "BUYER": "Køber",
+    "SUPPLIER": "Leverandør"
+  },
+  "ApprovalStatus": {
+    "APPROVED": "Godkendt",
+    "CANCELLED": "Afbrudt",
+    "PENDING": "Afventer",
+    "REJECTED": "Afvist",
+    "_ALL_": "Alle"
+  },
+  "CustomFieldFormableClass": {
+    "CATEGORY": "Kategori",
+    "COST_CENTRE": "Omkostningssted",
+    "ORGANISATION_UNIT": "Organisationsenhed",
+    "REQUEST_ITEM": "$t(common:request_item)",
+    "USER": "bruger"
+  },
+  "DataViewResourceType": {
+    "ACCOUNT": "$t(common:account)",
+    "ADDRESS": "$t(common:address)",
+    "CATEGORY": "Kategori",
+    "COST_CENTRE": "Omkostningscenter",
+    "CURRENCY": "$t(common:currency)",
+    "DATA_SOURCE_ITEM": "Datakilde genstand",
+    "DOCUMENT": "$t(common:document)",
+    "PURCHASE_ORDER": "Købsordre",
+    "REQUEST": "Anmodning",
+    "REQUEST_ITEM": "Anmodet genstand",
+    "TRANSACTION": "Transaktion",
+    "USER": "Bruger",
+    "VIRTUAL_CARD": "Virtuelt kort"
+  },
+  "DocumentClassification": {
+    "CREDIT_NOTE": "Kreditnota",
+    "INVOICE": "$t(common:invoice)",
+    "OTHER": "Øvrige",
+    "RECEIPT": "Kvittering"
+  },
+  "OrganisationUnitClassification": {
+    "BUSINESS_UNIT": "Forretningsenhed",
+    "DEPARTMENT": "Afdeling",
+    "DIVISION": "Afdeling",
+    "LEGAL_ENTITY": "Juridisk enhed"
+  },
+  "PurchaseOrderReconciliationStatus": {
+    "NO_TRANSACTIONS": "Ingen transaktioner",
+    "RECEIPT_MISSING": "Mangler kvittering",
+    "RECONCILED": "Afstemt"
+  },
+  "PurchaseRequestItemStatus": {
+    "APPROVAL_INITIATED": "Afventer godkendelse",
+    "APPROVED": "Godkendt",
+    "CANCELLED": "Afbrudt",
+    "DRAFT": "Udkast",
+    "INITIATED": "Igangsat",
+    "REJECTED": "Afvist",
+    "REQUESTED": "Anmodet",
+    "_ADDED_TO_PURCHASE_ORDER_": "I købsordre"
+  },
+  "PurchaseType": {
+    "SUBSCRIPTION": "Kort - løbende betaling",
+    "WEBSHOP": "Kort - enkeltkøb"
+  },
+  "SpendLimitRunningPeriodInDays": {
+    "ONE_DAY": "I dag",
+    "SEVEN_DAYS": "Sidste 7 dage",
+    "THIRTY_DAYS": "Sidste 30 dage"
+  },
+  "SpendLimitScope": {
+    "TOTAL": "Total",
+    "USER": "Bruger"
+  },
+  "SpendLimitableType": {
+    "ORGANISATION_UNIT": "Forretningsenhed",
+    "USER": "Bruger"
+  },
+  "TransactionReconciliationStatus": {
+    "RECEIPT_MISSING": "Mangler kvittering",
+    "RECEIPT_UNAVAILABLE": "Kvittering ikke tilgængelig",
+    "RECONCILED": "Afstemt"
+  },
+  "TransactionReviewStatus": {
+    "APPROVED": "Gennemgået",
+    "ISSUE_REPORTED": "Problem meldt",
+    "PENDING": "Afventer gennemgang"
+  },
+  "UrnResourceType": {
+    "account": "Leverandør",
+    "category": "Kategori",
+    "cost_centre": "Omkostningscenter",
+    "data_source_item": "Datakildeelement",
+    "data_view": "Dataoversigt",
+    "document": "Dokument",
+    "location": "Lokation",
+    "merchant": "Købmand",
+    "organization_unit": "Forretningsenhed",
+    "purchase_order": "Købsordre",
+    "report": "Rapport",
+    "report_template": "Rapport skabelon",
+    "request": "Anmod",
+    "request_item": "Anmodningsgenstand",
+    "transaction": "Transaktion",
+    "user": "Bruger",
+    "virtual_card": "Virtuelt kort"
+  },
+  "UserSecurityRole": {
+    "APPROVE": "Godkend",
+    "APPROVE_description": "Godkend og afvis tildelte anmodninger",
+    "AUDIT": "Revidér",
+    "AUDIT_description": "Gennemgå transaktioner",
+    "MANAGE_ACCOUNT": "Styr konto",
+    "MANAGE_ACCOUNT_description": "Ændre kontoindstillinger",
+    "MANAGE_SUPPLIERS": "Styr leverandører",
+    "MANAGE_SUPPLIERS_description": "Inviter leverandører og opdater leverandørinformation",
+    "MANAGE_USERS": "Styr brugere",
+    "MANAGE_USERS_description": "Inviter bruger og opdater brugerprofil",
+    "PAY": "Betal",
+    "PAY_description": "Igangsæt og betal for anmodninger",
+    "PURCHASE": "Køb",
+    "PURCHASE_description": "Igansæt og betal for anmodninger",
+    "REPORT": "Rapport",
+    "REPORT_description": "Hent rapporter",
+    "REQUEST": "Anmodning",
+    "REQUEST_description": "Foretag nye anmodninger"
+  },
+  "UserStatus": {
+    "ACTIVE": "Aktiv",
+    "ARCHIVED": "Arkiveret",
+    "INVITED": "Inviteret",
+    "LOCKED": "Låst"
+  },
+  "VirtualCardCardUseType": {
+    "MULTI": "Tilbagevendende brug",
+    "SINGLE": "Enkeltstående brug"
+  },
+  "VirtualCardStatus": {
+    "ACTIVE": "Aktiv",
+    "FAILED": "Fejlet",
+    "ISSUED": "Udstedt",
+    "PENDING": "Afventer",
+    "REVOKED": "Tilbagekaldt",
+    "REVOKE_PENDING": "Tilbagekald afventer"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dropzone": "Välj eller släpp filer",
+  "errors": {
+    "file_is_too_large": "Filen är för stor",
+    "upload_failure": "Det gick inte att ladda upp filen"
+  },
+  "tooltip": {
+    "label": "Filer som stöds",
+    "popover": "Du kan ladda upp PDF- och bildfiler, inte större än {{size}}"
+  }
+}

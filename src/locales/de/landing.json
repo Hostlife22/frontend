@@ -1,0 +1,79 @@
+{
+  "common": {
+    "subtitle": "Beschaffung ist anspruchsvoll. <b>Fordern Sie intelligentere Software.</b>",
+    "title": "Herzlich willkommen <b>bei Mazepay</b>",
+    "website_link": "Lesen Sie mehr auf unserer Website",
+    "website_link_title": "Möchten Sie mehr erfahren?"
+  },
+  "forms": {
+    "back_to_sign_in": "Zurück zur Anmeldung",
+    "email": {
+      "errors": {
+        "invalid": "E-Mail ist ungültig",
+        "required": "E-Mail ist erforderlich"
+      },
+      "label": "E-Mail",
+      "placeholder": "Firmen E-Mail-Adresse eingeben"
+    },
+    "header": {
+      "subtitle": {
+        "/accept_invitation": "Sie wurden eingeladen, Mazepay beizutreten. Bitte wählen Sie ein Passwort, um die Einladung anzunehmen.",
+        "/reset_password/send_email": "Geben Sie die E-Mail-Adresse ein, mit der Sie sich bei Mazepay anmelden.",
+        "/reset_password/set_password": "Wählen Sie ein neues Passwort für Ihr Mazepay-Konto",
+        "/signin": "Mazepay-App"
+      },
+      "title": {
+        "/accept_invitation": "Passwort wählen",
+        "/reset_password/send_email": "Passwort zurücksetzen",
+        "/reset_password/set_password": "Neues Passwort",
+        "/signin": "Anmelden"
+      }
+    },
+    "invite_errors": {
+      "link_is_invalid": "Der Bestätigungslink ist ungültig",
+      "token_not_found": "Token nicht gefunden oder veraltet"
+    },
+    "otp_header": {
+      "subtitle": "Geben Sie den sechsstelligen Code aus Ihrer Authentifizierungs-App ein",
+      "title": "Zwei-Faktor-Authentifizierung"
+    },
+    "password": {
+      "confirmation_label": "Passwort bestätigen",
+      "errors": {
+        "passwords_do_not_match": "Passwörter stimmen nicht überein",
+        "required": "Passwort ist erforderlich",
+        "too_short": "Das Passwort ist zu kurz (mindestens 6 Zeichen)"
+      },
+      "label": "Passwort",
+      "placeholder": "Passwort eingeben"
+    },
+    "submit": {
+      "confirm_invite": "Einladung annehmen",
+      "continue": "Weiter",
+      "reset_password_email": "Zurücksetzen",
+      "set_password": "Passwort festlegen",
+      "sign_in": "Anmelden",
+      "verify_otp": "Verifizieren"
+    },
+    "unlock": {
+      "error": "Fehler beim Entsperren",
+      "unlocked": "Sie sind freigeschaltet",
+      "unlocking": "Sie werden freigeschaltet..."
+    },
+    "validation_errors": {
+      "reset_password_token": {
+        "invalid": "Token ist ungültig"
+      }
+    }
+  },
+  "links": {
+    "change": "Ändern",
+    "reset_password": "Passwort zurücksetzen"
+  },
+  "page_title": {
+    "/accept_invitation/buyer": "Einladung annehmen",
+    "/accept_invitation/supplier": "Einladung annehmen",
+    "/reset_password": "Passwort zurücksetzen",
+    "/signin": "Anmelden"
+  }
+}

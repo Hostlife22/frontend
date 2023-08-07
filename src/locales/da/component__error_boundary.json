@@ -1,0 +1,29 @@
+{
+  "common_errors": {
+    "application_updated": {
+      "description": "En ny version er blevet frigivet. Opdater venligst siden.",
+      "reset_button": "Opdater siden",
+      "title": "Ansøgning opdateret"
+    },
+    "forbidden": {
+      "description": "Den ressource, du ledte efter, er forbudt.",
+      "title": "Forbudt"
+    },
+    "not_found": {
+      "description": "Beklager, det ser ud til, at den side, du leder efter, ikke eksisterer.",
+      "title": "Ikke fundet"
+    },
+    "unknown_error": {
+      "description": "Beklager, vi arbejder på dette.",
+      "reset_button": "Gå hjem",
+      "title": "Noget gik galt"
+    }
+  },
+  "node_provider": {
+    "errors": {
+      "forbidden": "Beklager, det ser ud til, at du ikke har tilladelse til at se {{ what }}.",
+      "not_found": "Beklager, det ser ud til, at den side, du leder efter, ikke eksisterer."
+    },
+    "sidebar_reset_button": "Luk sidebar"
+  }
+}

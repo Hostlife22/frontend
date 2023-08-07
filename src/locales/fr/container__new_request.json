@@ -1,0 +1,80 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Dernière sauvegarde : <0>{{time}}</0>",
+        "unsaved": "Non enregistré"
+      },
+      "title": "Brouillon"
+    },
+    "start_new": "Commencer une nouvelle requête"
+  },
+  "item_count": "Articles",
+  "item_form": {
+    "add_item": "Ajouter un article",
+    "update_item": "Mettre à jour l'article"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Demander une pré-approbation pour un achat sur facture"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "Une carte virtuelle multi-usage sera émise pour l'achat des articles suivants"
+    },
+    "WEBSHOP": {
+      "subtitle": "Une carte virtuelle à usage unique sera émise pour l'achat des articles suivants"
+    },
+    "add_item": "Ajouter un article",
+    "amount": "Montant total de la carte"
+  },
+  "no_purchase_types": {
+    "subtitle": "Aucun type d'achat n'a encore pas été activé pour ce compte. Veuillez contacter votre administrateur.",
+    "title": "Types d'achat indisponibles"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "Effectuer un achat sur facture à un fournisseur sur la plateforme Mazepay",
+      "subtitle": "Paiement unique"
+    },
+    "SUBSCRIPTION": {
+      "description": "Obtenez une carte virtuelle multi-usage pour plusieurs paiements dans une seule boutique en ligne",
+      "subtitle": "Abonnements et paiements récurrents"
+    },
+    "WEBSHOP": {
+      "description": "Obtenez une carte virtuelle à usage unique pour effectuer un achat en ligne",
+      "subtitle": "Paiement unique"
+    }
+  },
+  "purchase_type_cards": {
+    "disabled_card_tooltip": "Veuillez entrer un sujet avant d'ajouter des éléments",
+    "select_purchase_type": "Sélectionnez le type d'achat",
+    "tab": "Ajouter des articles"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Entrez une description générale de la demande d'achat"
+    }
+  },
+  "sidebar": {
+    "policies": "Politiques d'approvisionnement",
+    "requested_amount_tip": "Le montant demandé doit également inclure les frais d'expédition potentiels ou d'autres frais.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "Paiement unique"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Carte virtuelle multi-usage"
+        },
+        "WEBSHOP": {
+          "subtitle": "Carte virtuelle à usage unique"
+        },
+        "item_count": "{{count}} article",
+        "item_count_plural": "{{count}} articles"
+      },
+      "no_items": "Il n'y a pas d'articles",
+      "title": "Sommaire"
+    }
+  },
+  "submit": "Soumettre pour approbation"
+}

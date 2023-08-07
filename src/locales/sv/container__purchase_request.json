@@ -1,0 +1,29 @@
+{
+  "header": {
+    "no_pending_approvals": "Inga föremål väntande godkännanden",
+    "pending_approvals_by": "Väntar på godkännanden av"
+  },
+  "items": {
+    "approval": {
+      "excess_spend_limit": "Utgiftsgränsen kan inte vara högre än vad som tidigare godkänts.",
+      "in_purchase_order": "I inköpsorder",
+      "initiate": "$t(common:initiate)",
+      "reject": "$t(common:reject)",
+      "spend_limit_description": "Inklusive moms och frakt",
+      "spend_limit_title": "Godkänn belopp",
+      "undo_approve": "Ångra godkännande",
+      "undo_cancel": "Ångra avbryt",
+      "undo_initiate": "Ångra initiering",
+      "undo_reject": "Ångra avslaget",
+      "view_purchase_order": "Se inköpsorder"
+    },
+    "current_spend": {
+      "description": "Inklusive föreslagen gräns för föremålet",
+      "title": "Spendera av <0>{{who}}</0>"
+    },
+    "subscription_tooltip": {
+      "subscribe": "Klicka för att prenumerera på aktivitetsuppdateringar",
+      "unsubscribe": "Du är prenumererad till aktivitet uppdateringar"
+    }
+  }
+}

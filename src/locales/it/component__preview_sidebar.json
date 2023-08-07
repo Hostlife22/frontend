@@ -1,0 +1,13 @@
+{
+  "create_document": {
+    "document_currency_mismatch": "La valuta non corrisponde alla transazione"
+  },
+  "import_info": {
+    "ApproverCustomField": "Dev'essere un indirizzo email",
+    "CategoryCustomField": "Dev'essere il codice di una categoria esistente",
+    "DateCustomField": "Dev'essere una data con codifica ISO 8601, ad es. AAAA-MM-GG"
+  },
+  "import_users": {
+    "security_roles_description": "Assegna ruoli predefiniti a tutti i nuovi utenti"
+  }
+}

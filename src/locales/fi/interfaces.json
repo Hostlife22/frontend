@@ -1,0 +1,26 @@
+{
+  "address": {
+    "streetName": "Katu"
+  },
+  "appearance_settings": {
+    "theme_description": "Pidempi akun käyttöikä ja pienempi altistuminen siniselle valolle"
+  },
+  "buyer_account": {
+    "accountType": "Tilin tyyppi",
+    "createdAt": "Aktiivinen lähtien"
+  },
+  "query": {
+    "locations": "Sijainnit",
+    "organisationUnits": "Organisaatioyksiköt"
+  },
+  "user": {
+    "firstName": "Etunimi",
+    "is2faEnabled_description": "Käytä google autentikointisovellusta tai vastaavaa",
+    "lastName": "Sukunimi",
+    "mobilePhone": "Matkapuhelinnumero"
+  },
+  "user_settings": {
+    "localisation": "Lokalisointi",
+    "security": "Turvallisuus"
+  }
+}

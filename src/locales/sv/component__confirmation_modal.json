@@ -1,0 +1,28 @@
+{
+  "cancel_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Ange en anledning till avbokning",
+    "placeholder": "Beskriv orsaken till avbokningen",
+    "submit": "Annullera förfrågan",
+    "title": "Är du säker på att du vill avbryta?"
+  },
+  "delete": {
+    "close": "$t(common:cancel)",
+    "description": "Radering av {{what}} kan inte ångras",
+    "submit": "$t(common:delete)",
+    "title": "Radera {{what}}?"
+  },
+  "reject_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Ange en anledning till avslaget",
+    "placeholder": "Beskriv orsaken till avslaget",
+    "submit": "$t(common:reject)",
+    "title": "Är du säker på att du vill avvisa?"
+  },
+  "revoke_virtual_card": {
+    "close": "$t(common:cancel)",
+    "description": "Återkallande av virtuellt kort kan inte ångras",
+    "submit": "$t(common:revoke)",
+    "title": "Är du säker på att du vill återkalla?"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "breadcrumbs": {
+    "/": "Hjem",
+    "/approvals": "Godkendelser",
+    "/approvals?status=all": "alle",
+    "/approvals?status=approved": "godkendt",
+    "/approvals?status=cancelled": "annulleret",
+    "/approvals?status=pending": "afventer",
+    "/approvals?status=rejected": "afvist",
+    "/new_request": "Ny købsanmodning",
+    "/onboard": "onboard",
+    "/purchase_orders": "Købsordrer",
+    "/reports": "rapporter",
+    "/requests": "Anmodninger",
+    "/settings/account?tab=localisation": "lokalisering",
+    "/settings/categorisation/category_sets": "kategorigrupper",
+    "/settings/categorisation?tab=category_sets": "kategori grupper",
+    "/settings/custom_fields": "brugerdefinerede felter",
+    "/settings/custom_fields/custom_fields": "brugerdefinerede felter",
+    "/settings/custom_fields/custom_fields/new": "Nyt brugerdefineret felt",
+    "/settings/custom_fields/data_sources": "datakilder",
+    "/settings/custom_fields/data_sources/new": "Ny datakilde",
+    "/settings/custom_fields?tab=data_sources": "datakilder",
+    "/settings/organisation?tab=cost_centres": "Udgiftscentre",
+    "/settings/organisation?tab=locations": "lokationer",
+    "/settings/organisation?tab=organisation_units": "organisationsenheder",
+    "/settings/payments": "Betalinger",
+    "/settings/payments/virtual_cards": "virtuelle kort",
+    "/settings/payments?tab=issuer_integrations": "Udstederintegrationer",
+    "/settings/payments?tab=spend_limits": "beløbsgrænser",
+    "/settings/payments?tab=virtual_cards": "Virtuelle kort",
+    "/settings/reporting": "rapportering",
+    "/suppliers": "leverandører",
+    "/transactions": "transaktioner",
+    "/users": "brugere"
+  },
+  "profile_dropdown": {
+    "sign_out": "log ud"
+  }
+}

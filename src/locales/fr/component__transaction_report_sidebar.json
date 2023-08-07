@@ -1,0 +1,17 @@
+{
+  "form": {
+    "initial_comment": {
+      "label": "Que signalez-vous?",
+      "placeholder": "Décrivez le problème"
+    },
+    "subscribers": {
+      "options": {
+        "approvers": "Approbateurs",
+        "requester": "Demandeur"
+      },
+      "title": "Commencez la conversation avec"
+    }
+  },
+  "submit_button": "Soumettre le rapport",
+  "title": "Signaler un problème"
+}

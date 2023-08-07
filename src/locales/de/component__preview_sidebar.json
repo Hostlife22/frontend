@@ -1,0 +1,12 @@
+{
+  "create_document": {
+    "document_currency_mismatch": "Die Währung stimmt nicht mit der Transaktion überein"
+  },
+  "import_info": {
+    "ApproverCustomField": "Muss eine E-Mail Adresse sein",
+    "CategoryCustomField": "Muss der Code einer bestehenden Kategorie sein",
+    "CostCentreCustomField": "Muss der Code einer bestehenden Kostenstelle sein",
+    "DateCustomField": "Muss ein ISO 8601-codiertes Datum sein, z. B. JJJJ-MM-TT",
+    "SelectCustomField": "Muss der Code eines vorhandenen Datenquellenelements sein"
+  }
+}

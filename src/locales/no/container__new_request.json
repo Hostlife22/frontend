@@ -1,0 +1,83 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Sist lagret <0>{{time}}</0>",
+        "unsaved": "Ikke lagret"
+      },
+      "title": "Utkast"
+    },
+    "start_new": "Start ny forespørsel",
+    "subtitle": "Nye kjøpsforespørsler blir automatisk lagret som utkast til de blir sendt inn eller slettet.",
+    "title": "Utkast"
+  },
+  "item_count": "Varer",
+  "item_form": {
+    "add_item": "Legg til vare",
+    "update_item": "Oppdater vare"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Be om forhåndsgodkjenning for et fakturakjøp"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "Virtuelt flerbrukskort vil bli utstedt for kjøp av følgende varer"
+    },
+    "WEBSHOP": {
+      "subtitle": "Virtuelt engangskort vil bli utstedt for kjøp av følgende varer"
+    },
+    "add_item": "Legg til vare",
+    "amount": "Totalt kortbeløp"
+  },
+  "make_request": "Gjør en forespørsel",
+  "no_purchase_types": {
+    "subtitle": "Ingen kjøpstyper er aktivert for denne kontoen ennå. Vennligst kontakt din administrator.",
+    "title": "Kjøpstyper er ikke tilgjengelige"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "gjør et kjøp med faktura fra en leverandør på Mazepay-plattformen",
+      "subtitle": "engangsbetaling"
+    },
+    "SUBSCRIPTION": {
+      "description": "få et virtuelt flerbrukskort for flere betalinger i én enkelt nettbutikk",
+      "subtitle": "abonnementer og gjentakende betalinger"
+    },
+    "WEBSHOP": {
+      "description": "få et virtuelt engangskort for å foreta et online kjøp",
+      "subtitle": "engangsbetaling"
+    }
+  },
+  "purchase_type_cards": {
+    "disabled_card_tooltip": "Vennligst angi et emne før du legger til varer",
+    "select_purchase_type": "Velg kjøpstype",
+    "tab": "Legg til varer"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Angi en generell beskrivelse av kjøpsforespørselen"
+    }
+  },
+  "sidebar": {
+    "policies": "Retningslinjer for innkjøp",
+    "requested_amount_tip": "Det forespurte beløpet bør også inkludere potensielle fraktkostnader eller andre gebyrer.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "Engangsbetaling"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Flerbruks virtuelt kort"
+        },
+        "WEBSHOP": {
+          "subtitle": "Engangsbruk virtuelt kort"
+        },
+        "item_count": "{{count}} vare",
+        "item_count_plural": "{{count}} varer"
+      },
+      "no_items": "Ingen varer",
+      "title": "Sammendrag"
+    }
+  },
+  "submit": "Send inn for godkjenning"
+}

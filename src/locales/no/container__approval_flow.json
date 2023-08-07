@@ -1,0 +1,56 @@
+{
+  "approval_flow_editor": {
+    "add_step": "Legg til trinn",
+    "ports_validator": {
+      "input_is_connected": "Input er koblet til",
+      "input_must_be_connected": "Input må være koblet til",
+      "port_can_be_disconnected": "Port {{port}} kan kobles fra",
+      "port_is_connected": "Port {{port}} er tilkoblet",
+      "port_must_be_connected": "Port {{port}} må være tilkoblet"
+    },
+    "publishDescription": "Vennligst bekreft publiseringen. Det kan ikke angres",
+    "publishTitle": "Publiser godkjennelsesflow",
+    "publish_changes": "Publiser endringer",
+    "publish_notes_placeholder": "Vennligst beskriv endringene som ble gjort og hvorfor",
+    "start": "Kjøpsforespørsel sendt inn"
+  },
+  "approve_by_node": {
+    "assign_all": {
+      "ALL": "Få godkjenning fra ALLE brukere med godkjennelsesrettigheter",
+      "ANY": "Få godkjenning fra HVILKEN SOM HELST bruker med godkjennelsesrettigheter"
+    },
+    "fieldLabelAssignees": "Utvalgte",
+    "title": {
+      "ALL": "Få godkjenning fra ALLE",
+      "ANY": "Få godkjenning fra HVILKEN SOM HELST"
+    }
+  },
+  "formal_rules": {
+    "a": "Flowet må ha som minimum: (i) én auto-godkjenning, (ii) én auto-avvisning, og (iii) enten godkjenner-betingelse eller input-attributt-betingelse.",
+    "b": "Ett trinn må være det første, det kan være hvilken som helst type bortsett fra automatisk avvisning og utsted-virtuelt-kort.",
+    "c": "Alle porter må være tilkoblet, bortsett fra utganger fra siste trinn.",
+    "d": "Flowet må ha to eller flere siste trinn, og de kan enten være automatisk godkjenning eller automatisk avvisning eller utstede-virtuelt-kort.",
+    "e": "Én utgangsport kan kobles til kun én input-port.",
+    "f": "Én input-port kan kobles til flere utgangsporter.",
+    "g": "To trinn kan ha bare én forbindelse, direkte eller gjennom andre trinn",
+    "h": "Trinn kan ikke kobles til seg selv (ingen sirkulære relasjoner).",
+    "i": "Betinget trinn som Betingelse eller Godkjent-Av kan bare ha én utgang til et automatisk tilstandsendringstrinn av en bestemt type, med andre ord bare én auto-godkjenning og bare én auto-avvisning hvis noen.",
+    "j": "Alle felt i et flow må angis.",
+    "k": "Utgangsporten for automatisk godkjenning kan bare kobles til utsted-virtuelt-kort.",
+    "l": "Input for utsted-virtuelt-kort kan bare tilkobles med automatisk godkjenning."
+  },
+  "node": {
+    "footer": {
+      "false": "Falsk",
+      "output": "Utgang",
+      "true": "Sant"
+    }
+  },
+  "validation": {
+    "subtitle": "Følgende problemer må løses før en ny versjon kan publiseres",
+    "title": "Validering"
+  },
+  "versions": {
+    "description": "Endringer i en workflow må publiseres før den kan utløses"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "create_document": {
+    "document_currency_mismatch": "Currency doesn't match transaction"
+  },
+  "import_info": {
+    "ApproverCustomField": "Must be an email address",
+    "AttachmentCustomField": " ",
+    "CategoryCustomField": "Must be the code of an existing category",
+    "CheckboxCustomField": " ",
+    "CostCentreCustomField": "Must be the code of an existing cost centre",
+    "DateCustomField": "Must be an ISO 8601-encoded date, e.g. YYYY-MM-DD",
+    "IntegerCustomField": " ",
+    "MoneyCustomField": " ",
+    "SelectCustomField": "Must be the code of an existing data source item",
+    "TextAreaCustomField": " ",
+    "TextCustomField": " ",
+    "UrlCustomField": " "
+  },
+  "import_users": {
+    "security_roles_description": "Assign default roles to all new users"
+  }
+}

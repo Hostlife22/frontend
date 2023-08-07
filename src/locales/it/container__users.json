@@ -1,0 +1,18 @@
+{
+  "countable_users_to_invite": "{{ count }} utente è pronto per essere invitato",
+  "countable_users_to_invite_plural": "{{ count }} utenti sono pronti per essere invitati",
+  "description": "Gli utenti abbozzati possono essere usati in configurazione ma non avranno accesso all'account prima di essere invitati",
+  "invite_all": "Invita tutti",
+  "modal": {
+    "countable_invited_users_number": "L'invito verrà inviato a {{ count }} utente",
+    "countable_invited_users_number_plural": "Gli inviti verranno inviati a {{ count }} utenti",
+    "send_invitations": "Invia inviti",
+    "title": "Invita utenti abbozzati"
+  },
+  "reset_filter": "Ripristina filtri",
+  "toasts": {
+    "invite_users_success": "{{count}} utente è stato invitato",
+    "invite_users_success_plural": "{{count}} utenti sono stati invitati"
+  },
+  "view_all": "Vedi tutti"
+}

@@ -1,0 +1,37 @@
+{
+  "create_custom_field": {
+    "body": {
+      "step1": {
+        "subtitle": "Egendefinerte felt lar deg utvide informasjonslaget til eksisterende ressurser. Feltene kan også brukes i workflows.",
+        "title": "Velg ressurs"
+      },
+      "step2": {
+        "groups": {
+          "association": "Assosiasjon",
+          "basic": "Grunnleggende"
+        },
+        "title": "Velg type"
+      },
+      "step3": {
+        "general": "Generelt",
+        "select_options": "Velg alternativer",
+        "validation": "Validering"
+      }
+    },
+    "title": "Nytt egendefinert felt"
+  },
+  "update_custom_field": {
+    "responsive_columns": {
+      "description": "En rad kan ha opptil 4 kolonner avhengig av visningsportens bredde.",
+      "minimum_width": "Minimum bredde",
+      "title": "Visningsstil"
+    },
+    "title": "Oppdater egendefinert felt"
+  },
+  "view_custom_field": {
+    "required_field": {
+      "no": "Nei",
+      "yes": "Ja"
+    }
+  }
+}

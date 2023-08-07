@@ -1,0 +1,44 @@
+{
+  "approver_amount": "Zugelassen <b>{{approvalCount}}</b> Artikel für insgesamt <b>{{totalApprovedAmount}}</b>",
+  "approver_amount_plural": "Zugelassen <b>{{approvalCount}}</b> Artikel für insgesamt <b>{{totalApprovedAmount}}</b>",
+  "personal_reminder": {
+    "description": "Möchten Sie eine persönliche Erinnerung senden?",
+    "label": "Nachricht",
+    "placeholder": "Nachricht eingeben an {{who}}",
+    "snooze": "Überprüfung für 7 Tage stummschalten",
+    "submit": "Persönliche Erinnerung senden"
+  },
+  "reminders_sent": {
+    "label": "Erinnerungen gesendet",
+    "opened": "Geöffnet"
+  },
+  "resolved_reporting": {
+    "resolved": "Bewertung genehmigt"
+  },
+  "sidebar": {
+    "document": "Unterlagen",
+    "reporting": "Berichterstattung"
+  },
+  "trust_score": {
+    "approvers": {
+      "title": "Genehmiger"
+    },
+    "merchant": {
+      "title": "Händler"
+    },
+    "purchase_order": {
+      "title": "Auftragsbestätigung (PO)"
+    },
+    "requester": {
+      "title": "Anfragender"
+    },
+    "title": "Vertrauenspunktzahl",
+    "transaction": {
+      "title": "Transaktion"
+    }
+  },
+  "unresolved_reporting": {
+    "alert": "Diese Transaktion hat eine ungelöste Meldung",
+    "mark_resolved": "Als erledigt markieren"
+  }
+}

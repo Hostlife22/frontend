@@ -1,0 +1,10 @@
+{
+  "content": {
+    "nothing_selected": "Nichts ausgewählt"
+  },
+  "navbar": {
+    "by": "Von {{ who }}",
+    "no_search_results": "Keine Ergebnisse",
+    "nothing_to_approve": "Nichts zu genehmigen"
+  }
+}

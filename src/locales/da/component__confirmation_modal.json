@@ -1,0 +1,21 @@
+{
+  "cancel_purchase_request_item": {
+    "description": "Angiv venligst en årsag til annullering",
+    "placeholder": "Beskriv årsag til annullering",
+    "submit": "Annuller emne",
+    "title": "Er du sikker på at du vil annullere"
+  },
+  "delete": {
+    "description": "Sletning af {{what}} kan ikke fortrydes",
+    "title": "Slet {{what}}"
+  },
+  "reject_purchase_request_item": {
+    "description": "Angiv venligst en årsag til afvisning",
+    "placeholder": "Beskriv årsag til afvisning",
+    "title": "Er du sikker på at du vil afvise"
+  },
+  "revoke_virtual_card": {
+    "description": "Lukning af kort kan ikke fortrydes",
+    "title": "Er du sikker på at du vil lukke kortet?"
+  }
+}

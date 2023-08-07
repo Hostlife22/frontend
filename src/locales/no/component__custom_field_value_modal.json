@@ -1,0 +1,11 @@
+{
+  "audit_action": {
+    "CREATE": "<0>{{ who }}</0> opprettet egendefinert feltverdi",
+    "DESTROY": "<0>{{ who }}</0>  slettet egendefinert feltverdi",
+    "UPDATE": "<0>{{ who }}</0> oppdaterte egendefinert feltverdi"
+  },
+  "change_history": "Historikk over endringer",
+  "change_to": "Endre til",
+  "current_value": "Gjeldende verdi",
+  "project_description": "Workflows kan ha vært basert på forrige verdi. Å endre denne verdien vil ikke påvirke et workflow som allerede har blitt kjørt"
+}

@@ -1,0 +1,29 @@
+{
+  "header": {
+    "no_pending_approvals": "Nessuna approvazione in sospeso",
+    "pending_approvals_by": "In attesa di approvazione da"
+  },
+  "items": {
+    "approval": {
+      "excess_spend_limit": "Il limite di spesa non può essere superiore a quanto precedentemente approvato.",
+      "in_purchase_order": "In ordine in acquisto",
+      "initiate": "$t(common:initiate)",
+      "reject": "$t(common:reject)",
+      "spend_limit_description": "IVA e spedizione incluse",
+      "spend_limit_title": "Approva importo",
+      "undo_approve": "Annulla approvazione",
+      "undo_cancel": "Annulla cancellazione",
+      "undo_initiate": "Annulla avvio",
+      "undo_reject": "Annulla rifiuto",
+      "view_purchase_order": "Ordine di acquisto"
+    },
+    "current_spend": {
+      "description": "Compreso il limite suggerito per l'articolo corrente",
+      "title": "Speso da <0>{{who}}</0>"
+    },
+    "subscription_tooltip": {
+      "subscribe": "Fare clic per iscriversi agli aggiornamenti delle attività",
+      "unsubscribe": "Sei iscritto agli aggiornamenti delle attività"
+    }
+  }
+}

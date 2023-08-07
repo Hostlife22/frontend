@@ -1,0 +1,6 @@
+{
+  "create_user": {
+    "invitation_toggle_description": "Hvis deaktivert, vil brukeren bli opprettet som utkast",
+    "invitation_toggle_label": "Send invitasjon til bruker"
+  }
+}

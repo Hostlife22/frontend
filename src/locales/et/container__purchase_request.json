@@ -1,0 +1,27 @@
+{
+  "header": {
+    "no_pending_approvals": "Ootel kinnitusi pole",
+    "pending_approvals_by": "Heakskiidu ootel"
+  },
+  "items": {
+    "approval": {
+      "excess_spend_limit": "Kululimiit ei saa olla suurem kui eelnevalt kinnitatud.",
+      "in_purchase_order": "Ostutellimuses",
+      "spend_limit_description": "Sisaldab käibemaksu ja saatmist",
+      "spend_limit_title": "Kinnitage summa",
+      "undo_approve": "Võta heakskiit tagasi",
+      "undo_cancel": "Võta tühistamine tagasi",
+      "undo_initiate": "Tühista algatamine",
+      "undo_reject": "Tühista tagasilükkamine",
+      "view_purchase_order": "Vaata ostutellimust"
+    },
+    "current_spend": {
+      "description": "Sisaldab käesoleva üksuse soovitatud limiit",
+      "title": "Kulutus <0>{{who}}</0> poolt"
+    },
+    "subscription_tooltip": {
+      "subscribe": "Klõpsake tegevuste värskenduste tellimiseks",
+      "unsubscribe": "Olete tellinud tegevuste värskendusi"
+    }
+  }
+}

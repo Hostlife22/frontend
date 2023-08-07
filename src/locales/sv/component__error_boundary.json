@@ -1,0 +1,29 @@
+{
+  "common_errors": {
+    "application_updated": {
+      "description": "En ny version har släppts. Uppdatera sidan.",
+      "reset_button": "Uppdatera sidan",
+      "title": "Applikationen uppdaterad"
+    },
+    "forbidden": {
+      "description": "Resursen du letade efter är förbjuden.",
+      "title": "Förbjuden"
+    },
+    "not_found": {
+      "description": "Tyvärr, det verkar som om sidan du letar efter inte finns.",
+      "title": "Hittades inte"
+    },
+    "unknown_error": {
+      "description": "Tyvärr, vi arbetar på detta.",
+      "reset_button": "Gå till startsidan",
+      "title": "Något gick fel"
+    }
+  },
+  "node_provider": {
+    "errors": {
+      "forbidden": "Tyvärr, det verkar som att du inte har behörighet att se {{ what }}.",
+      "not_found": "Förlåt, ser ut som {{ what }} du letar efter finns inte."
+    },
+    "sidebar_reset_button": "Stäng sidofältet"
+  }
+}

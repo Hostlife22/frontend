@@ -1,0 +1,75 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Sidst gemt <0>{{time}}</0>",
+        "unsaved": "Ikke gemt"
+      },
+      "title": "Kladde"
+    },
+    "start_new": "Start ny købsanmodning"
+  },
+  "item_count": "Emner",
+  "item_form": {
+    "add_item": "Tilføj emne",
+    "update_item": "Opdater emne"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Få godkendelse til et fakturakøb"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "Et multi-use virtuelt kort vil blive udstedt til køb af følgende emner"
+    },
+    "WEBSHOP": {
+      "subtitle": "Et single-use virtuelt kort vil blive udstedt til køb af følgende emner"
+    },
+    "add_item": "Tilføj emne",
+    "amount": "Total kort beløb"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "Lav en købsanmodning fra en leverandør på Mazepat platformen",
+      "subtitle": "Engangsbetaling"
+    },
+    "SUBSCRIPTION": {
+      "description": "Få et multi-use kort til gentagende betalinger i en enkelt webshop",
+      "subtitle": "Abonnementer og gentagende betalinger"
+    },
+    "WEBSHOP": {
+      "description": "Få et single-use kort til et enkelt køb i en webshop",
+      "subtitle": "Engangsbetaling"
+    }
+  },
+  "purchase_type_cards": {
+    "select_purchase_type": "Vælg købstype",
+    "tab": "Tilføj emner"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Indtast en generel beskrivelse"
+    }
+  },
+  "sidebar": {
+    "policies": "Indkøbspolitikker",
+    "requested_amount_tip": "Det anmodede beløb skal også inkludere potentielle omkostninger til levering, etc.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "Engangsbetaling"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Multi-use virtuelt kort"
+        },
+        "WEBSHOP": {
+          "subtitle": "Single-use virtuelt kort"
+        },
+        "item_count": "{{count}} emne",
+        "item_count_plural": "{{count}} emner"
+      },
+      "no_items": "Ingen emner tilføjet",
+      "title": "Opsummering"
+    }
+  },
+  "submit": "Indsend"
+}

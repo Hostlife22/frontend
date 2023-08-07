@@ -1,0 +1,31 @@
+{
+  "buttons": {
+    "change_phone": "Cambia",
+    "generate_code": "Invia codice di verifica",
+    "resend_code": "Rinvia codice"
+  },
+  "code_expiry_status": {
+    "expired": "Scaduto",
+    "will_expire": "Scadrà <0></0>"
+  },
+  "code_status": {
+    "expired": "Il codice di conferma è scaduto ",
+    "sent": "Un codice di conferma è stato inviato al tuo telefono "
+  },
+  "fields": {
+    "code": {
+      "label": "Codice di verifica",
+      "placeholder": "Inserisci codice di verifica"
+    },
+    "phone": {
+      "error": "Inserisci numero di cellulare",
+      "label": "Numero di telefono ",
+      "placeholder": "Inserisci numero di telefono"
+    }
+  },
+  "header": {
+    "add_phone": "Aggiungi numero di telefono",
+    "change_phone": "Cambia numero di telefono"
+  },
+  "subtitle": "Le carte virtuali vengono condivise con te tramite SMS. Verifica il tuo numero di telefono per abilitare il modulo di richiesta."
+}

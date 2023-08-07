@@ -1,0 +1,44 @@
+{
+  "approver_amount": "Godkänd <b>{{approvalCount}}</b> föremål för totalt <b>{{totalApprovedAmount}}</b>",
+  "approver_amount_plural": "Godkänd <b>{{approvalCount}}</b> föremål för totalt <b>{{totalApprovedAmount}}</b>",
+  "personal_reminder": {
+    "description": "Vill du skicka en personlig påminnelse?",
+    "label": "Meddelande",
+    "placeholder": "Ange meddelande till {{who}}",
+    "snooze": "Snooze genomgång i 7 dagar",
+    "submit": "Skicka personlig påminnelse"
+  },
+  "reminders_sent": {
+    "label": "Påminnelser skickad",
+    "opened": "Öppnad"
+  },
+  "resolved_reporting": {
+    "resolved": "Granskning godkänd"
+  },
+  "sidebar": {
+    "document": "Dokument",
+    "reporting": "Rapportering"
+  },
+  "trust_score": {
+    "approvers": {
+      "title": "Godkännare"
+    },
+    "merchant": {
+      "title": "Försäljare"
+    },
+    "purchase_order": {
+      "title": "Inköpsorder"
+    },
+    "requester": {
+      "title": "Förfrågare"
+    },
+    "title": "Förtroendepoäng",
+    "transaction": {
+      "title": "Transaktion"
+    }
+  },
+  "unresolved_reporting": {
+    "alert": "Denna transaktion har en olöst rapportering",
+    "mark_resolved": "Markera som löst"
+  }
+}

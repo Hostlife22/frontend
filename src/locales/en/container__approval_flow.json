@@ -1,0 +1,56 @@
+{
+  "approval_flow_editor": {
+    "add_step": "Add step",
+    "ports_validator": {
+      "input_is_connected": "Input is connected",
+      "input_must_be_connected": "Input must be connected",
+      "port_can_be_disconnected": "Port {{port}} can be disconnected",
+      "port_is_connected": "Port {{port}} is connected",
+      "port_must_be_connected": "Port {{port}} must be connected"
+    },
+    "publishDescription": "Please confirm publication. It can not be undone",
+    "publishTitle": "Publish approval flow",
+    "publish_changes": "Publish changes",
+    "publish_notes_placeholder": "Please describe the changes that were made and why",
+    "start": "Purchase request submitted"
+  },
+  "approve_by_node": {
+    "assign_all": {
+      "ALL": "Get approval from ALL users with the approval permission",
+      "ANY": "Get approval from ANY user with the approval permission"
+    },
+    "fieldLabelAssignees": "Assignees",
+    "title": {
+      "ALL": "Get approval from ALL of",
+      "ANY": "Get approval from ANY of"
+    }
+  },
+  "formal_rules": {
+    "a": "Flow must have as minimum: (i) one auto-approve, (ii) one auto-reject, and (iii) either approver-condition or input-attribute-condition.",
+    "b": "One step must be the first one, it can be any type except for auto-reject and issue-virtual-card.",
+    "c": "All ports must be connected, expect for outputs of last steps.",
+    "d": "Flow must have two or more last steps, and they can be either auto-approve or auto-reject or issue-virtual-card.",
+    "e": "One output port can be connected to just one input port.",
+    "f": "One input port can have connections with multiple output ports.",
+    "g": "Two steps can have just one connection, directly or through other steps",
+    "h": "Step cannot connect with itself (no circular relations).",
+    "i": "Conditional step such as Condition or ApprovedBy can have just one output to an automatic-state-change step of some specific type, in other words just one auto-approve and just one auto-reject if any.",
+    "j": "All fields in a flow must be set.",
+    "k": "Output port of auto-approve can only connect to issue-virtual-card.",
+    "l": "Input of issue-virtual-card can only connect with auto-approve."
+  },
+  "node": {
+    "footer": {
+      "false": "False",
+      "output": "Output",
+      "true": "True"
+    }
+  },
+  "validation": {
+    "subtitle": "The following issues must be fixed before a new version can be published.",
+    "title": "Validation"
+  },
+  "versions": {
+    "description": "Changes to a workflow must be published before it can be triggered."
+  }
+}

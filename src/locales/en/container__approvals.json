@@ -1,0 +1,10 @@
+{
+  "content": {
+    "nothing_selected": "Nothing selected"
+  },
+  "navbar": {
+    "by": "By {{ who }}",
+    "no_search_results": "No results",
+    "nothing_to_approve": "Nothing to approve"
+  }
+}

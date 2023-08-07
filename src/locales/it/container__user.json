@@ -1,0 +1,22 @@
+{
+  "2fa_modal": {
+    "backup_codes": "Annotare questi codici di backup in un luogo sicuro. Possono essere utilizzati una volta per accedere al tuo account se il tuo dispositivo 2FA non è disponibile. Non verranno mai più visualizzati per motivi di sicurezza.",
+    "disable_2fa": "Disabilita 2FA",
+    "enable_2fa": "Abilita 2FA",
+    "enter_code": "Inserisci il codice",
+    "scan_qr": "Scansiona QR usando l'app di autenticazione",
+    "secret_codes": "Copia i codici segreti in un luogo sicuro"
+  },
+  "delegations": {
+    "header": {
+      "from_you": {
+        "subtitle": "Consenti ad un collega di approvare al posto tuo. Verrai comunque avvisato delle approvazioni in sospeso durante la delega.",
+        "title": "Da te"
+      },
+      "to_you": {
+        "subtitle": "Approvazioni delegate a te da altri approvatori della tua organizzazione.",
+        "title": "A te"
+      }
+    }
+  }
+}

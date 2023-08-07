@@ -1,0 +1,57 @@
+{
+  "definition": {
+    "bymonth": "Dans {{month}}",
+    "bymonthday": "Au {{monthday}}",
+    "byweekday": "Au {{weekday}}",
+    "freq": "Répéter {{frequency}}",
+    "interval": "Chaque {{interval}}"
+  },
+  "errors": {
+    "ends_at": {
+      "must_be_in_future": "La date de fin ne peut pas être antérieure à la date de début"
+    },
+    "starts_at": {
+      "must_be_in_present_or_future": "La date de début ne peut pas être située dans le passé et après la date de fin"
+    }
+  },
+  "frequency": {
+    "DAILY": "Journalier",
+    "MONTHLY": "Mensuel",
+    "WEEKLY": "Hebdomadaire",
+    "YEARLY": "Annuel"
+  },
+  "interval": {
+    "DAILY": "Jour",
+    "DAILY_plural": "Jours",
+    "MONTHLY": "Mois",
+    "MONTHLY_plural": "Mois",
+    "WEEKLY": "Semaine",
+    "WEEKLY_plural": "Semaines",
+    "YEARLY": "Année",
+    "YEARLY_plural": "Années"
+  },
+  "month": [
+    null,
+    "Janvier",
+    "Février",
+    "Mars",
+    "Avril",
+    "Mai",
+    "Juin",
+    "Juillet",
+    "Août",
+    "Septembre",
+    "Octobre",
+    "Novembre",
+    "Décembre"
+  ],
+  "weekday": {
+    "FR": "Vendredi",
+    "MO": "Lundi",
+    "SA": "Samedi",
+    "SU": "Dimanche",
+    "TH": "Jeudi",
+    "TU": "Mardi",
+    "WE": "Mercredi"
+  }
+}

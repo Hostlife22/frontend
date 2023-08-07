@@ -1,0 +1,80 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Viimati salvestatud <0>{{time}}</0>",
+        "unsaved": "Salvestamata"
+      },
+      "title": "Mustand"
+    },
+    "start_new": "Alusta uut taotlust"
+  },
+  "item_count": "Üksused",
+  "item_form": {
+    "add_item": "Lisa üksus",
+    "update_item": "Värskenda üksust"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Arvega ostmiseks taotlege eelkinnitust"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "Mitmeostu virtuaalkaart väljastatakse järgmiste kaupade ostmiseks"
+    },
+    "WEBSHOP": {
+      "subtitle": "Ühekordselt kasutatav virtuaalkaart väljastatakse järgmiste asjade ostmiseks"
+    },
+    "add_item": "Lisa üksus",
+    "amount": "Kaardi kogusumma"
+  },
+  "no_purchase_types": {
+    "subtitle": "Selle konto jaoks pole veel ühtegi ostutüüpi lubatud. Võtke ühendust oma administraatoriga.",
+    "title": "Ostutüübid pole saadaval"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "sooritage Mazepay platvormil tarnijalt arvega ost",
+      "subtitle": "ühekordne makse"
+    },
+    "SUBSCRIPTION": {
+      "description": "Saa mitmeostu virtuaalkaart mitme makse jaoks ühes veebipoes",
+      "subtitle": "tellimused ja korduvad maksed"
+    },
+    "WEBSHOP": {
+      "description": "Saa veebiostu sooritamiseks ühekordne virtuaalkaart",
+      "subtitle": "ühekordne makse"
+    }
+  },
+  "purchase_type_cards": {
+    "disabled_card_tooltip": "Enne üksuste lisamist sisestage teema",
+    "select_purchase_type": "Valige ostu tüüp",
+    "tab": "Lisa üksusi"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Sisestage ostusoovi üldine kirjeldus"
+    }
+  },
+  "sidebar": {
+    "policies": "Hankepoliitikad",
+    "requested_amount_tip": "Taotletud summa peaks sisaldama ka võimalikke saatmiskulusid või muid tasusid.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "Ühekordne makse"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Mitmeostu virtuaalne kaart"
+        },
+        "WEBSHOP": {
+          "subtitle": "Ühekordne virtuaalkaart"
+        },
+        "item_count": "{{count}} üksus",
+        "item_count_plural": "{{count}} üksust"
+      },
+      "no_items": "Üksusi pole",
+      "title": "Kokkuvõte"
+    }
+  },
+  "submit": "Esitage kinnitamiseks"
+}

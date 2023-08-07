@@ -1,0 +1,59 @@
+{
+  "invitation_sidebar": {
+    "body": {
+      "invite": {
+        "company": {
+          "change_company": "Endre",
+          "description": "Matchet med MVA-nummer",
+          "title": "Leverandør"
+        },
+        "forms": {
+          "add_supplier": {
+            "description": "<b>{{ who }}</b> er allerede på Mazepay og er aktivert for fakturabetalinger.",
+            "submit": "Legg til leverandør"
+          },
+          "invite_supplier": {
+            "contact": {
+              "description": "Hvem skal vi sende invitasjonen til?",
+              "fields": {
+                "email": "$t(common:email)",
+                "message": "Personlig melding",
+                "name": "$t(common:name)",
+                "phone": "Telefon"
+              },
+              "title": "Kontakt"
+            },
+            "submit": "Inviter leverandør"
+          }
+        }
+      },
+      "lookup": {
+        "description": "Slå opp leverandør etter land og MVA-nummer",
+        "search_result": {
+          "empty": "Ingen treff ble funnet for dette MVA-nummeret",
+          "subtitle": "Matchet med MVA-nummer",
+          "title": "Velg leverandør"
+        },
+        "submit": "Søk",
+        "title": "MVA-nummer"
+      },
+      "success": {
+        "actions": {
+          "close": "$t(common:close)",
+          "invite_more": "Inviter flere"
+        },
+        "add_supplier": {
+          "description": "Du kan begynne å foreta fakturabetalinger umiddelbart.",
+          "title": "{{ who }} lagt til"
+        },
+        "invite_supplier": {
+          "description": "{{ who }} vil motta en e-post med en lenke for å fullføre registreringen.",
+          "title": "{{ who }} invitert"
+        }
+      }
+    },
+    "header": {
+      "title": "Legg til leverandør"
+    }
+  }
+}

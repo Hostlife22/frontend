@@ -1,0 +1,40 @@
+{
+  "alerts": {
+    "bank_account_missing": {
+      "button": "Konfigurer bankkonto",
+      "description": "For å motta betalinger må du konfigurere og bekrefte ditt firmas bankkonto",
+      "title": "Konfigurer bankkonto for utbetalinger"
+    },
+    "iban_verification_warning": {
+      "body": {
+        "line1": "For å verifisere at denne kontoen eies av {{ who }}, må du sende en transaksjon med det minste beløpet som er tillatt av banken din til følgende bankkonto.",
+        "line2": "Dette lar oss sammenligne kontoinnehavernavnet med navnet på firmaet ditt."
+      },
+      "title": "Verifiser eierskapet"
+    },
+    "review_in_progress": {
+      "description": "Søknaden din blir for øyeblikket gjennomgått av Mazepay sitt onboarding-team. Hvis du har spørsmål, vennligst kontakt info@mazepay.com",
+      "title": "Revisjon pågår"
+    }
+  },
+  "bank_accounts": {
+    "description": "Betalingene gjort til deg av kjøpere på Mazepay-plattformen vil automatisk bli utbetalt til bankkontoen din",
+    "verification_status": {
+      "false": "Venter på verifisering",
+      "true": "$t(common:verified)"
+    }
+  },
+  "modals": {
+    "add_bank_account": {
+      "body": {
+        "description": "Legg til en bankkonto for å motta betalinger fra dine kjøpere. Kontoen må eies av din bedrift.",
+        "submit": "Legg til en bankkonto",
+        "verify_ownership": {
+          "description": "Når kontoen er lagt til må eierskapet verifiseres. Se instruksjoner etter at du har lagt til konto.",
+          "title": "Verifiserer eierskapet"
+        }
+      },
+      "title": "Ny bankkonto"
+    }
+  }
+}

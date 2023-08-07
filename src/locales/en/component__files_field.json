@@ -1,0 +1,11 @@
+{
+  "dropzone": "Select or drop files",
+  "errors": {
+    "file_is_too_large": "File is too large",
+    "upload_failure": "Unable to upload file"
+  },
+  "tooltip": {
+    "label": "Supported files",
+    "popover": "You can upload PDF and image file, not larger than {{size}}"
+  }
+}

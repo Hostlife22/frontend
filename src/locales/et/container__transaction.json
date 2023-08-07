@@ -1,0 +1,44 @@
+{
+  "approver_amount": "Kinnitatud <b>{{approvalCount}}</b> üksus kokku summas <b>{{totalApprovedAmount}}</b>",
+  "approver_amount_plural": "Kinnitatud <b>{{approvalCount}}</b> esemeid kokku summas <b>{{totalApprovedAmount}}</b>",
+  "personal_reminder": {
+    "description": "Kas soovite saata isikliku meeldetuletuse?",
+    "label": "Sõnum",
+    "placeholder": "Sisestage sõnum saajale {{who}}",
+    "snooze": "Lükake ülevaade 7 päevaks edasi",
+    "submit": "Saada isiklik meeldetuletus"
+  },
+  "reminders_sent": {
+    "label": "Meeldetuletused saadetud",
+    "opened": "Avatud"
+  },
+  "resolved_reporting": {
+    "resolved": "Ülevaade kinnitatud"
+  },
+  "sidebar": {
+    "document": "Dokumendid",
+    "reporting": "Aruandlus"
+  },
+  "trust_score": {
+    "approvers": {
+      "title": "Heakskiitjad"
+    },
+    "merchant": {
+      "title": "Kaupmees"
+    },
+    "purchase_order": {
+      "title": "Ostutellimus"
+    },
+    "requester": {
+      "title": "Taotleja"
+    },
+    "title": "Usaldusskoor",
+    "transaction": {
+      "title": "Tehing"
+    }
+  },
+  "unresolved_reporting": {
+    "alert": "Sellel tehingul on lahendamata aruandlus",
+    "mark_resolved": "Märgi lahendatuks"
+  }
+}

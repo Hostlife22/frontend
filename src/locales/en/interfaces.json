@@ -1,0 +1,478 @@
+{
+  "ApprovalDelegation": {
+    "endsOn": "End on",
+    "from": "Delegate from",
+    "startsOn": "Start on",
+    "to": "Delegate to",
+    "to_description": "We will notify the approver when delegation becomes active"
+  },
+  "ApprovalFlowSettings": {
+    "requestForPurchase": "Request for purchase",
+    "requestForPurchase_description": "Starting with the user submitting a request"
+  },
+  "CardSubscription": {
+    "owner": "Owner",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "serviceName": "$t(common:name)",
+    "totalSpentAmountCents": "$t(common:total_spent)"
+  },
+  "DataScopingRule": {
+    "scopeByCustomField": "Scope by",
+    "scopeToPath": "To"
+  },
+  "__typename": {
+    "Account": "$t(common:account)",
+    "Approval": "approval",
+    "ApprovalDelegation": "approval delegation",
+    "ApproverCustomField": "approver custom field",
+    "Attachment": "attachment",
+    "AttachmentCustomField": "attachment custom field",
+    "BankAccount": "bank account",
+    "CardSubscription": "Subscription",
+    "Category": "category",
+    "CategoryCustomField": "category custom field",
+    "CategorySet": "category set",
+    "CheckboxCustomField": "checkbox custom field",
+    "Comment": "comment",
+    "CostCentre": "cost centre",
+    "CostCentreCustomField": "cost centre custom field",
+    "CustomField": "$t(common:custom_field)",
+    "DataPath": "path",
+    "DataScopingRule": "$t(common:data_scoping_rule)",
+    "DataScopingRule_description": "Limit available options by scoping to one or more associations through custom fields.",
+    "DataSource": "Data source",
+    "DataSourceItem": "data source item",
+    "DataView": "data view",
+    "DataViewField": "data view field",
+    "DateCustomField": "date custom field",
+    "Document": "document",
+    "FlowActionApproveBy": "Approve by",
+    "FlowActionAutomaticApprove": "Approve",
+    "FlowActionAutomaticReject": "Reject",
+    "FlowActionCreatePurchaseOrder": "Create PO",
+    "FlowStep": "flow step",
+    "FlowStepCondition": "Condition",
+    "IntegerCustomField": "integer custom field",
+    "InvoicePayment": "invoice payment",
+    "IssuerIntegration": "issuer integration",
+    "IssuerIntegrationConsumer": "issuer integration consumer",
+    "IssuerIntegrationRule": "issuer integration rule",
+    "Location": "$t(common:location)",
+    "Merchant": "merchant",
+    "OrganisationUnit": "organisation unit",
+    "PurchaseOrder": "purchase order",
+    "PurchaseRequest": "purchase request",
+    "PurchaseRequestItem": "Purchase request item",
+    "Report": "report",
+    "ReportTemplate": "report template",
+    "SelectCustomField": "select custom field",
+    "SpendLimit": "spend limit",
+    "SupplierAccount": "supplier account",
+    "TextAreaCustomField": "text area custom field",
+    "TextCustomField": "text custom field",
+    "Transaction": "transaction",
+    "UrlCustomField": "url custom field",
+    "User": "user",
+    "VirtualCard": "virtual card",
+    "Workflow": "workflow"
+  },
+  "account": {
+    "address": "$t(common:address)",
+    "name": "$t(common:name)",
+    "vatNumber": "$t(common:vat_number)"
+  },
+  "address": {
+    "city": "$t(common:city)",
+    "country": "$t(common:country)",
+    "postalCode": "$t(common:postal_code)",
+    "regionName": "$t(common:region)",
+    "streetName": "Street name",
+    "streetNumber": "Street number"
+  },
+  "appearance_settings": {
+    "theme": "$t(common:dark_mode)",
+    "theme_description": "Extended battery life and reduced blue light exposure"
+  },
+  "approval": {
+    "confirmedAt": "Confirmed at",
+    "confirmedBy": "Confirmed by",
+    "status": "$t(common:status)"
+  },
+  "approval_flow": {
+    "flowSteps": {
+      "node": "flow step",
+      "node_plural": "flow steps"
+    }
+  },
+  "archivable": {
+    "archivedAt": "Archived at"
+  },
+  "attachment": {
+    "byteSize": "File size",
+    "contentType": "File type",
+    "createdAt": "$t(common:added_at)",
+    "downloadUrl": "$t(common:download)",
+    "filename": "File name"
+  },
+  "bank_account": {
+    "createdAt": "$t(common:added_at)",
+    "createdBy": "$t(common:added_by)",
+    "currency": "$t(common:currency)",
+    "iban": "IBAN",
+    "verifiedAt": "Verified at"
+  },
+  "buyer_account": {
+    "accountType": "Account type",
+    "address": "$t(common:address)",
+    "createdAt": "Active since",
+    "name": "$t(common:company_name)",
+    "publicEmail": "$t(common:email)",
+    "publicPhone": "Phone",
+    "publicWebsite": "$t(common:website)",
+    "vatNumber": "$t(common:vat_number)"
+  },
+  "category": {
+    "childrenCount": "Sub-categories",
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "parentCode": "Parent code",
+    "parentId": "Parent category",
+    "title": "$t(common:title)"
+  },
+  "category_set": {
+    "categories": "Categories",
+    "createdAt": "$t(common:created_at)",
+    "createdBy": "$t(common:created_by)",
+    "title": "$t(common:title)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "cost_centre": {
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "name": "$t(common:name)"
+  },
+  "create_select_custom_field_input": {
+    "dataSourceId": "Data source"
+  },
+  "create_user_input_attributes": {
+    "personalInvitationMessage": "Personal invitation message"
+  },
+  "custom_field": {
+    "__typename": {
+      "ApproverCustomField": "Approver",
+      "AttachmentCustomField": "Attachments",
+      "CategoryCustomField": "Category",
+      "CheckboxCustomField": "Checkbox",
+      "CostCentreCustomField": "Cost centre",
+      "DateCustomField": "Date",
+      "IntegerCustomField": "Integer",
+      "MoneyCustomField": "Money",
+      "SelectCustomField": "Data source",
+      "TextAreaCustomField": "Text - multiline",
+      "TextCustomField": "Text",
+      "UrlCustomField": "URL",
+      "__typename": "Type"
+    },
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "formableClass": "Resource",
+    "iconName": "$t(common:icon)",
+    "label": "$t(common:label)",
+    "options": "Options",
+    "placeholder": "$t(common:placeholder)",
+    "required": "Required",
+    "tooltip": "Tooltip",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "data_source": {
+    "createdAt": "$t(common:created_at)",
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "items": "Items",
+    "name": "$t(common:name)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "data_source_item": {
+    "dataSource": "Data source",
+    "description": "$t(common:description)",
+    "externalId": "$t(common:code)",
+    "name": "$t(common:name)"
+  },
+  "data_view": {
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "fields": "$t(common:fields)",
+    "resourceType": "Resource",
+    "title": "$t(common:title)"
+  },
+  "data_view_field": {
+    "formatString": "Format",
+    "label": "$t(common:label)",
+    "path": "Value from",
+    "updatedAt": "$t(common:updated_at_trans)"
+  },
+  "document": {
+    "classification": "Document type",
+    "createdAt": "$t(common:date)",
+    "createdBy": "Added by",
+    "currency": "$t(common:currency)",
+    "purchaseOrder": "Purchase Order",
+    "supplier": "$t(common:supplier)",
+    "totalAmount": "Total amount",
+    "transactions": "Transactions",
+    "vatAmount": "VAT amount"
+  },
+  "flow_action_approve_by": {
+    "approvalType": "Approval type",
+    "approverUsers": "Assign to user",
+    "approverUsers_description": "Assign one or more approvers",
+    "assignAll": "Assign all",
+    "assignAll_description": "Assign all users with the approval permission",
+    "assigneePaths": "Assign to custom field",
+    "assigneePaths_description": "Assign one or more custom fields"
+  },
+  "flow_step_condition": {
+    "comparator": "Condition",
+    "inputAttribute": "Attribute",
+    "inputPath": "Input",
+    "inputPath_description": "Path to input value",
+    "referencePaths": "Reference paths",
+    "referencePaths_description": "One or more values to compare against",
+    "referenceValue": "Reference value",
+    "referenceValue_description": "Enter free text"
+  },
+  "invoice_payment": {
+    "messageToSupplier": "Message to supplier",
+    "scheduledPaymentDate": "Payment date"
+  },
+  "issuer_integration": {
+    "billingEntity": "Billing entity",
+    "cardUseInvoice": "Invoice",
+    "cardUseMulti": "Multi-use",
+    "cardUseMulti_short": "Multi",
+    "cardUseSingle": "Single-use",
+    "cardUseSingle_short": "Single",
+    "consumers": "Consumers",
+    "consumers_description": "Manage who should be able to issue virtual cards using integration. Access is inherited by users, organisation units and cost centres.",
+    "currency": "$t(common:currency)",
+    "description": "$t(common:description)",
+    "paymentType": "Payment type"
+  },
+  "issuer_integration_consumer": {
+    "cardUseInvoiceFallback": "invoice fallback",
+    "cardUseMultiFallback": "multi-use fallback",
+    "cardUseSingleFallback": "single-use fallback",
+    "consumerName": "$t(common:name)",
+    "fallback": "Fallback",
+    "fallback_description": "Allow the integration to be used as fallback if no other integrations matches criteria defined in rules.",
+    "invoiceFallback": "invoice fallback",
+    "multiFallback": "multi-use fallback",
+    "singleFallback": "single-use fallback"
+  },
+  "issuer_integration_rule": {
+    "criteria": "Match by",
+    "position": "Position",
+    "strict": "Strict",
+    "strict_description": "If set to false, the rule will be ignored if no matches are found.",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "localisation_settings": {
+    "displayInCurrency": "Display in currency",
+    "interfaceLanguage": "Interface language",
+    "timezone": "Timezone"
+  },
+  "location": {
+    "address": "$t(common:address)",
+    "name": "$t(common:name)"
+  },
+  "merchant": {
+    "address": "$t(common:address)",
+    "city": "$t(common:city)",
+    "companyName": "$t(common:company_name)",
+    "country": "$t(common:country)",
+    "createdAt": "$t(common:created_at)",
+    "establishedOn": "Established on",
+    "legalCorporateName": "Legal corporate name",
+    "merchantCategoryCode": "Merchant category code",
+    "merchantCategoryCode_abbr": "MCC",
+    "merchantName": "Merchant name",
+    "naicsCode": "Naics code",
+    "totalSpent": "$t(common:total_spent)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "notification_setting": {
+    "activityKey": "$t(common:activity)",
+    "email": "$t(common:email)",
+    "mobile": "Mobile",
+    "web": "Web"
+  },
+  "organisation_unit": {
+    "childUsersCount": "$t(interfaces:query.users)",
+    "childrenCount": "Sub-units",
+    "classification": "Unit type",
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "legalEntity": "Legal entity",
+    "locations": "$t(interfaces:query.locations)",
+    "name": "$t(common:name)",
+    "parentId": "Parent unit"
+  },
+  "payment_settings": {
+    "baseCurrency": "Base currency",
+    "baseCurrency_description": "The base currency is used throughout the application, including the request form"
+  },
+  "public_address": {
+    "city": "$t(common:city)",
+    "country": "$t(common:country)",
+    "postalCode": "$t(common:postal_code)",
+    "regionName": "$t(common:region)",
+    "streetAddress": "$t(common:street)"
+  },
+  "purchase_order": {
+    "approvedBaseAmount": "Approved amount",
+    "approverAmounts": "Approved by",
+    "createdAt": "$t(common:created_at)",
+    "documents": "$t(common:documents)",
+    "poNumber": "PO number",
+    "purchaseRequest": "Request",
+    "purchaseType": "Purchase type",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "requestedBy": "Requested by",
+    "title": "Subject",
+    "totalSpent": "$t(common:spent)",
+    "updatedAt": "$t(common:updated_at)",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "purchase_request": {
+    "createdAt": "Created at",
+    "items": "Items",
+    "requestedBy": "Requested by",
+    "subject": "Subject",
+    "submittedAt": "Requested at"
+  },
+  "purchase_request_item": {
+    "approvedBaseAmount": "Approved amount",
+    "description": "$t(common:description)",
+    "purchaseRequest": "Purchase request",
+    "purchaseType": "$t(interfaces:purchase_order.purchaseType)",
+    "requestedAmount": "Requested amount",
+    "requestedBaseAmount": "Requested base amount",
+    "status": "$t(common:status)",
+    "supplier": "$t(common:supplier)"
+  },
+  "query": {
+    "cardSubscriptions": "Subscriptions",
+    "categories": "Categories",
+    "categorySets": "Category sets",
+    "comments": "Comments",
+    "costCentres": "Cost centres",
+    "customFields": "Custom fields",
+    "dataSourceItems": "Data source items",
+    "dataSources": "Data sources",
+    "dataViewFields": "Data view fields",
+    "dataViews": "Data views",
+    "issuerIntegrationRules": "Issuer integration rules",
+    "issuerIntegrationRules_description": "An account can have one or more issuer integrations enabled for issuing virtual cards. Matching rules help to select the right issuer integration for a given scenario. Rules are applied in order relative to their position.",
+    "issuerIntegrations": "Issuer integrations",
+    "locations": "Locations",
+    "organisationUnits": "Organisation units",
+    "purchaseOrders": "Purchase orders",
+    "purchaseRequests": "Purchase requests",
+    "reportTemplates": "Report templates",
+    "reports": "Reports",
+    "suppliers": "Suppliers",
+    "transactions": "Transactions",
+    "users": "Users",
+    "virtualCards": "Virtual cards",
+    "workflows": "Workflows"
+  },
+  "range": {
+    "criterion": "Criterion",
+    "end": "Range end",
+    "start": "Range start"
+  },
+  "report": {
+    "createdAt": "$t(common:created_at)",
+    "exportFile": "$t(common:file)",
+    "reportTemplate": "Template"
+  },
+  "report_template": {
+    "dataView": "Data view",
+    "description": "$t(common:description)",
+    "exportFormat": "Export format",
+    "range": "Date range",
+    "schedule": "Schedule",
+    "title": "$t(common:title)"
+  },
+  "schedule": {
+    "definition": {
+      "interval": "Interval"
+    },
+    "endsAt": "Ends at",
+    "startsAt": "Starts at"
+  },
+  "single_use_card": {
+    "defaultTtlDays": "Default TTL",
+    "defaultTtlDays_description": "The default suggested expiration in days for new requests.",
+    "maxTtlDays": "Max TTL",
+    "maxTtlDays_description": "Maximum value that can be selected by a requester."
+  },
+  "spend_limit": {
+    "amount": "Limit",
+    "earlyWarningAmount": "Early warning amount",
+    "runningPeriodInDays": "Running period",
+    "scope": "Scope"
+  },
+  "transaction": {
+    "billedAmount": "Billed amount",
+    "createdAt": "Authorisation date",
+    "document": "Document",
+    "merchant": "Merchant",
+    "originalAmount": "Original amount",
+    "postingDate": "Posting date",
+    "purchaseOrder": "Purchase order",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "review": "Audit Review",
+    "transactionDate": "Transaction date",
+    "transactionId": "Transaction ID",
+    "transactionType": "Transaction type",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "user": {
+    "archived": "$t(common:archived)",
+    "currentSpend": "Spend",
+    "email": "$t(common:email)",
+    "firstName": "First name",
+    "fullName": "$t(common:name)",
+    "is2faEnabled": "2FA",
+    "is2faEnabled_description": "Use google authenticator app or similar",
+    "lastName": "Last name",
+    "location": "$t(common:location)",
+    "mobilePhone": "Mobile phone",
+    "organisationUnit": "Organisation unit",
+    "securityRoles": "Roles",
+    "status": "$t(common:status)"
+  },
+  "user_settings": {
+    "appearance": "Appearance",
+    "localisation": "Localisation",
+    "security": "Security"
+  },
+  "virtual_card": {
+    "actualExpiryDate": "Expiry date",
+    "actualLimit": "Limit",
+    "actualNameOnCard": "Name on card",
+    "cardNumberLastFour": "Card number",
+    "cardUseType": "Card type",
+    "issuedAt": "Issued at",
+    "issuedTo": "Issued to",
+    "issuerIntegration": "Issuer integration",
+    "purchaseOrder": "Purchase order",
+    "requestedLimit": "Requested limit",
+    "status": "$t(common:status)"
+  },
+  "workflow": {
+    "publishNotes": "Publish notes",
+    "versions": "Versions"
+  }
+}

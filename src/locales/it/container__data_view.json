@@ -1,0 +1,14 @@
+{
+  "create_report_modal": {
+    "file_format": "Formato del file",
+    "generating_report": "Generando report",
+    "report_generated": "Il report è in fase di generazione",
+    "select_date": "Seleziona data",
+    "send_notification": "Verrai notificato quando il report sarà pronto"
+  },
+  "generate_report_section": {
+    "description": "Crea un report basato su questi dati con data di inizio e data di fine personalizzate",
+    "generate_report": "Genera report",
+    "new_report": "Nuovo report"
+  }
+}

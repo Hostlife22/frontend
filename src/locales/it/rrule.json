@@ -1,0 +1,57 @@
+{
+  "definition": {
+    "bymonth": "In {{month}}",
+    "bymonthday": "Il",
+    "byweekday": "il",
+    "freq": "Ripete {{frequency}}",
+    "interval": "Ogni {{interval}}"
+  },
+  "errors": {
+    "ends_at": {
+      "must_be_in_future": "La data di fine non può essere nel passato ne prima della data di inizio"
+    },
+    "starts_at": {
+      "must_be_in_present_or_future": "La data di inizio non deve essere nel passato ne dopo la data di fine"
+    }
+  },
+  "frequency": {
+    "DAILY": "Quotidiano",
+    "MONTHLY": "Mensile",
+    "WEEKLY": "Settimanale",
+    "YEARLY": "Annuale"
+  },
+  "interval": {
+    "DAILY": "Giorno",
+    "DAILY_plural": "Giorni",
+    "MONTHLY": "Mese",
+    "MONTHLY_plural": "Mesi",
+    "WEEKLY": "Settimana",
+    "WEEKLY_plural": "Settimane",
+    "YEARLY": "Anno",
+    "YEARLY_plural": "Anni"
+  },
+  "month": [
+    null,
+    "Gennaio",
+    "Febbraio",
+    "Marzo",
+    "Aprile",
+    "Maggio",
+    "Giugno",
+    "Luglio",
+    "Agosto",
+    "Settembre",
+    "Ottobre",
+    "Novembre",
+    "Dicembre"
+  ],
+  "weekday": {
+    "FR": "Venerdì",
+    "MO": "Lunedì",
+    "SA": "Sabato",
+    "SU": "Domenica",
+    "TH": "Giovedì",
+    "TU": "Martedì",
+    "WE": "Mercoledì"
+  }
+}

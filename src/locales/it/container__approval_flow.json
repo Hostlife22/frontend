@@ -1,0 +1,56 @@
+{
+  "approval_flow_editor": {
+    "add_step": "Aggiungi step",
+    "ports_validator": {
+      "input_is_connected": "La porta di entrata è collegata",
+      "input_must_be_connected": "La porta di entrata deve essere collegata",
+      "port_can_be_disconnected": "La porta {{port}} può essere disconnessa",
+      "port_is_connected": "La porta {{port}} è connessa",
+      "port_must_be_connected": "La porta {{port}} deve essere collegata"
+    },
+    "publishDescription": "Si prega di confermare la pubblicazione. Non può essere annullata",
+    "publishTitle": "Pubblica flusso di approvazione",
+    "publish_changes": "Pubblica modifiche",
+    "publish_notes_placeholder": "Si prega di descrivere le modifiche apportate e il motivo",
+    "start": "Richiesta di acquisto inviata"
+  },
+  "approve_by_node": {
+    "assign_all": {
+      "ALL": "Ottieni l'approvazione da TUTTI gli utenti con il permesso di approvazione",
+      "ANY": "Ottieni approvazione da QUALSIASI utente con diritto di approvazione"
+    },
+    "fieldLabelAssignees": "Assegnatari",
+    "title": {
+      "ALL": "Ottieni l'approvazione da TUTTI",
+      "ANY": "Ottieni l'approvazione da QUALSIASI"
+    }
+  },
+  "formal_rules": {
+    "a": "Il flusso deve avere come minimo: (i) un'approvazione automatica, (ii) un rifiuto automatico, e (iii) una condizione di approvazione o una condizione di attributo di input.",
+    "b": "Un step deve essere il primo, può essere di qualsiasi tipo tranne che per il rifiuto automatico e l'emissione di carte virtuali.",
+    "c": "Tutte le porte devono essere collegate, ad eccezione delle porte di uscita degli ultimi passaggi.",
+    "d": "Il flusso deve avere due o più passaggi finali che possono essere di approvazione automatica, di rifiuto automatico, o di emissione di una carta virtuale.",
+    "e": "Una porta di uscita può essere collegata con una porta di entrata ",
+    "f": "Una porta di entrata può avere connessioni con più di una porta di uscita ",
+    "g": "Due passaggi possono avere una sola connessione, direttamente o tramite altri passaggi",
+    "h": "Questo step non può connettersi con se stesso (nessuna relazione circolare).",
+    "i": "Un passaggio condizionale come \"Condizione\" o \"Approvato da\" può avere una sola porta di uscita per un passaggio di modifica automatica dello stato di un tipo specifico, in altre parole solo un'approvazione automatica e un solo rifiuto automatico, se presente.",
+    "j": "Tutti i campi in un flusso devono essere impostati.",
+    "k": "Le porte di uscita di approvazione automatica si possono solo collegare a \" emissione carta singola\"",
+    "l": "La porta di entrata dell'emissione della carta virtuale può essere collegata solo con l'approvazione automatica."
+  },
+  "node": {
+    "footer": {
+      "false": "Falso",
+      "output": "Porta di uscita ",
+      "true": "Vero"
+    }
+  },
+  "validation": {
+    "subtitle": "I seguenti problemi devono essere risolti prima di poter pubblicare una nuova versione.",
+    "title": "Validazione"
+  },
+  "versions": {
+    "description": "Le modifiche a un flusso di lavoro devono essere pubblicate prima che esso possa essere attivato."
+  }
+}

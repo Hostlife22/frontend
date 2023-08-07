@@ -1,0 +1,18 @@
+{
+  "countable_users_to_invite": "{{ count }} user ready to be invited",
+  "countable_users_to_invite_plural": "{{ count }} users ready to be invited",
+  "description": "Draft users can be used in configuration but will not have access to the account before they are invited",
+  "invite_all": "Invite all",
+  "modal": {
+    "countable_invited_users_number": "Invitation will be sent to {{ count }} user",
+    "countable_invited_users_number_plural": "Invitations will be sent to {{ count }} users",
+    "send_invitations": "Send invitations",
+    "title": "Invite draft users"
+  },
+  "reset_filter": "Reset filter",
+  "toasts": {
+    "invite_users_success": "{{count}} user has been invited",
+    "invite_users_success_plural": "{{count}} users have been invited"
+  },
+  "view_all": "View all"
+}

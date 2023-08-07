@@ -1,0 +1,17 @@
+{
+  "form": {
+    "initial_comment": {
+      "label": "Hva rapporterer du?",
+      "placeholder": "Beskriv problemet"
+    },
+    "subscribers": {
+      "options": {
+        "approvers": "Godkjennere",
+        "requester": "Forespørrer"
+      },
+      "title": "Start samtale med"
+    }
+  },
+  "submit_button": "Send inn rapport",
+  "title": "Rapporter problem"
+}

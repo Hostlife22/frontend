@@ -1,0 +1,56 @@
+{
+  "invitation_sidebar": {
+    "body": {
+      "invite": {
+        "company": {
+          "change_company": "Muuda",
+          "description": "Vastab käibemaksukohuslase numbrile",
+          "title": "Tarnija"
+        },
+        "forms": {
+          "add_supplier": {
+            "description": "<b>{{ who }}</b> on juba Mazepays ja on lubatud makseteks.",
+            "submit": "Lisa tarnija"
+          },
+          "invite_supplier": {
+            "contact": {
+              "description": "Kellele peaksime kutse saatma?",
+              "fields": {
+                "message": "Isiklik sõnum",
+                "phone": "Telefon"
+              },
+              "title": "Kontakt"
+            },
+            "submit": "Kutsu tarnija"
+          }
+        }
+      },
+      "lookup": {
+        "description": "Otsige tarnijat riigi ja käibemaksukohustuslase numbri järgi",
+        "search_result": {
+          "empty": "Sellele käibemaksule ei leitud vasteid",
+          "subtitle": "Vastab käibemaksukohuslase numbriga",
+          "title": "Valige tarnija"
+        },
+        "submit": "Otsi",
+        "title": "käibemaksukohustuslase number"
+      },
+      "success": {
+        "actions": {
+          "invite_more": "Kutsuge rohkem"
+        },
+        "add_supplier": {
+          "description": "Saate alustada arvete tasumisega koheselt.",
+          "title": "{{ who }} lisas"
+        },
+        "invite_supplier": {
+          "description": "{{ who }} saab meili lingiga liitumise lõpetamiseks.",
+          "title": "{{ who }} kutsus"
+        }
+      }
+    },
+    "header": {
+      "title": "Lisa tarnija"
+    }
+  }
+}

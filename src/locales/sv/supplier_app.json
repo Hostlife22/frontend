@@ -1,0 +1,40 @@
+{
+  "alerts": {
+    "bank_account_missing": {
+      "button": "Konfigurera bankkonto",
+      "description": "För att kunna ta emot betalningar måste du skapa och verifiera ditt företags bankkonto",
+      "title": "Konfigurera bankkonto för utbetalningar"
+    },
+    "iban_verification_warning": {
+      "body": {
+        "line1": "För att verifiera att detta konto ägs av {{ who }}, måste du skicka en transaktion med det minsta belopp som din bank tillåter till följande bankkonto.",
+        "line2": "Detta gör det möjligt för oss att jämföra kontoinnehavarens namn med namnet på ditt företag."
+      },
+      "title": "Verifiera ägande"
+    },
+    "review_in_progress": {
+      "description": "Din ansökan granskas för närvarande av Mazepays onboarding team. Om du har några frågor, vänligen kontakta info@mazepay.com",
+      "title": "Granskning pågår"
+    }
+  },
+  "bank_accounts": {
+    "description": "Betalningarna som görs till dig av köpare på Mazepay-plattformen kommer att betalas ut till ditt bankkonto automatiskt",
+    "verification_status": {
+      "false": "Väntar på verifiering",
+      "true": "$t(common:verified)"
+    }
+  },
+  "modals": {
+    "add_bank_account": {
+      "body": {
+        "description": "Lägg till ett bankkonto för att ta emot betalningar från dina köpare. Kontot måste ägas av ditt företag.",
+        "submit": "Lägg till bankkonto",
+        "verify_ownership": {
+          "description": "När kontot läggs till måste ägarskapet verifieras. Se instruktioner efter att du har lagt till kontot.",
+          "title": "Verifierar ägande"
+        }
+      },
+      "title": "Nytt bankkonto"
+    }
+  }
+}

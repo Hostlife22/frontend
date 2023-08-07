@@ -1,0 +1,56 @@
+{
+  "invitation_sidebar": {
+    "body": {
+      "invite": {
+        "company": {
+          "change_company": "Änderung",
+          "description": "Abgestimmt mit der Umsatzsteuer-Identifikationsnummer",
+          "title": "Lieferant"
+        },
+        "forms": {
+          "add_supplier": {
+            "description": "<b>{{ who }}</b> ist bereits auf Mazepay und für Rechnungszahlungen aktiviert.",
+            "submit": "Lieferant hinzufügen"
+          },
+          "invite_supplier": {
+            "contact": {
+              "description": "An wen sollen wir die Einladung schicken?",
+              "fields": {
+                "message": "Persönliche Nachricht",
+                "phone": "Telefon"
+              },
+              "title": "Kontakt"
+            },
+            "submit": "Lieferanten einladen"
+          }
+        }
+      },
+      "lookup": {
+        "description": "Suchen Sie nach Lieferanten nach Land und Umsatzsteuer-Identifikationsnummer",
+        "search_result": {
+          "empty": "Für diese Umsatzsteuer-Identifikationsnummer wurden keine Übereinstimmungen gefunden",
+          "subtitle": "Abgestimmt mit der Umsatzsteuer-Identifikationsnummer",
+          "title": "Lieferanten auswählen"
+        },
+        "submit": "Suche",
+        "title": "Umsatzsteuer-Identifikationsnummer"
+      },
+      "success": {
+        "actions": {
+          "invite_more": "Mehr einladen"
+        },
+        "add_supplier": {
+          "description": "Sie können sofort mit Rechnungszahlungen beginnen.",
+          "title": "{{ who }} hinzugefügt"
+        },
+        "invite_supplier": {
+          "description": "{{ who }} erhält eine E-Mail mit einem Link, um das Onboarding abzuschließen.",
+          "title": "{{ who }} eingeladen"
+        }
+      }
+    },
+    "header": {
+      "title": "Lieferant hinzufügen"
+    }
+  }
+}

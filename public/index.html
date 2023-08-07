@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <style>
+      body {
+        background: #efeff4;
+      }
+      #root {
+        z-index: 2;
+        position: relative;
+      }
+      #modal-root {
+        z-index: 1000;
+        position: relative;
+      }
+      .spinner_outer {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 32px;
+        background: white;
+      }
+      .spinner {
+        box-sizing: border-box;
+        border: 2px solid #b6b6b6;
+        border-top-color: transparent;
+        border-radius: 50%;
+        height: 16px;
+        width: 16px;
+        animation: spinner 1200ms linear infinite;
+      }
+
+      @keyframes spinner {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Mazepay</title>
+    <script type="text/javascript">
+      window.APP_RC = {
+        admin_host: '%REACT_APP_ADMIN_HOST%',
+        api_base_url: '%REACT_APP_API_BASE_URL%',
+        appsignal_token: '%REACT_APP_APPSIGNAL_TOKEN%',
+        env: '%REACT_APP_ENV%',
+        git_sha: '%REACT_APP_GIT_SHA%',
+        graphql_url: '%REACT_APP_GRAPHQL_URL%',
+        intercom_api_base: '%REACT_APP_INTERCOM_API_BASE%',
+        intercom_app_id: '%REACT_APP_INTERCOM_APP_ID%',
+        oauth_client_id: '%REACT_APP_OAUTH_CLIENT_ID%',
+        websocket_base_url: '%REACT_APP_WEBSOCKET_BASE_URL%',
+      };
+    </script>
+  </head>
+  <body class="theme-light">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="modal-root"></div>
+    <div class="spinner_outer">
+      <svg width="156px" height="21px" viewBox="0 0 154 21">
+        <path
+          fill="#b6b6b6"
+          d="M63.8926333,1.21792727 L63.8926333,2.49829091 L56.8259667,15.2692 C56.7193,15.4830182 56.3903,16.0739273 55.8393,17.0437455 C56.2479667,17.0244727 56.8169667,17.0146545 57.5459667,17.0146545 L63.9193,17.0146545 L63.9193,21.0001091 L50.1859667,21.0001091 L50.1859667,19.7201091 L57.0926333,7.21101818 L57.3859667,6.65829091 L58.2393,5.17465455 C57.8600407,5.19178586 57.3122218,5.20144691 56.5958432,5.20338232 L50.6126333,5.20374545 L50.6126333,1.21792727 L63.8926333,1.21792727 Z M5.07855556,1.10138182 L10.7496667,9.77083636 C11.1777937,10.4304727 11.5783333,11.0992 11.9509365,11.7784727 C12.3231905,11.0992 12.7237302,10.4304727 13.1522063,9.77083636 L18.8233175,1.10138182 L20.0525238,1.10138182 L22.9020476,20.9999273 L18.8233175,20.9999273 L17.5382381,11.8362909 C17.4264921,11.1192 17.3426825,10.4690182 17.2868095,9.88683636 C17.0259524,10.3530182 16.6442698,10.9635636 16.1414127,11.7199273 L12.3420476,17.4799273 L11.5318889,17.4799273 L7.76046032,11.7199273 C7.23874603,10.9250182 6.84763492,10.2755636 6.58712698,9.77083636 C6.53125397,10.3719273 6.44744444,11.0701091 6.33569841,11.8653818 L5.07855556,20.9999273 L0.999825397,20.9999273 L3.84934921,1.10138182 L5.07855556,1.10138182 Z M37.1333333,1 L46,19.9165447 L46,20 L41.7043478,20 L40.4376812,17.0512445 L32.5898551,17.0512445 L31.2956522,20 L27,20 L27,19.9165447 L35.8942029,1 L37.1333333,1 Z M83.7589286,1 L83.7589286,4.60441176 L75.9642857,4.60441176 L75.9642857,8.65588235 L82.7678571,8.65588235 L82.7678571,12.1485294 L75.9642857,12.1485294 L75.9642857,16.3955882 L84,16.3955882 L84,20 L72,20 L72,1 L83.7589286,1 Z M99.4592445,1 C100.776441,1 101.931511,1.28465074 102.924453,1.85255515 C103.9167,2.42080882 104.677932,3.18430147 105.206759,4.14338235 C105.735586,5.10316176 106,6.16003676 106,7.31470588 C106,8.47007353 105.735586,9.51786765 105.206759,10.4580882 C104.677932,11.3990074 103.9167,12.1443382 102.924453,12.6937316 C101.931511,13.2434743 100.767396,13.5176471 99.4314115,13.5176471 L96.1192843,13.5176471 L96.1192843,20 L92,20 L92,1 L99.4592445,1 Z M118.133333,1 L127,19.9165447 L127,20 L122.704348,20 L121.437681,17.0512445 L113.589855,17.0512445 L112.295652,20 L108,20 L108,19.9165447 L116.894203,1 L118.133333,1 Z M130.733858,1 L133.68189,5.88970588 C134.172992,6.72794118 134.617323,7.57595588 135.014173,8.43235294 C135.335197,7.65034926 135.760394,6.80268382 136.289764,5.88970588 L139.266142,1 L144,1 L144,1.08382353 L137.08311,11.9529412 L137.08311,20 L132.888189,20 L132.888189,11.9529412 L126,1.08382353 L126,1 L130.733858,1 Z M36.5,7.42606149 C36.0597645,8.72448755 35.6188406,9.87408492 35.1782609,10.875549 L33.8014493,13.991563 L39.1985507,13.991563 L37.8217391,10.875549 C37.3994022,9.85600293 36.9588225,8.7057101 36.5,7.42606149 Z M117.5,7.42606149 C117.05942,8.72448755 116.618841,9.87408492 116.178261,10.875549 L114.801449,13.991563 L120.198551,13.991563 L118.821739,10.875549 C118.399058,9.85600293 117.958822,8.7057101 117.5,7.42606149 Z M98.9025845,4.52058824 L96.1192843,4.52058824 L96.1192843,10.0529412 L98.8469185,10.0529412 C99.8301193,10.0529412 100.577087,9.79238971 101.087475,9.27058824 C101.597515,8.74948529 101.852883,8.09705882 101.852883,7.31470588 C101.852883,6.49533088 101.588469,5.82509191 101.059642,5.30294118 C100.530815,4.78183824 99.811332,4.52058824 98.9025845,4.52058824 Z M152,0 C152.567568,0 153.078931,0.150613667 153.533784,0.450780342 C153.988329,0.752007677 154.346437,1.16884691 154.608108,1.70306581 C154.869472,2.23728471 155,2.8312541 155,3.48426688 C155,4.14788626 154.869472,4.74715895 154.608108,5.28102429 C154.346437,5.81559675 153.988329,6.23526441 153.533784,6.54144149 C153.078931,6.84726501 152.567568,7 152,7 C151.441339,7 150.932432,6.84726501 150.472973,6.54144149 C150.013514,6.23526441 149.652948,5.81559675 149.391892,5.28102429 C149.130528,4.74715895 149,4.14788626 149,3.48426688 C149,2.8312541 149.130528,2.24011314 149.391892,1.71119754 C149.652948,1.18228193 150.013514,0.764735593 150.472973,0.458558513 C150.932432,0.152734987 151.441339,0 152,0 Z M152,0.746350826 C151.567568,0.746350826 151.173219,0.865851811 150.817568,1.10414667 C150.461609,1.34314864 150.179975,1.67195313 149.972973,2.0923279 C149.765356,2.51199556 149.662162,2.97621092 149.662162,3.48426688 C149.662162,4.00292944 149.765356,4.47492298 149.972973,4.89989393 C150.179975,5.32521845 150.461609,5.66003334 150.817568,5.90327794 C151.173219,6.1468761 151.567568,6.26885196 152,6.26885196 C152.441339,6.26885196 152.839988,6.1468761 153.195946,5.90327794 C153.551904,5.66003334 153.833231,5.32521845 154.040541,4.89989393 C154.247543,4.47492298 154.351351,4.00292944 154.351351,3.48426688 C154.351351,2.97621092 154.247543,2.51199556 154.040541,2.0923279 C153.833231,1.67195313 153.551904,1.34314864 153.195946,1.10414667 C152.839988,0.865851811 152.441339,0.746350826 152,0.746350826 Z M152.256757,1.77306935 C152.535934,1.77306935 152.765663,1.86923582 152.945946,2.06121521 C153.125921,2.25319461 153.216216,2.49926764 153.216216,2.80014142 C153.216216,3.05929592 153.148649,3.27425628 153.013514,3.44572958 C152.878378,3.61649578 152.698096,3.72326885 152.472973,3.76428102 L153.297297,5.14879539 L152.662162,5.14879539 L151.891892,3.79539371 L151.486486,3.79539371 L151.486486,5.14879539 L150.959459,5.14879539 L150.959459,1.77306935 L152.256757,1.77306935 Z M152.202703,2.30198495 L151.486486,2.30198495 L151.486486,3.26683166 L152.202703,3.26683166 C152.346744,3.26683166 152.464066,3.22263751 152.554054,3.1342492 C152.644042,3.04656801 152.689189,2.92989545 152.689189,2.78423153 C152.689189,2.64952775 152.644042,2.53568362 152.554054,2.44234557 C152.464066,2.34865397 152.346744,2.30198495 152.202703,2.30198495 Z"
+        ></path>
+      </svg>
+      <div class="spinner"></div>
+    </div>
+    <script>
+      if (typeof Cypress === 'undefined') {
+        var APP_ID = "%REACT_APP_INTERCOM_APP_ID%";
+
+        window.intercomSettings = {
+          app_id: APP_ID,
+          api_base: "%REACT_APP_INTERCOM_API_BASE%",
+          custom_launcher_selector: '#intercom',
+          hide_default_launcher: true,
+        };
+
+        if (APP_ID.trim().length && !APP_ID.startsWith('%')) {
+          (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+        }
+      }
+      try {
+        ['access_token', 'expiry_date', 'refresh_token'].forEach(item => localStorage.removeItem(item));
+      } catch(e) {/* bravely omitted */}
+    </script>
+  </body>
+</html>

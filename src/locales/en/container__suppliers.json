@@ -1,0 +1,59 @@
+{
+  "invitation_sidebar": {
+    "body": {
+      "invite": {
+        "company": {
+          "change_company": "Change",
+          "description": "Matched by VAT number",
+          "title": "Supplier"
+        },
+        "forms": {
+          "add_supplier": {
+            "description": "<b>{{ who }}</b> is already on Mazepay and enabled for invoice payments.",
+            "submit": "Add supplier"
+          },
+          "invite_supplier": {
+            "contact": {
+              "description": "Who should we send the invitation to?",
+              "fields": {
+                "email": "$t(common:email)",
+                "message": "Personal message",
+                "name": "$t(common:name)",
+                "phone": "Phone"
+              },
+              "title": "Contact"
+            },
+            "submit": "Invite supplier"
+          }
+        }
+      },
+      "lookup": {
+        "description": "Look up supplier by country and VAT number",
+        "search_result": {
+          "empty": "No matches were found for this VAT",
+          "subtitle": "Matched by VAT number",
+          "title": "Select supplier"
+        },
+        "submit": "Search",
+        "title": "VAT number"
+      },
+      "success": {
+        "actions": {
+          "close": "$t(common:close)",
+          "invite_more": "Invite more"
+        },
+        "add_supplier": {
+          "description": "You can start making invoice payments immediately.",
+          "title": "{{ who }} added"
+        },
+        "invite_supplier": {
+          "description": "{{ who }} will receive an email with a link to complete the onboarding.",
+          "title": "{{ who }} invited"
+        }
+      }
+    },
+    "header": {
+      "title": "Add supplier"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "content": {
+    "nothing_selected": "Rien de sélectionné"
+  },
+  "navbar": {
+    "by": "Par {{ who }}",
+    "no_search_results": "Pas de résultat",
+    "nothing_to_approve": "Rien à approuver"
+  }
+}

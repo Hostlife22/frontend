@@ -1,0 +1,56 @@
+{
+  "invitation_sidebar": {
+    "body": {
+      "invite": {
+        "company": {
+          "change_company": "Changer",
+          "description": "Correspondance par numéro de TVA",
+          "title": "Fournisseur"
+        },
+        "forms": {
+          "add_supplier": {
+            "description": "<b>{{ who }}</b> est déjà sur Mazepay et activé pour le paiement des factures.",
+            "submit": "Ajouter un fournisseur"
+          },
+          "invite_supplier": {
+            "contact": {
+              "description": "À qui devons-nous envoyer l'invitation?",
+              "fields": {
+                "message": "Message personnel",
+                "phone": "Téléphone"
+              },
+              "title": "Contact"
+            },
+            "submit": "Invitez le fournisseur"
+          }
+        }
+      },
+      "lookup": {
+        "description": "Rechercher un fournisseur par pays et numéro de TVA",
+        "search_result": {
+          "empty": "Aucune correspondance n'a été trouvée pour cette TVA",
+          "subtitle": "Correspondance par numéro de TVA",
+          "title": "Sélectionnez le fournisseur"
+        },
+        "submit": "Chercher",
+        "title": "Numéro de TVA"
+      },
+      "success": {
+        "actions": {
+          "invite_more": "Inviter plus"
+        },
+        "add_supplier": {
+          "description": "Vous pouvez commencer à payer vos factures immédiatement.",
+          "title": "{{ who }} ajouté"
+        },
+        "invite_supplier": {
+          "description": "{{ who }} recevra un e-mail avec un lien pour terminer l'onboarding",
+          "title": "{{ who }} invité"
+        }
+      }
+    },
+    "header": {
+      "title": "Ajouter un fournisseur"
+    }
+  }
+}

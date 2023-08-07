@@ -1,0 +1,136 @@
+{
+  "__typename": {
+    "Category": "kategori",
+    "CategorySet": "kategori sæt",
+    "Comment": "kommentar",
+    "CostCentre": "omkostningssted",
+    "DataSource": "datakilde",
+    "DataSourceItem": "datakildeelement",
+    "DataView": "datavisning",
+    "DataViewField": "datavisningsfelt",
+    "Document": "dokument",
+    "Location": "beliggenhed",
+    "PurchaseOrder": "indkøbsordre",
+    "ReportTemplate": "rapport skabelon",
+    "SpendLimit": "forbrugsgrænse",
+    "Transaction": "transaktion",
+    "User": "bruger",
+    "VirtualCard": "virtuelt kort"
+  },
+  "address": {
+    "streetName": "Gadenavn",
+    "streetNumber": "Nummer"
+  },
+  "appearance_settings": {
+    "theme_description": "Forlænget batterilevetid og reduceret blålys fra skærm"
+  },
+  "attachment": {
+    "byteSize": "Størrelse"
+  },
+  "buyer_account": {
+    "accountType": "Konto type",
+    "createdAt": "Aktiv siden",
+    "publicPhone": "Telefon"
+  },
+  "create_user_input_attributes": {
+    "personalInvitationMessage": "Personlig invitation"
+  },
+  "data_source_item": {
+    "dataSource": "Datakilde"
+  },
+  "data_view": {
+    "resourceType": "Ressource"
+  },
+  "document": {
+    "classification": "Dokumenttype",
+    "createdBy": "Tilføjet af",
+    "purchaseOrder": "Købsordre",
+    "totalAmount": "Samlet beløb",
+    "vatAmount": "Moms beløb"
+  },
+  "localisation_settings": {
+    "displayInCurrency": "Vis i valuta",
+    "interfaceLanguage": "Brugerflade sprog",
+    "timezone": "Tidszone"
+  },
+  "merchant": {
+    "establishedOn": "Etableret den",
+    "legalCorporateName": "Firmanavn",
+    "merchantCategoryCode": "MCC (Merchant Category Code)",
+    "merchantName": "Navn",
+    "naicsCode": "Naics kode"
+  },
+  "notification_setting": {
+    "web": "I app"
+  },
+  "organisation_unit": {
+    "classification": "Enhedstype",
+    "legalEntity": "Juridisk entitet"
+  },
+  "purchase_order": {
+    "approvedBaseAmount": "Godkendt beløb",
+    "poNumber": "PO nummer ",
+    "purchaseRequest": "Anmodning",
+    "purchaseType": "Købstype",
+    "requestedBy": "Anmodning oprettet af ",
+    "title": "Emne"
+  },
+  "purchase_request": {
+    "createdAt": "Anmodet fra",
+    "requestedBy": "Anmodet af",
+    "subject": "Emne"
+  },
+  "purchase_request_item": {
+    "approvedBaseAmount": "Godkendt beløb",
+    "purchaseRequest": "Purchase request (indkøbsanmodning)",
+    "requestedAmount": "Anmodet beløb",
+    "requestedBaseAmount": "Anmodet grundbeløb"
+  },
+  "query": {
+    "locations": "Lokationer"
+  },
+  "report": {
+    "createdAt": "Oprettet fra",
+    "reportTemplate": "Skabelon"
+  },
+  "spend_limit": {
+    "amount": "Grænse",
+    "earlyWarningAmount": "Tidlig varslingsgrænse ",
+    "runningPeriodInDays": "Løbende periode",
+    "scope": "Omfang"
+  },
+  "transaction": {
+    "billedAmount": "Faktureret beløb ",
+    "createdAt": "Godkendt dato",
+    "document": "Dokument",
+    "originalAmount": "Beløb",
+    "review": "Revisionsgennemgang",
+    "transactionDate": "Dato",
+    "transactionId": "Transaktions ID",
+    "transactionType": "Transaktionstype"
+  },
+  "user": {
+    "currentSpend": "Forbrug",
+    "firstName": "Fornavn",
+    "fullName": "Navn",
+    "is2faEnabled": "2-faktor godkendelse",
+    "is2faEnabled_description": "Brug google authenticator eller tilsvarende app",
+    "lastName": "Efternavn",
+    "location": "Lokation",
+    "mobilePhone": "Mobiltelefon",
+    "organisationUnit": "Organisationsenhed",
+    "securityRoles": "Tilladelser",
+    "status": "Status"
+  },
+  "user_settings": {
+    "appearance": "Udseende",
+    "localisation": "Lokalisering",
+    "security": "Sikkerhed"
+  },
+  "virtual_card": {
+    "actualNameOnCard": "Kortholders navn",
+    "cardNumberLastFour": "Kortnummer",
+    "issuedAt": "Udstedt",
+    "status": "Status"
+  }
+}

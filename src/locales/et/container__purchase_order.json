@@ -1,0 +1,18 @@
+{
+  "document_dropzone": "Kas teil on kviitung, kuid tehingut pole veel tehtud? Selle siia lisamiseks klõpsake või kukutage.",
+  "line_items": {
+    "goods_received": {
+      "question": "Kaup käes?",
+      "statement": "Kaup kätte saadud <0>{{date}}</0>"
+    }
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} puudub kviitung",
+    "countable_missing_receipts_plural": "{{ count }} puuduvat kviitungit",
+    "ignored_by": "Puuduv kviitung on ignoreeritud <0>{{who}}</0>",
+    "mark_as_review_approved": "Märgi arvustus heakskiidetuks"
+  },
+  "virtual_card": {
+    "open_preview": "Vaadake kaardi üksikasju"
+  }
+}

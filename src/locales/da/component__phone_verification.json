@@ -1,0 +1,31 @@
+{
+  "buttons": {
+    "change_phone": "Skift telefonnummer",
+    "generate_code": "Send bekræftelseskode",
+    "resend_code": "Gensend kode"
+  },
+  "code_expiry_status": {
+    "expired": "Udløbet",
+    "will_expire": "Vil udløbe <0></0>"
+  },
+  "code_status": {
+    "expired": "En bekræftelseskode er udløbet",
+    "sent": "En bekræftelseskode blev sendt til din telefon"
+  },
+  "fields": {
+    "code": {
+      "label": "Indtast bekræftelseskode",
+      "placeholder": "Indtast kode"
+    },
+    "phone": {
+      "error": "Indtast mobiltelefon",
+      "label": "Telefonnummer",
+      "placeholder": "Indtast telefonnummer"
+    }
+  },
+  "header": {
+    "add_phone": "Tilføj mobiltelefon",
+    "change_phone": "Skift telefonnummer"
+  },
+  "subtitle": "Virtuelle kort deles med dig via SMS. Bekræft venligst dit telefonnummer for at anmode om køb."
+}

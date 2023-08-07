@@ -1,0 +1,6 @@
+{
+  "create_user": {
+    "invitation_toggle_description": "Om inaktiverad kommer användaren att skapas med utkaststatus",
+    "invitation_toggle_label": "Skicka inbjudan till användaren"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "about": "Tietoja",
+  "account": "Tili",
+  "active": "Aktiivinen",
+  "activity": "Toiminta",
+  "add_existing": "lisää olemassa oleva",
+  "add_resource": "Lisää {{resource}}",
+  "add_subcategory": "lisää alaluokka",
+  "add_subunit": "lisää alaosasto",
+  "added_at": "lisätty",
+  "added_by": "lisännyt",
+  "address": "osoite",
+  "amount": "määrä",
+  "approve": "Hyväksyä",
+  "archive": "Arkisto",
+  "archived": "Arkistoitu",
+  "archived_boolean": {
+    "false": "$t(common:active)",
+    "true": "$t(common:archived)"
+  },
+  "back": "Takaisin",
+  "back_to": "Takaisin {{what}}",
+  "cancel": "Peruuttaa",
+  "card_lifetime": "Kortin voimassaolo",
+  "categorisation": "Luokittelu",
+  "category": "Kategoria",
+  "city": "Kaupunki",
+  "close": "Sulkea",
+  "code": "Koodi",
+  "comments": {
+    "new_comment_placeholder": "Kirjoita viesti",
+    "no_comments": "Ei ole kommentteja"
+  },
+  "company": "Yhtiö",
+  "company_name": "Yhtiön nimi",
+  "confirm": "Hyväksyä",
+  "contact": "Yhteystiedot",
+  "copy__tooltip_copied": "Kopioitu",
+  "copy__tooltip_copy": "Kopioi",
+  "country": "Maa",
+  "filters": {
+    "archived": {
+      "NO": "$t(common:active)",
+      "YES": "$t(common:archived)"
+    },
+    "disabled": {
+      "NO": "$t(common:enabled)",
+      "YES": "$t(common:disabled)"
+    }
+  },
+  "notifications": "Ilmoitukset",
+  "postal_code": "Postinumero",
+  "preferences": "Asetukset",
+  "verified": "Vahvistettu"
+}

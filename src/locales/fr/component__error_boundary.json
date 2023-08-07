@@ -1,0 +1,29 @@
+{
+  "common_errors": {
+    "application_updated": {
+      "description": "Une nouvelle version a été publiée. Veuillez actualiser la page.",
+      "reset_button": "Rafraîchis la page",
+      "title": "Application mise à jour"
+    },
+    "forbidden": {
+      "description": "La ressource que tu es en train de chercher est interdite.",
+      "title": "Interdit"
+    },
+    "not_found": {
+      "description": "Désolé, il semble que la page que tu est en train de chercher n'existe pas.",
+      "title": "Pas trouvé"
+    },
+    "unknown_error": {
+      "description": "Désolé pour l'inconvénient ",
+      "reset_button": "Reviens à l'accueil ",
+      "title": "Quelque chose ne va pas "
+    }
+  },
+  "node_provider": {
+    "errors": {
+      "forbidden": "Désolé, il semble que vous n'êtes pas autorisé à voir {{ what }}.",
+      "not_found": "Désolé, il semble que {{ what }} ce que vous recherchez n'existe pas."
+    },
+    "sidebar_reset_button": "Fermer barre latérale"
+  }
+}

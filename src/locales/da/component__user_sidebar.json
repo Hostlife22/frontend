@@ -1,0 +1,6 @@
+{
+  "create_user": {
+    "invitation_toggle_description": "Hvis deaktiveret vil brugeren blive oprettet med kladdestatus",
+    "invitation_toggle_label": "Send invitation til bruger"
+  }
+}

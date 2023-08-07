@@ -1,0 +1,83 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Ultimo salvataggio <0>{{time}}</0>",
+        "unsaved": "Non salvato"
+      },
+      "title": "Bozza"
+    },
+    "start_new": "Avvia una nuova richiesta",
+    "subtitle": "Le nuove richieste di acquisto vengono salvate automaticamente come bozze finché non vengono inviate o eliminate.",
+    "title": "Bozze"
+  },
+  "item_count": "Elementi",
+  "item_form": {
+    "add_item": "Aggiungi articolo",
+    "update_item": "Aggiorna articolo"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Richiedi la pre-approvazione per un acquisto con fattura"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "La carta virtuale multiuso verrà emessa per l'acquisto dei seguenti articoli"
+    },
+    "WEBSHOP": {
+      "subtitle": "La carta monouso verrà emesse per l'acquisto dei seguenti articoli"
+    },
+    "add_item": "Aggiungi articolo",
+    "amount": "Importo totale della carta"
+  },
+  "make_request": "Fai una richiesta",
+  "no_purchase_types": {
+    "subtitle": "Nessun tipo di acquisto è stato ancora abilitato per questo account. Si prega di contattare il proprio amministratore.",
+    "title": "Tipi di acquisto non disponibili"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "effettua un acquisto con fattura da un fornitore sulla piattaforma Mazepay",
+      "subtitle": "Pagamento unico"
+    },
+    "SUBSCRIPTION": {
+      "description": "ottieni una carta virtuale multiuso per più pagamenti in un unico negozio online",
+      "subtitle": "abbonamenti e pagamenti ricorrenti"
+    },
+    "WEBSHOP": {
+      "description": "ottieni una carta virtuale monouso per effettuare un acquisto online",
+      "subtitle": "pagamento unico"
+    }
+  },
+  "purchase_type_cards": {
+    "disabled_card_tooltip": "Inserisci un oggetto prima di aggiungere articoli",
+    "select_purchase_type": "Seleziona il tipo di acquisto",
+    "tab": "Aggiungi articoli"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Inserisci una descrizione generale della richiesta di acquisto"
+    }
+  },
+  "sidebar": {
+    "policies": "Politiche di approvvigionamento",
+    "requested_amount_tip": "L'importo richiesto dovrebbe includere anche i potenziali costi di spedizione o altre spese.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "Pagamento unico"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Carta virtuale multiuso"
+        },
+        "WEBSHOP": {
+          "subtitle": "Carta virtuale monouso"
+        },
+        "item_count": "{{count}} oggetto",
+        "item_count_plural": "{{count}} oggetti"
+      },
+      "no_items": "Nessun oggetto",
+      "title": "Riepilogo"
+    }
+  },
+  "submit": "Sottoporre all'approvazione"
+}

@@ -1,0 +1,17 @@
+{
+  "2fa_modal": {
+    "backup_codes": "Notieren Sie sich diese Sicherungscodes an einem sicheren Ort. Sie können einmalig verwendet werden, um sich bei Ihrem Konto anzumelden, wenn Ihr 2FA-Gerät nicht verfügbar ist. Aus Sicherheitsgründen werden sie nicht wieder angezeigt.",
+    "disable_2fa": "2FA deaktivieren",
+    "enable_2fa": "2FA aktivieren",
+    "enter_code": "Code eingeben",
+    "scan_qr": "QR mit Authenticator-App scannen",
+    "secret_codes": "Kopieren Sie geheime Codes an einen sicheren Ort"
+  },
+  "delegations": {
+    "header": {
+      "to_you": {
+        "subtitle": "Genehmigungen, die Ihnen von anderen Genehmigern in Ihrer Organisation übertragen wurden."
+      }
+    }
+  }
+}

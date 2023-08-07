@@ -1,0 +1,59 @@
+{
+  "invitation_sidebar": {
+    "body": {
+      "invite": {
+        "company": {
+          "change_company": "Ändra",
+          "description": "Matchar momsnummer",
+          "title": "Leverantör"
+        },
+        "forms": {
+          "add_supplier": {
+            "description": "<b>{{ who }}</b> finns redan på Mazepay och är aktiverat för fakturabetalningar.",
+            "submit": "Lägg till leverantör"
+          },
+          "invite_supplier": {
+            "contact": {
+              "description": "Vem ska vi skicka inbjudan till?",
+              "fields": {
+                "email": "$t(common:email)",
+                "message": "Personligt meddelande",
+                "name": "$t(common:name)",
+                "phone": "Telefon"
+              },
+              "title": "Kontakt"
+            },
+            "submit": "Bjud in leverantör"
+          }
+        }
+      },
+      "lookup": {
+        "description": "Slå upp leverantör efter land och momsnummer",
+        "search_result": {
+          "empty": "Inga matchningar hittades för detta momsnummer",
+          "subtitle": "Matchar momsnummer",
+          "title": "Välj leverantör"
+        },
+        "submit": "Sök",
+        "title": "Momsnummer"
+      },
+      "success": {
+        "actions": {
+          "close": "$t(common:close)",
+          "invite_more": "Bjud in fler"
+        },
+        "add_supplier": {
+          "description": "Du kan börja göra fakturabetalningar omedelbart.",
+          "title": "{{ who }} tillagd"
+        },
+        "invite_supplier": {
+          "description": "{{ who }} kommer att få ett e-postmeddelande med en länk för att slutföra registreringen.",
+          "title": "{{ who }} inbjuden"
+        }
+      }
+    },
+    "header": {
+      "title": "Lägg till leverantör"
+    }
+  }
+}

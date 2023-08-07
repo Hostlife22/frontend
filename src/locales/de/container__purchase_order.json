@@ -1,0 +1,22 @@
+{
+  "approved_suppliers": "Zugelassene Lieferanten",
+  "document_dropzone": "Sie haben eine Quittung, aber noch keine Transaktion? Klicken oder loslassen, um es hier hinzuzufügen.",
+  "invoices": {
+    "cancel_invoice": "Zahlung abbrechen"
+  },
+  "line_items": {
+    "goods_received": {
+      "question": "Waren erhalten? ",
+      "statement": "Ware erhalten am: <0>{{date}}</0>"
+    }
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} fehlender Beleg",
+    "countable_missing_receipts_plural": "{{ count }} fehlende Belege",
+    "ignored_by": "Fehlender Beleg ignoriert von <0>{{who}}</0>",
+    "mark_as_review_approved": "Als \"Überprüfung genehmigt\" markieren"
+  },
+  "virtual_card": {
+    "open_preview": "Kartendetails anzeigen"
+  }
+}

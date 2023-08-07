@@ -1,0 +1,79 @@
+{
+  "common": {
+    "subtitle": "L'approvvigionamento è impegnativo. <b>Richiedi un software più intelligente.</b>",
+    "title": "Benvenuto <b>su Mazepay</b>",
+    "website_link": "Leggi di più sul nostro sito web",
+    "website_link_title": "Vuoi sapere di più?"
+  },
+  "forms": {
+    "back_to_sign_in": "Torna a Accedi",
+    "email": {
+      "errors": {
+        "invalid": "L'email non è valida",
+        "required": "L'e-mail è richiesta"
+      },
+      "label": "E-mail",
+      "placeholder": "Inserisci l'email"
+    },
+    "header": {
+      "subtitle": {
+        "/accept_invitation": "Sei stato invitato a unirti a Mazepay. Scegli una password per accettare l'invito.",
+        "/reset_password/send_email": "Inserisci l'indirizzo email che utilizzi per accedere a Mazepay",
+        "/reset_password/set_password": "Scegli una nuova password per il tuo account Mazepay",
+        "/signin": "App Mazepay"
+      },
+      "title": {
+        "/accept_invitation": "Scegli la password",
+        "/reset_password/send_email": "Reimposta la password",
+        "/reset_password/set_password": "Nuova password",
+        "/signin": "Accesso"
+      }
+    },
+    "invite_errors": {
+      "link_is_invalid": "Il link di conferma non è valido",
+      "token_not_found": "Token non trovato o obsoleto"
+    },
+    "otp_header": {
+      "subtitle": "Inserisci il codice a sei cifre dall'app di autenticazione",
+      "title": "Autenticazione a due fattori"
+    },
+    "password": {
+      "confirmation_label": "Conferma password",
+      "errors": {
+        "passwords_do_not_match": "Le passwords non corrispondono",
+        "required": "La password è richiesta",
+        "too_short": "La password è troppo breve (minimo 6 caratteri)"
+      },
+      "label": "Password",
+      "placeholder": "Inserire la password"
+    },
+    "submit": {
+      "confirm_invite": "Accetta l'invito",
+      "continue": "Continua",
+      "reset_password_email": "Ripristina",
+      "set_password": "Impostare la password",
+      "sign_in": "Accedi",
+      "verify_otp": "Verifica"
+    },
+    "unlock": {
+      "error": "Sblocco non riuscito",
+      "unlocked": "Sbloccato",
+      "unlocking": "Sbloccamento in corso"
+    },
+    "validation_errors": {
+      "reset_password_token": {
+        "invalid": "Il token non è valido"
+      }
+    }
+  },
+  "links": {
+    "change": "Modifica",
+    "reset_password": "Reimposta la password"
+  },
+  "page_title": {
+    "/accept_invitation/buyer": "Accetta l'invito",
+    "/accept_invitation/supplier": "Accetta l'invito",
+    "/reset_password": "Reimposta la password",
+    "/signin": "Accesso"
+  }
+}

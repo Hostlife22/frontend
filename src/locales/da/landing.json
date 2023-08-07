@@ -1,0 +1,74 @@
+{
+  "common": {
+    "subtitle": "Indkøb er krævende. <b>Forlang smartere software.</b>",
+    "title": "Velkommen <b>til Mazepay</b>",
+    "website_link": "Læs mere på vores hjemmeside",
+    "website_link_title": "Vil du vide mere?"
+  },
+  "forms": {
+    "back_to_sign_in": "Tilbage til Log ind",
+    "email": {
+      "errors": {
+        "invalid": "E-mail er ikke gyldig",
+        "required": "E-mail er påkrævet"
+      },
+      "label": "E-mail",
+      "placeholder": "Indtast e-mail"
+    },
+    "header": {
+      "subtitle": {
+        "/accept_invitation": "Du er blevet inviteret til at deltage i Mazepay. Vælg venligst en adgangskode for at acceptere invitationen.",
+        "/reset_password/send_email": "Indtast den e-mailadresse, du bruger til at logge ind på Mazepay",
+        "/reset_password/set_password": "Vælg en ny adgangskode til din Mazepay-konto",
+        "/signin": "Mazepay app"
+      },
+      "title": {
+        "/accept_invitation": "Vælg kodeord",
+        "/reset_password/send_email": "Nulstille kodeord",
+        "/reset_password/set_password": "Nyt kodeord",
+        "/signin": "Log ind"
+      }
+    },
+    "invite_errors": {
+      "link_is_invalid": "Bekræftelseslinket er ugyldigt",
+      "token_not_found": "Token ikke fundet eller forældet"
+    },
+    "otp_header": {
+      "subtitle": "Indtast den sekscifrede kode fra din autentificeringsapp",
+      "title": "To-faktor autentificering"
+    },
+    "password": {
+      "confirmation_label": "Bekræft kodeord",
+      "errors": {
+        "passwords_do_not_match": "Kodeordene er ikke ens",
+        "required": "adgangskode er påkrævet",
+        "too_short": "Adgangskoden er for kort (minimum er 6 tegn)"
+      },
+      "label": "Adgangskode",
+      "placeholder": "Indtast adgangskode"
+    },
+    "submit": {
+      "confirm_invite": "Inserire la password",
+      "reset_password_email": "Nulstil",
+      "set_password": "Indstil adgangskode",
+      "sign_in": "Log ind",
+      "verify_otp": "Verificere"
+    },
+    "unlock": {
+      "error": "Kunne ikke låse dig op",
+      "unlocked": "Du er låst op",
+      "unlocking": "Låser dig op..."
+    },
+    "validation_errors": {
+      "reset_password_token": {
+        "invalid": "Token er ugyldigt"
+      }
+    }
+  },
+  "page_title": {
+    "/accept_invitation/buyer": "Accepter invitationen",
+    "/accept_invitation/supplier": "Accepter invitationen",
+    "/reset_password": "Nulstille kodeord",
+    "/signin": "Log ind"
+  }
+}

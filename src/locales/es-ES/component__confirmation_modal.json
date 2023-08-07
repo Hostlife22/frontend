@@ -1,0 +1,8 @@
+{
+  "cancel_purchase_request_item": {
+    "close": "$t(common:go_back)"
+  },
+  "delete": {
+    "close": "$t(common:cancel)"
+  }
+}

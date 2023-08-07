@@ -1,0 +1,29 @@
+{
+  "header": {
+    "no_pending_approvals": "No pending approvals",
+    "pending_approvals_by": "Pending approvals by"
+  },
+  "items": {
+    "approval": {
+      "excess_spend_limit": "Spend limit can not be higher than what was previously approved.",
+      "in_purchase_order": "In purchase order",
+      "initiate": "$t(common:initiate)",
+      "reject": "$t(common:reject)",
+      "spend_limit_description": "Including VAT and shipping",
+      "spend_limit_title": "Approve amount",
+      "undo_approve": "Undo approve",
+      "undo_cancel": "Undo cancel",
+      "undo_initiate": "Undo initiate",
+      "undo_reject": "Undo reject",
+      "view_purchase_order": "View purchase order"
+    },
+    "current_spend": {
+      "description": "Including suggested limit for current item",
+      "title": "Spend by <0>{{who}}</0>"
+    },
+    "subscription_tooltip": {
+      "subscribe": "Click to subscribe to activity updates",
+      "unsubscribe": "You are subscribed to activity updates"
+    }
+  }
+}

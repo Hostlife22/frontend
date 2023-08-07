@@ -1,0 +1,44 @@
+{
+  "approver_amount": "Approvato <b>{{approvalCount}}</b> articolo per un totale di <b>{{totalApprovedAmount}}</b>",
+  "approver_amount_plural": "Approvato <b>{{approvalCount}}</b> articoli per un totale di <b>{{totalApprovedAmount}}</b>",
+  "personal_reminder": {
+    "description": "Vuoi inviare un promemoria personale?",
+    "label": "Messaggio",
+    "placeholder": "Inserisci il messaggio a {{who}}",
+    "snooze": "posticipa revisione per 7 giorni",
+    "submit": "Invia promemoria personale"
+  },
+  "reminders_sent": {
+    "label": "Promemoria inviati",
+    "opened": "Aperto"
+  },
+  "resolved_reporting": {
+    "resolved": "Revisione approvata "
+  },
+  "sidebar": {
+    "document": "Documenti",
+    "reporting": "Segnalazione"
+  },
+  "trust_score": {
+    "approvers": {
+      "title": "Approvatori"
+    },
+    "merchant": {
+      "title": "Esercente"
+    },
+    "purchase_order": {
+      "title": "Ordine di acquisto"
+    },
+    "requester": {
+      "title": "Richiedente"
+    },
+    "title": "Punteggio di fiducia",
+    "transaction": {
+      "title": "Transazione"
+    }
+  },
+  "unresolved_reporting": {
+    "alert": "Questa transazione ha una segnalazione non risolta",
+    "mark_resolved": "Marcato come risolto"
+  }
+}

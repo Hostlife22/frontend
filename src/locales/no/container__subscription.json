@@ -1,0 +1,8 @@
+{
+  "header": {
+    "active_since": "Aktiv siden",
+    "amount_left_on_current_card": "Beløp igjen på nåværende kort",
+    "amount_left_value": "<0/> av <1/>",
+    "next_card_renewal": "Neste kortfornyelse"
+  }
+}

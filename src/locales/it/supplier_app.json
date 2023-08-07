@@ -1,0 +1,40 @@
+{
+  "alerts": {
+    "bank_account_missing": {
+      "button": "Configura conto bancario",
+      "description": "Per ricevere i pagamenti, devi impostare e verificare il conto bancario della tua azienda",
+      "title": "Imposta un conto bancario per i pagamenti"
+    },
+    "iban_verification_warning": {
+      "body": {
+        "line1": "Per verificare che questo account sia di proprietà di {{ who }}, devi inviare una transazione con l'importo minimo consentito dalla tua banca al seguente conto bancario.",
+        "line2": "Questo ci consente di confrontare il nome del titolare del conto con il nome della tua azienda."
+      },
+      "title": "Verifica proprietà"
+    },
+    "review_in_progress": {
+      "description": "La tua domanda è attualmente in fase di revisione da parte del team di  di Mazepay. In caso di domande, contattare info@mazepay.com",
+      "title": "Revisione in corso"
+    }
+  },
+  "bank_accounts": {
+    "description": "I pagamenti effettuati dagli acquirenti sulla piattaforma Mazepay verranno accreditati automaticamente sul tuo conto bancario",
+    "verification_status": {
+      "false": "In attesa di verifica",
+      "true": "$t(common:verified)"
+    }
+  },
+  "modals": {
+    "add_bank_account": {
+      "body": {
+        "description": "Aggiungi un conto bancario per ricevere i pagamenti dai tuoi acquirenti. L'account deve essere di proprietà della tua azienda.",
+        "submit": "Aggiungi conto bancario",
+        "verify_ownership": {
+          "description": "Quando l'account viene aggiunto, la proprietà deve essere verificata. Consulta le istruzioni dopo aver aggiunto l'account.",
+          "title": "Verifica proprietà"
+        }
+      },
+      "title": "Nuovo conto bancario"
+    }
+  }
+}

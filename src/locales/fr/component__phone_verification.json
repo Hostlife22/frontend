@@ -1,0 +1,28 @@
+{
+  "buttons": {
+    "change_phone": "Changez le téléphone portable",
+    "generate_code": "Envoyer le code de confirmation",
+    "resend_code": "Renvoyer le code"
+  },
+  "code_expiry_status": {
+    "expired": "Expiré",
+    "will_expire": "Va expirer <0></0>"
+  },
+  "code_status": {
+    "expired": "Un code de confirmation a expiré",
+    "sent": "Un code de confirmation a été envoyé sur votre téléphone"
+  },
+  "fields": {
+    "code": {
+      "label": "Entrer le code de confirmation"
+    },
+    "phone": {
+      "error": "Entrez le téléphone portable",
+      "label": "Numéro de téléphone"
+    }
+  },
+  "header": {
+    "add_phone": "Ajoutez un téléphone mobile",
+    "change_phone": "Changez le téléphone portable"
+  }
+}

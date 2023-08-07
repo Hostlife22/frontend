@@ -1,0 +1,80 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Senast sparad <0>{{time}}</0>",
+        "unsaved": "Ej sparad"
+      },
+      "title": "Utkast"
+    },
+    "start_new": "Starta ny förfrågan"
+  },
+  "item_count": "Föremål",
+  "item_form": {
+    "add_item": "Lägg till föremål",
+    "update_item": "Uppdatera föremål"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Anmoda om godkännande för ett fakturaköp"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "Virtuella flerbrukskort kommer att utfärdas för att köpa följande föremål"
+    },
+    "WEBSHOP": {
+      "subtitle": "Engångsbruk virtuellt kort kommer att utfärdas för att köpa följande föremål"
+    },
+    "add_item": "Lägg till föremål",
+    "amount": "Totalt kortbelopp"
+  },
+  "no_purchase_types": {
+    "subtitle": "Inga inköpstyper har aktiverats för detta konto ännu. Vänligen kontakta din administratör.",
+    "title": "Inköpstyper otillgängliga"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "gör ett fakturaköp från en leverantör på Mazepay-plattformen",
+      "subtitle": "engångsbetalning"
+    },
+    "SUBSCRIPTION": {
+      "description": "få ett flergångsbruk virtuellt kort för flera betalningar i en enda webbshop",
+      "subtitle": "prenumerationer och återkommande betalningar"
+    },
+    "WEBSHOP": {
+      "description": "skaffa ett engångsbruk virtuellt kort för att göra ett onlineköp",
+      "subtitle": "engångsbetalning"
+    }
+  },
+  "purchase_type_cards": {
+    "disabled_card_tooltip": "Vänligen ange ett ämne innan du lägger till dina föremål",
+    "select_purchase_type": "Välj köptyp",
+    "tab": "Lägg till föremål"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Ange en allmän beskrivning av köpförfrågan"
+    }
+  },
+  "sidebar": {
+    "policies": "Inköpspolicy",
+    "requested_amount_tip": "Det efterfrågade beloppet bör även inkludera eventuell fraktkostnad eller andra avgifter.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "Engångsbetalning"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Flergångsbruk virtuellt kort"
+        },
+        "WEBSHOP": {
+          "subtitle": "Engångsbruk virtuellt kort"
+        },
+        "item_count": "{{count}} föremål",
+        "item_count_plural": "{{count}} föremål"
+      },
+      "no_items": "Inga föremål",
+      "title": "Sammanfattning"
+    }
+  },
+  "submit": "Skicka in för godkännande"
+}

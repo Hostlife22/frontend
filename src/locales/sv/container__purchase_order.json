@@ -1,0 +1,35 @@
+{
+  "approved_suppliers": "Godkända leverantörer",
+  "document_dropzone": "Har du ett kvitto men ingen transaktion än? Klicka eller släpp för att lägga till den här.",
+  "invoices": {
+    "cancel_invoice": "Avbryt betalning",
+    "collapse_description_trans": {
+      "CANCELLED": "Betalning annullerad av <0>{{who}}</0>",
+      "SCHEDULED": "Betalning schemalagd av <0>{{who}}</0>"
+    },
+    "invoices": "Fakturor",
+    "scheduled_for": "Schemalagt för",
+    "upload_invoice": "Ladda upp faktura",
+    "uploaded_by_who": "$t(common:uploaded_by)"
+  },
+  "line_items": {
+    "goods_received": {
+      "question": "Varor mottagna?",
+      "statement": "Varor mottagna på <0>{{date}}</0>"
+    }
+  },
+  "status": {
+    "description": "Det associerade virtuella kortet har löpt ut och alla transaktioner är avstämda. Om en ny transaktion registreras öppnas inköpsordern automatiskt igen.",
+    "title": "Stängd"
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} saknas kvitto",
+    "countable_missing_receipts_plural": "{{ count }} saknade kvitton",
+    "ignored_by": "Saknat kvitto ignorerat av <0>{{who}}</0>",
+    "mark_as_review_approved": "Markera som godkänd granskning"
+  },
+  "virtual_card": {
+    "open_preview": "Visa kortinformation",
+    "title": "$t(common:virtual_card)"
+  }
+}

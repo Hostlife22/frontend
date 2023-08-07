@@ -1,0 +1,35 @@
+{
+  "approved_suppliers": "Godkjente leverandører",
+  "document_dropzone": "Har du en kvittering, men ingen transaksjon ennå? Klikk eller slipp for å legge den til her.",
+  "invoices": {
+    "cancel_invoice": "Avbryt betaling",
+    "collapse_description_trans": {
+      "CANCELLED": "Betalingen avbrutt av <0>{{who}}</0>",
+      "SCHEDULED": "Betaling planlagt av <0>{{who}}</0>"
+    },
+    "invoices": "Fakturaer",
+    "scheduled_for": "Planlagt for",
+    "upload_invoice": "Last opp faktura",
+    "uploaded_by_who": "$t(common:uploaded_by)"
+  },
+  "line_items": {
+    "goods_received": {
+      "question": "Varer mottatt?",
+      "statement": "Varer mottatt <0>{{date}}</0>"
+    }
+  },
+  "status": {
+    "description": "Det tilknyttede virtuelle kortet har utløpt, og alle transaksjoner er avstemt. Hvis det registreres en ny transaksjon, vil innkjøpsordren automatisk gjenåpnes.",
+    "title": "Lukket"
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} manglende kvittering",
+    "countable_missing_receipts_plural": "{{ count }} manglende kvitteringer",
+    "ignored_by": "Manglende kvittering ignorert av <0>{{who}}</0>",
+    "mark_as_review_approved": "Marker som gjennomgang godkjent"
+  },
+  "virtual_card": {
+    "open_preview": "Se kortinformasjon",
+    "title": "$t(common:virtual_card)"
+  }
+}

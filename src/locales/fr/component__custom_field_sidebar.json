@@ -1,0 +1,31 @@
+{
+  "create_custom_field": {
+    "body": {
+      "step1": {
+        "subtitle": "Les champs personnalisés permettent d'étendre la couche d'informations des ressources existantes. Les champs peuvent également être utilisés dans les workflows.",
+        "title": "Sélectionnez la ressource"
+      },
+      "step2": {
+        "groups": {
+          "association": "Association",
+          "basic": "Basique"
+        },
+        "title": "Sélectionne le type"
+      },
+      "step3": {
+        "general": "Général",
+        "select_options": "Sélectionnez les options",
+        "validation": "Validation"
+      }
+    },
+    "title": "Nouveau champ personnalisé"
+  },
+  "update_custom_field": {
+    "responsive_columns": {
+      "description": "Une ligne peut avoir jusqu'à 4 colonnes selon la largeur de la fenêtre.",
+      "minimum_width": "Largeur minimum",
+      "title": "Style affichage"
+    },
+    "title": "Mets à jour le champ personnalisé"
+  }
+}

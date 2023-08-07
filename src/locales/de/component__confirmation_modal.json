@@ -1,0 +1,21 @@
+{
+  "cancel_purchase_request_item": {
+    "description": "Bitte geben Sie einen Grund für die Stornierung an",
+    "placeholder": "Beschreiben Sie den Grund für die Stornierung",
+    "submit": "Artikel stornieren",
+    "title": "Sind Sie sicher, dass Sie abbrechen möchten?"
+  },
+  "delete": {
+    "description": "Löschen von {{what}} kann nicht rückgängig gemacht werden",
+    "title": "Löschen {{what}}?"
+  },
+  "reject_purchase_request_item": {
+    "description": "Bitte geben Sie einen Grund für die Ablehnung an",
+    "placeholder": "Beschreiben Sie den Grund für die Ablehnung",
+    "title": "Möchten Sie wirklich ablehnen?"
+  },
+  "revoke_virtual_card": {
+    "description": "Der Widerruf der virtuellen Karte kann nicht rückgängig gemacht werden",
+    "title": "Sind Sie sicher, dass Sie widerrufen möchten?"
+  }
+}

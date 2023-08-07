@@ -1,0 +1,31 @@
+{
+  "buttons": {
+    "change_phone": "Endre",
+    "generate_code": "Send verifiseringskode",
+    "resend_code": "Send kode på nytt"
+  },
+  "code_expiry_status": {
+    "expired": "Utløpt",
+    "will_expire": "Utløper <0></0>"
+  },
+  "code_status": {
+    "expired": "En verifiseringskode er utløpt",
+    "sent": "En verifiseringskode ble sendt til din telefon"
+  },
+  "fields": {
+    "code": {
+      "label": "Verifiseringskode",
+      "placeholder": "Angi verifiseringskode"
+    },
+    "phone": {
+      "error": "Angi mobiltelefon",
+      "label": "Mobiltelefon",
+      "placeholder": "Angi telefonnummer"
+    }
+  },
+  "header": {
+    "add_phone": "Legg til telefonnummer",
+    "change_phone": "Endre telefonnummer"
+  },
+  "subtitle": "Virtuelle kort deles med deg via SMS. Vennligst bekreft ditt telefonnummer for å låse opp forespørselsskjemaet."
+}

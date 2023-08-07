@@ -1,0 +1,28 @@
+{
+  "buttons": {
+    "change_phone": "Vaheta mobiiltelefoninumber",
+    "generate_code": "Saada kinnituskood",
+    "resend_code": "Saada kood uuesti"
+  },
+  "code_expiry_status": {
+    "expired": "Aegunud",
+    "will_expire": "Aegub <0></0>"
+  },
+  "code_status": {
+    "expired": "Kinnituskood on aegunud",
+    "sent": "Teie telefonile saadeti kinnituskood"
+  },
+  "fields": {
+    "code": {
+      "label": "Sisesta kinnituskood"
+    },
+    "phone": {
+      "error": "Sisestage mobiiltelefoni number",
+      "label": "Telefoninumber"
+    }
+  },
+  "header": {
+    "add_phone": "Lisa mobiiltelefoni number",
+    "change_phone": "Vaheta mobiiltelefoni numbrit"
+  }
+}

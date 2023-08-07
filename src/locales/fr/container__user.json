@@ -1,0 +1,10 @@
+{
+  "2fa_modal": {
+    "backup_codes": "Notez ces codes de sauvegarde dans un endroit sûr. Ils peuvent être utilisés une seule fois pour vous connecter à votre compte si votre appareil 2FA n'est pas disponible. Ils ne seront plus jamais affichés pour des raisons de sécurité.",
+    "disable_2fa": "Désactiver 2FA",
+    "enable_2fa": "Activer 2FA",
+    "enter_code": "Entre le code",
+    "scan_qr": "Scanne le QR à l'aide de l'application d'authentification",
+    "secret_codes": "Copiez les codes secrets dans un endroit sûr"
+  }
+}

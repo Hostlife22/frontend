@@ -1,0 +1,83 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Zuletzt gespeichert <0>{{time}}</0>",
+        "unsaved": "Nicht gespeichert"
+      },
+      "title": "Entwurf"
+    },
+    "start_new": "Neue Anfrage starten",
+    "subtitle": "Neue Kaufanfragen werden automatisch als Entwürfe gespeichert, bis sie übermittelt oder gelöscht werden.",
+    "title": "Entwürfe"
+  },
+  "item_count": "Artikel",
+  "item_form": {
+    "add_item": "Artikel hinzufügen",
+    "update_item": "Artikel aktualisieren"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Vorabgenehmigung für einen Rechnungskauf anfordern"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "Für den Kauf der folgenden Artikel wird eine virtuelle Karte zur mehrfachen Verwendung ausgestellt"
+    },
+    "WEBSHOP": {
+      "subtitle": "Für den Kauf der folgenden Artikel wird eine virtuelle Karte zur einmaligen Verwendung ausgestellt"
+    },
+    "add_item": "Artikel hinzufügen",
+    "amount": "Gesamtbetrag der Karte"
+  },
+  "make_request": "Eine Anfrage stellen",
+  "no_purchase_types": {
+    "subtitle": "Für dieses Konto wurden noch keine Kaufarten aktiviert. Bitte wenden Sie sich an Ihren Administrator.",
+    "title": "Kaufarten nicht verfügbar"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "einen Rechnungskauf bei einem Lieferanten auf der Mazepay-Plattform tätigen",
+      "subtitle": "einmalige Zahlung"
+    },
+    "SUBSCRIPTION": {
+      "description": "Erhalten Sie eine virtuelle Mehrzweckkarte für mehrere Zahlungen in einem einzigen Webshop",
+      "subtitle": "Abonnements und wiederkehrende Zahlungen"
+    },
+    "WEBSHOP": {
+      "description": "Erhalten Sie eine virtuelle Karte für eine einmalige Online-Zahlung",
+      "subtitle": "einmalige Zahlung"
+    }
+  },
+  "purchase_type_cards": {
+    "disabled_card_tooltip": "Bitte geben Sie einen Betreff ein, bevor Sie Artikel hinzufügen",
+    "select_purchase_type": "Kauftyp auswählen",
+    "tab": "Artikel hinzufügen"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Geben Sie eine allgemeine Beschreibung der Kaufanfrage ein"
+    }
+  },
+  "sidebar": {
+    "policies": "Beschaffungspolitik",
+    "requested_amount_tip": "Der angeforderte Betrag sollte auch mögliche Versandkosten oder andere Gebühren beinhalten.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "Einmalige Zahlung"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Virtuelle Karte zur mehrfachen Verwendung"
+        },
+        "WEBSHOP": {
+          "subtitle": "Virtuelle Karte zur einmaligen Verwendung"
+        },
+        "item_count": "{{count}} Artikel",
+        "item_count_plural": "{{count}} Artikel"
+      },
+      "no_items": "Keine Elemente",
+      "title": "Zusammenfassung"
+    }
+  },
+  "submit": "Zur Genehmigung einreichen"
+}

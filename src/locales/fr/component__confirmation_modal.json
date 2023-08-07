@@ -1,0 +1,21 @@
+{
+  "cancel_purchase_request_item": {
+    "description": "Veuillez décrire la raison de l'annulation",
+    "placeholder": "Quelques mots suffiront",
+    "submit": "Annuler l'article",
+    "title": "Annuler l'article?"
+  },
+  "delete": {
+    "description": "Suppression de {{what}} ne peut pas être défait",
+    "title": "Effacer {{what}}?"
+  },
+  "reject_purchase_request_item": {
+    "description": "Veuillez décrire la raison du rejet",
+    "placeholder": "Quelques mots suffiront",
+    "title": "Refuser l'article?"
+  },
+  "revoke_virtual_card": {
+    "description": "La révocation de la carte virtuelle ne peut pas être annulée",
+    "title": "Révoquer la carte virtuelle ?"
+  }
+}

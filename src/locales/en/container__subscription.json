@@ -1,0 +1,8 @@
+{
+  "header": {
+    "active_since": "Active since",
+    "amount_left_on_current_card": "Amount left on current card",
+    "amount_left_value": "<0/> of <1/>",
+    "next_card_renewal": "Next card renewal"
+  }
+}

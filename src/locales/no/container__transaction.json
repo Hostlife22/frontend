@@ -1,0 +1,44 @@
+{
+  "approver_amount": "Godkjent <b>{{approvalCount}}</b> vare for totalt <b>{{totalApprovedAmount}}</b>",
+  "approver_amount_plural": "Godkjent <b>{{approvalCount}}</b> varer for totalt <b>{{totalApprovedAmount}}</b>",
+  "personal_reminder": {
+    "description": "Ønsker du å sende en personlig påminnelse?",
+    "label": "Beskjed",
+    "placeholder": "Skriv inn melding til {{hvem}}",
+    "snooze": "Slumre gjennomgang i 7 dager",
+    "submit": "Send personlig påminnelse"
+  },
+  "reminders_sent": {
+    "label": "Påminnelser sendt",
+    "opened": "Åpnet"
+  },
+  "resolved_reporting": {
+    "resolved": "Revisjon godkjent"
+  },
+  "sidebar": {
+    "document": "Dokumenter",
+    "reporting": "Rapportering"
+  },
+  "trust_score": {
+    "approvers": {
+      "title": "Godkjennere"
+    },
+    "merchant": {
+      "title": "Forhandler"
+    },
+    "purchase_order": {
+      "title": "Innkjøpsordre"
+    },
+    "requester": {
+      "title": "Forespørrer"
+    },
+    "title": "Trust score",
+    "transaction": {
+      "title": "Transaksjon"
+    }
+  },
+  "unresolved_reporting": {
+    "alert": "Denne transaksjonen har en uavklart rapportering",
+    "mark_resolved": "Marker som løst"
+  }
+}

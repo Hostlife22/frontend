@@ -1,0 +1,460 @@
+{
+  "ApprovalFlowSettings": {
+    "requestForPurchase": "Begäran om köp",
+    "requestForPurchase_description": "Börjar med att användaren skickar en förfrågan"
+  },
+  "CardSubscription": {
+    "owner": "Ägare",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "serviceName": "$t(common:name)",
+    "totalSpentAmountCents": "$t(common:total_spent)"
+  },
+  "__typename": {
+    "Account": "$t(common:account)",
+    "Approval": "godkännande",
+    "ApproverCustomField": "anpassat fält för godkännare",
+    "Attachment": "bilaga",
+    "AttachmentCustomField": "anpassat fält för bilaga",
+    "BankAccount": "bankkonto",
+    "CardSubscription": "Prenumeration",
+    "Category": "kategori",
+    "CategoryCustomField": "anpassat kategorifält",
+    "CategorySet": "kategori set",
+    "CheckboxCustomField": "anpassat kryssruta fält",
+    "Comment": "kommentar",
+    "CostCentre": "kostnadsställe",
+    "CostCentreCustomField": "anpassat fält för kostnadsstället",
+    "CustomField": "$t(common:custom_field)",
+    "DataPath": "väg",
+    "DataSource": "datakälla",
+    "DataSourceItem": "datakälla",
+    "DataView": "datavy",
+    "DataViewField": "datavyfält",
+    "DateCustomField": "anpassat datumfält",
+    "Document": "dokument",
+    "FlowActionApproveBy": "Godkänn av",
+    "FlowActionAutomaticApprove": "Godkänna",
+    "FlowActionAutomaticReject": "Avvisa",
+    "FlowActionCreatePurchaseOrder": "Skapa PO",
+    "FlowStep": "flödessteg",
+    "FlowStepCondition": "Skick",
+    "IntegerCustomField": "anpassat heltalsfält",
+    "InvoicePayment": "betalning",
+    "IssuerIntegration": "emittentintegrering",
+    "IssuerIntegrationConsumer": "emittentintegration konsument",
+    "IssuerIntegrationRule": "regel för emittentintegrering",
+    "Location": "plats",
+    "Merchant": "försäljare",
+    "OrganisationUnit": "organisationsenhet",
+    "PurchaseOrder": "inköpsorder",
+    "PurchaseRequest": "köpförfrågan",
+    "PurchaseRequestItem": "köpförfrågan",
+    "Report": "rapportera",
+    "ReportTemplate": "rapportmall",
+    "SelectCustomField": "välj anpassat fält",
+    "SpendLimit": "utgiftsgräns",
+    "SupplierAccount": "leverantörskonto",
+    "TextAreaCustomField": "anpassat textområdesfält",
+    "TextCustomField": "anpassat textfält",
+    "Transaction": "transaktion",
+    "UrlCustomField": "anpassat webbadressfält",
+    "User": "användare",
+    "VirtualCard": "virtuellt kort",
+    "Workflow": "arbetsflöde"
+  },
+  "account": {
+    "address": "$t(common:address)",
+    "name": "$t(common:name)",
+    "vatNumber": "$t(common:vat_number)"
+  },
+  "address": {
+    "city": "$t(common:city)",
+    "country": "$t(common:country)",
+    "postalCode": "$t(common:postal_code)",
+    "regionName": "$t(common:region)",
+    "streetName": "Gatunamn",
+    "streetNumber": "Gatunummer"
+  },
+  "appearance_settings": {
+    "theme": "$t(common:dark_mode)",
+    "theme_description": "Förlängd batteritid och minskad exponering för blått ljus"
+  },
+  "approval": {
+    "confirmedAt": "Bekräftat",
+    "confirmedBy": "Bekräftad av",
+    "status": "$t(common:status)"
+  },
+  "approval_flow": {
+    "flowSteps": {
+      "node": "flödessteg",
+      "node_plural": "flödessteg"
+    }
+  },
+  "archivable": {
+    "archivedAt": "Arkiverad"
+  },
+  "attachment": {
+    "byteSize": "Filstorlek",
+    "contentType": "Filtyp",
+    "createdAt": "$t(common:added_at)",
+    "downloadUrl": "$t(common:download)",
+    "filename": "Filnamn"
+  },
+  "bank_account": {
+    "createdAt": "$t(common:added_at)",
+    "createdBy": "$t(common:added_by)",
+    "currency": "$t(common:currency)",
+    "iban": "IBAN",
+    "verifiedAt": "Verifierad"
+  },
+  "buyer_account": {
+    "accountType": "Kontotyp",
+    "address": "$t(common:address)",
+    "createdAt": "Aktiv sedan",
+    "name": "$t(common:company_name)",
+    "publicEmail": "$t(common:email)",
+    "publicPhone": "Telefon",
+    "publicWebsite": "$t(common:website)",
+    "vatNumber": "$t(common:vat_number)"
+  },
+  "category": {
+    "childrenCount": "Underkategorier",
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "parentCode": "Överordnad kod",
+    "parentId": "Överordnad kategori",
+    "title": "$t(common:title)"
+  },
+  "category_set": {
+    "categories": "Kategorier",
+    "createdAt": "$t(common:created_at)",
+    "createdBy": "$t(common:created_by)",
+    "title": "$t(common:title)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "cost_centre": {
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "name": "$t(common:name)"
+  },
+  "create_select_custom_field_input": {
+    "dataSourceId": "Datakälla"
+  },
+  "create_user_input_attributes": {
+    "personalInvitationMessage": "Personligt inbjudningsmeddelande"
+  },
+  "custom_field": {
+    "__typename": {
+      "ApproverCustomField": "Godkännare",
+      "AttachmentCustomField": "Bilagor",
+      "CategoryCustomField": "Kategori",
+      "CheckboxCustomField": "Kryssruta",
+      "CostCentreCustomField": "Kostnadsställe",
+      "DateCustomField": "Datum",
+      "IntegerCustomField": "Heltal",
+      "SelectCustomField": "Datakälla",
+      "TextAreaCustomField": "Text - flera rader",
+      "TextCustomField": "Text",
+      "UrlCustomField": "URL",
+      "__typename": "Typ"
+    },
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "formableClass": "Resurs",
+    "iconName": "$t(common:icon)",
+    "label": "$t(common:label)",
+    "placeholder": "$t(common:placeholder)",
+    "required": "Obligatorisk",
+    "tooltip": "Verktygstips",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "data_source": {
+    "createdAt": "$t(common:created_at)",
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "items": "Föremål",
+    "name": "$t(common:name)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "data_source_item": {
+    "dataSource": "Datakälla",
+    "description": "$t(common:description)",
+    "externalId": "$t(common:code)",
+    "name": "$t(common:name)"
+  },
+  "data_view": {
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "fields": "$t(common:fields)",
+    "resourceType": "Resurs",
+    "title": "$t(common:title)"
+  },
+  "data_view_field": {
+    "formatString": "Formatera",
+    "label": "$t(common:label)",
+    "path": "Värde från",
+    "updatedAt": "$t(common:updated_at_trans)"
+  },
+  "document": {
+    "classification": "Dokumenttyp",
+    "createdAt": "$t(common:date)",
+    "createdBy": "Tillagd av",
+    "currency": "$t(common:currency)",
+    "purchaseOrder": "Inköpsorder",
+    "supplier": "$t(common:supplier)",
+    "totalAmount": "Totalbelopp",
+    "transactions": "Transaktioner",
+    "vatAmount": "Momsbelopp"
+  },
+  "flow_action_approve_by": {
+    "approvalType": "Typ av godkännande",
+    "approverUsers": "Tilldela till användare",
+    "approverUsers_description": "Tilldela en eller flera godkännare",
+    "assignAll": "Tilldela alla",
+    "assignAll_description": "Tilldela alla användare med godkännandebehörighet",
+    "assigneePaths": "Tilldela till anpassat fält",
+    "assigneePaths_description": "Tilldela ett eller flera anpassade fält"
+  },
+  "flow_step_condition": {
+    "comparator": "Villkor",
+    "inputAttribute": "Egenskap",
+    "inputPath": "Inmatning",
+    "inputPath_description": "Sökväg till inmatningsvärde",
+    "referencePaths": "Referensvägar",
+    "referencePaths_description": "Ett eller flera värden att jämföra mot",
+    "referenceValue": "Referensvärde",
+    "referenceValue_description": "Ange fritext"
+  },
+  "invoice_payment": {
+    "messageToSupplier": "Meddelande till leverantören",
+    "scheduledPaymentDate": "Betalningsdatum"
+  },
+  "issuer_integration": {
+    "cardUseInvoice": "Faktura",
+    "cardUseMulti": "Flergångsbruk",
+    "cardUseMulti_short": "Multi",
+    "cardUseSingle": "Engångsbruk",
+    "cardUseSingle_short": "Enkel",
+    "consumers": "Konsumenter",
+    "consumers_description": "Hantera vem som ska kunna utfärda virtuella kort med hjälp av integration. Åtkomst ärvs av användare, organisationsenheter och kostnadsställen.",
+    "currency": "$t(common:currency)",
+    "description": "$t(common:description)",
+    "paymentType": "Betalningssätt"
+  },
+  "issuer_integration_consumer": {
+    "cardUseInvoiceFallback": "reservfaktura",
+    "cardUseMultiFallback": "reserv för flergångsbruk",
+    "cardUseSingleFallback": "reserv för engångsbruk",
+    "consumerName": "$t(common:name)",
+    "fallback": "Reserv",
+    "fallback_description": "Tillåt att integrationen används som reserv om inga andra integrationer matchar kriterier som definieras i reglerna.",
+    "invoiceFallback": "reservfaktura",
+    "multiFallback": "reserv för flergångsbruk",
+    "singleFallback": "reserv för engångsbruk"
+  },
+  "issuer_integration_rule": {
+    "criteria": "Matcha med",
+    "position": "Position",
+    "strict": "Sträng",
+    "strict_description": "Om inställd på falskt ignoreras regeln om inga matchningar hittas.",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "localisation_settings": {
+    "displayInCurrency": "Visa i valuta",
+    "interfaceLanguage": "Gränssnittsspråk",
+    "timezone": "Tidszon"
+  },
+  "location": {
+    "address": "$t(common:address)",
+    "name": "$t(common:name)"
+  },
+  "merchant": {
+    "address": "$t(common:address)",
+    "city": "$t(common:city)",
+    "companyName": "$t(common:company_name)",
+    "country": "$t(common:country)",
+    "createdAt": "$t(common:created_at)",
+    "establishedOn": "Fastställd",
+    "legalCorporateName": "Juridiskt företagsnamn",
+    "merchantCategoryCode": "Säljarkategorikod",
+    "merchantCategoryCode_abbr": "Leverantörskategorikod",
+    "merchantName": "Leverantörsnamn",
+    "naicsCode": "NAICS kod",
+    "totalSpent": "$t(common:total_spent)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "notification_setting": {
+    "activityKey": "$t(common:activity)",
+    "email": "$t(common:email)",
+    "mobile": "Mobil",
+    "web": "Webb "
+  },
+  "organisation_unit": {
+    "childUsersCount": "$t(interfaces:query.users)",
+    "childrenCount": "Underenheter",
+    "classification": "Enhetstyp",
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "legalEntity": "Juridisk enhet",
+    "locations": "$t(interfaces:query.locations)",
+    "name": "$t(common:name)",
+    "parentId": "Överordnad enhet"
+  },
+  "payment_settings": {
+    "baseCurrency": "Basvaluta",
+    "baseCurrency_description": "Basvalutan används i hela appen, inklusive förfrågningsformuläret"
+  },
+  "public_address": {
+    "city": "$t(common:city)",
+    "country": "$t(common:country)",
+    "postalCode": "$t(common:postal_code)",
+    "regionName": "$t(common:region)",
+    "streetAddress": "$t(common:street)"
+  },
+  "purchase_order": {
+    "approvedBaseAmount": "Godkänt belopp",
+    "createdAt": "$t(common:created_at)",
+    "documents": "$t(common:documents)",
+    "poNumber": "Inköpsordernummer",
+    "purchaseRequest": "Förfrågan",
+    "purchaseType": "Typ av köp",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "requestedBy": "Efterfrågad av",
+    "title": "Ämne",
+    "totalSpent": "Spenderat",
+    "updatedAt": "$t(common:updated_at)",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "purchase_request": {
+    "createdAt": "Skapad",
+    "items": "Föremål",
+    "requestedBy": "Efterfrågad av",
+    "subject": "Ämne",
+    "submittedAt": "Efterfrågat"
+  },
+  "purchase_request_item": {
+    "approvedBaseAmount": "Godkänt belopp",
+    "description": "$t(common:description)",
+    "purchaseRequest": "Köpförfrågan",
+    "purchaseType": "$t(interfaces:purchase_order.purchaseType)",
+    "requestedAmount": "Efterfrågat belopp",
+    "requestedBaseAmount": "Efterfrågat basbelopp",
+    "status": "$t(common:status)",
+    "supplier": "$t(common:supplier)"
+  },
+  "query": {
+    "cardSubscriptions": "Prenumerationer",
+    "categories": "Kategorier",
+    "categorySets": "kategorier",
+    "comments": "Kommentarer",
+    "costCentres": "Kostnadsställen",
+    "customFields": "Anpassade fält",
+    "dataSourceItems": "Datakällor",
+    "dataSources": "Datakällor",
+    "dataViewFields": "Datavyfält",
+    "dataViews": "Datavyer",
+    "issuerIntegrationRules": "Regler för emittentintegration",
+    "issuerIntegrationRules_description": "Ett konto kan ha en eller flera emittentintegrationer aktiverade för att utfärda virtuella kort. Matchningsregler hjälper till att välja rätt emittentintegration för ett givet scenario. Reglerna tillämpas i förhållande till deras position.",
+    "issuerIntegrations": "Emittentintegrationer",
+    "locations": "Platser",
+    "organisationUnits": "Organisationsenheter",
+    "purchaseOrders": "Inköpsordrar",
+    "purchaseRequests": "Köpförfrågningar",
+    "reportTemplates": "Rapportmallar",
+    "reports": "Rapporter",
+    "suppliers": "Leverantörer",
+    "transactions": "Transaktioner",
+    "users": "Användare",
+    "virtualCards": "Virtuella kort",
+    "workflows": "Arbetsflöden"
+  },
+  "range": {
+    "criterion": "Kriterium",
+    "end": "Räckvidd slut",
+    "start": "Räckviddsstart"
+  },
+  "report": {
+    "createdAt": "$t(common:created_at)",
+    "exportFile": "$t(common:file)",
+    "reportTemplate": "Mall"
+  },
+  "report_template": {
+    "dataView": "Datavy",
+    "description": "$t(common:description)",
+    "exportFormat": "Exportera format",
+    "range": "Period",
+    "schedule": "Schema",
+    "title": "$t(common:title)"
+  },
+  "schedule": {
+    "definition": {
+      "interval": "Intervall"
+    },
+    "endsAt": "Slutar",
+    "startsAt": "Börjar"
+  },
+  "single_use_card": {
+    "defaultTtlDays": "Standard TTL",
+    "defaultTtlDays_description": "Standardföreslaget på utgångsdatum i dagar för nya förfrågningar.",
+    "maxTtlDays": "Max TTL",
+    "maxTtlDays_description": "Maximalt värde som kan väljas av en begärande."
+  },
+  "spend_limit": {
+    "amount": "Begränsning",
+    "earlyWarningAmount": "Tidig varningsbelopp",
+    "runningPeriodInDays": "Användningsperiod",
+    "scope": "Omfattning"
+  },
+  "transaction": {
+    "billedAmount": "Fakturerat belopp",
+    "createdAt": "Auktorisationsdatum",
+    "document": "Dokument",
+    "merchant": "Försäljare ",
+    "originalAmount": "Ursprungligt belopp",
+    "postingDate": "Bokföringsdatum",
+    "purchaseOrder": "Inköpsorder",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "review": "Revisionsgranskning",
+    "transactionDate": "Transaktionsdatum",
+    "transactionId": "Transaktions ID",
+    "transactionType": "Transaktionstyp",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "user": {
+    "archived": "$t(common:archived)",
+    "currentSpend": "Spenderat",
+    "email": "$t(common:email)",
+    "firstName": "Förnamn",
+    "fullName": "$t(common:name)",
+    "is2faEnabled": "Tvåfaktorsautentisering",
+    "is2faEnabled_description": "Använd Google Authenticator-appen eller liknande",
+    "lastName": "Efternamn",
+    "location": "Plats",
+    "mobilePhone": "Mobiltelefon",
+    "organisationUnit": "Organisationsenhet",
+    "securityRoles": "Roller",
+    "status": "$t(common:status)"
+  },
+  "user_settings": {
+    "appearance": "Utseende",
+    "localisation": "Lokalisering",
+    "security": "Säkerhet"
+  },
+  "virtual_card": {
+    "actualExpiryDate": "Utgångsdatum",
+    "actualLimit": "Begränsning",
+    "actualNameOnCard": "Namn på kortet",
+    "cardNumberLastFour": "Kortnummer",
+    "cardUseType": "Kort typ",
+    "issuedAt": "Utfärdas",
+    "issuedTo": "Utfärdat till",
+    "issuerIntegration": "Emittentintegrering",
+    "purchaseOrder": "Inköpsorder",
+    "requestedLimit": "Efterfrågad gräns",
+    "status": "$t(common:status)"
+  },
+  "workflow": {
+    "publishNotes": "Publicera anteckningar",
+    "versions": "Versioner"
+  }
+}

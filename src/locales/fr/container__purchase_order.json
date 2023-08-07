@@ -1,0 +1,18 @@
+{
+  "document_dropzone": "Vous avez un reçu mais pas encore de transaction ? Cliquez ou déposez pour l'ajouter ici.",
+  "line_items": {
+    "goods_received": {
+      "question": "Merchandises reçues?",
+      "statement": "Marchandises reçues le <0>{{date}}</0>"
+    }
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} reçu manquant",
+    "countable_missing_receipts_plural": "{{ count }} reçus manquants",
+    "ignored_by": "Reçu manquant ignoré par <0>{{who}}</0>",
+    "mark_as_review_approved": "Marquer comme revue approuvée"
+  },
+  "virtual_card": {
+    "open_preview": "Voir les détails de la carte"
+  }
+}

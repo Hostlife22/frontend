@@ -1,0 +1,11 @@
+{
+  "audit_action": {
+    "CREATE": "<0>{{ who }}</0> created custom field value",
+    "DESTROY": "<0>{{ who }}</0> deleted custom field value",
+    "UPDATE": "<0>{{ who }}</0> updated custom field value"
+  },
+  "change_history": "Change history",
+  "change_to": "Change to",
+  "current_value": "Current value",
+  "project_description": "Workflows may have been based on the previous value. Changing this value will not affect any workflows that has already run."
+}

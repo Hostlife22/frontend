@@ -1,0 +1,11 @@
+{
+  "dropzone": "Valige või lisage failid",
+  "errors": {
+    "file_is_too_large": "Fail on liiga suur",
+    "upload_failure": "Faili ei saa üles laadida"
+  },
+  "tooltip": {
+    "label": "Toetatud failid",
+    "popover": "Saate üles laadida PDF-i ja pildifaile, mis ei ole suuremad kui {{size}}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "audit_action": {
+    "CREATE": "<0>{{ who }}</0> ha creato il valore del campo personalizzato",
+    "DESTROY": "<0>{{ who }}</0> ha eliminato il valore del campo personalizzato",
+    "UPDATE": "<0>{{.who }}</0> ha aggiornato il valore del campo personalizzato"
+  },
+  "change_history": "Cambia cronologia",
+  "change_to": "Cambia in",
+  "current_value": "Valore attuale",
+  "project_description": "I flussi di lavoro potrebbero essere stati basati sul valore precedente. La modifica di questo valore non influirà sui flussi di lavoro già eseguiti."
+}

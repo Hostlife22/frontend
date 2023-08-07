@@ -1,0 +1,83 @@
+{
+  "drafts": {
+    "current_value": {
+      "subtitle": {
+        "last_saved": "Last saved <0>{{time}}</0>",
+        "unsaved": "Unsaved"
+      },
+      "title": "Draft"
+    },
+    "start_new": "Start new request",
+    "subtitle": "New purchase requests are automatically saved as drafts until they are submitted or deleted.",
+    "title": "Drafts"
+  },
+  "item_count": "Items",
+  "item_form": {
+    "add_item": "Add item",
+    "update_item": "Update item"
+  },
+  "item_group": {
+    "INVOICE": {
+      "subtitle": "Request pre-approval for an invoice purchase"
+    },
+    "SUBSCRIPTION": {
+      "subtitle": "Multi-use Virtual Card will be issued for purchasing the following items"
+    },
+    "WEBSHOP": {
+      "subtitle": "Single-use Virtual Card will be issued for purchasing the following items"
+    },
+    "add_item": "Add item",
+    "amount": "Total card amount"
+  },
+  "make_request": "Make a request",
+  "no_purchase_types": {
+    "subtitle": "No purchase types have been enabled for this account yet. Please contact your administrator.",
+    "title": "Purchase types unavailable"
+  },
+  "purchase_type_card": {
+    "INVOICE": {
+      "description": "make an invoice purchase from a supplier on the Mazepay platform",
+      "subtitle": "one-time payment"
+    },
+    "SUBSCRIPTION": {
+      "description": "get a multi-use virtual card for multiple payments at a single webshop",
+      "subtitle": "subscriptions & recurring payments"
+    },
+    "WEBSHOP": {
+      "description": "get a single-use virtual card to make an online purchase",
+      "subtitle": "one-time payment"
+    }
+  },
+  "purchase_type_cards": {
+    "disabled_card_tooltip": "Please enter a subject before adding items",
+    "select_purchase_type": "Select purchase type",
+    "tab": "Add items"
+  },
+  "request": {
+    "subject": {
+      "placeholder": "Enter a general description of the purchase request"
+    }
+  },
+  "sidebar": {
+    "policies": "Procurement policies",
+    "requested_amount_tip": "The requested amount should also include potential shipping cost or other fees.",
+    "summary": {
+      "group": {
+        "INVOICE": {
+          "subtitle": "One-time payment"
+        },
+        "SUBSCRIPTION": {
+          "subtitle": "Multi-use virtual card"
+        },
+        "WEBSHOP": {
+          "subtitle": "Single-use virtual card"
+        },
+        "item_count": "{{count}} item",
+        "item_count_plural": "{{count}} items"
+      },
+      "no_items": "No items",
+      "title": "Summary"
+    }
+  },
+  "submit": "Submit for approval"
+}

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "no_pending_approvals": "En attente d'approbation",
+    "pending_approvals_by": "En attente d'approbation par"
+  },
+  "items": {
+    "approval": {
+      "excess_spend_limit": "La limite de dépenses ne peut pas être supérieure à ce qui a été précédemment approuvé.",
+      "in_purchase_order": "Bon de commande en cours",
+      "spend_limit_description": "TVA et frais de port inclus",
+      "spend_limit_title": "Approuver montant ",
+      "undo_approve": "Annuler l'approbation",
+      "undo_cancel": "Annuler annulation",
+      "undo_initiate": "Annuler l'initialisation",
+      "undo_reject": "Annuler le rejet",
+      "view_purchase_order": "Voir le bon de commande"
+    },
+    "current_spend": {
+      "description": "Y compris la limite suggérée pour l'élément actuel",
+      "title": "Dépenser par <0>{{who}}</0>"
+    },
+    "subscription_tooltip": {
+      "subscribe": "Cliquez pour vous abonner aux mises à jour d'activité",
+      "unsubscribe": "Tu es abonné aux mises à jour d'activité"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "active": "Activo",
+  "activity": "Actividad",
+  "archived_boolean": {
+    "false": "$t(common:active)",
+    "true": "$t(common:archived)"
+  },
+  "city": "Ciudad",
+  "filters": {
+    "archived": {
+      "NO": "$t(common:active)",
+      "YES": "$t(common:archived)"
+    },
+    "disabled": {
+      "NO": "$t(common:enabled)",
+      "YES": "$t(common:disabled)"
+    }
+  },
+  "map": "Mapa"
+}

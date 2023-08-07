@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "api": ["./src/js/graphql"],
+      "api/*": ["./src/js/graphql/*"],
+      "application_layer/*": ["./src/js/application_layer/*"],
+      "comparators": ["./src/js/comparators"],
+      "comparators/*": ["./src/js/comparators/*"],
+      "components": ["./src/js/components"],
+      "components/*": ["./src/js/components/*"],
+      "config": ["./src/js/config"],
+      "config/*": ["./src/js/config/*"],
+      "const": ["./src/js/const"],
+      "const/*": ["./src/js/const/*"],
+      "containers": ["./src/js/containers"],
+      "containers/*": ["./src/js/containers/*"],
+      "data_access_layer/*": ["./src/js/data_access_layer/*"],
+      "graphql-api/generated-types": ["./src/generated/graphql"],
+      "graphql-api/mutations": ["./src/graphql/mutations"],
+      "graphql-api/named-operations": ["./src/generated/named_operations"],
+      "graphql-api/queries": ["./src/graphql/queries"],
+      "graphql-api/validation": ["./src/generated/validation"],
+      "hooks/*": ["./src/js/hooks/*"],
+      "locales": ["./scr/locales/"],
+      "locales/*": ["./src/locales/*"],
+      "presentation/*": ["./src/js/presentation_layer/*"],
+      "preview": ["./src/js/preview"],
+      "preview/*": ["./src/js/preview/*"],
+      "providers": ["./src/js/providers"],
+      "providers/*": ["./src/js/providers/*"],
+      "regexp": ["./src/js/regexp"],
+      "regexp/*": ["./src/js/regexp/*"],
+      "src/*": ["./src/*"],
+      "types": ["./src/js/types"],
+      "types/*": ["./src/js/types/*"],
+      "utils": ["./src/js/utils"],
+      "utils/*": ["./src/js/utils/*"]
+    }
+  },
+  "include": ["src"]
+}

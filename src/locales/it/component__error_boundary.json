@@ -1,0 +1,29 @@
+{
+  "common_errors": {
+    "application_updated": {
+      "description": "Una nuova versione è stata rilasciata. Si prega di aggiornare la pagina.",
+      "reset_button": "Aggiorna pagina",
+      "title": "Applicazione aggiornata"
+    },
+    "forbidden": {
+      "description": "La risorsa che stavi cercando è vietata.",
+      "title": "Vietato"
+    },
+    "not_found": {
+      "description": "Spiacenti, sembra che la pagina che stai cercando non esista.",
+      "title": "Non trovato"
+    },
+    "unknown_error": {
+      "description": "Siamo spiacenti, ci stiamo lavorando.",
+      "reset_button": "Torna alla home",
+      "title": "Qualcosa è andato storto"
+    }
+  },
+  "node_provider": {
+    "errors": {
+      "forbidden": "Spiacenti, sembra che tu non abbia il permesso di vedere {{ what }}.",
+      "not_found": "Scusa, sembra che {{ what }} che stai cercando non esiste."
+    },
+    "sidebar_reset_button": "Chiudi la barra laterale"
+  }
+}

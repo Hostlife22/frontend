@@ -1,0 +1,31 @@
+{
+  "buttons": {
+    "change_phone": "Handynummer wechseln",
+    "generate_code": "Bestätigungscode senden",
+    "resend_code": "Code erneut senden"
+  },
+  "code_expiry_status": {
+    "expired": "Abgelaufen",
+    "will_expire": "Läuft ab <0></0>"
+  },
+  "code_status": {
+    "expired": "Ein Bestätigungscode ist abgelaufen",
+    "sent": "Ein Bestätigungscode wurde an Ihr Telefon gesendet"
+  },
+  "fields": {
+    "code": {
+      "label": "Geben Sie den Bestätigungscode ein",
+      "placeholder": "Bestätigungscode eingeben"
+    },
+    "phone": {
+      "error": "Handynummer eingeben",
+      "label": "Handynummer",
+      "placeholder": "Telefonnummer eingeben"
+    }
+  },
+  "header": {
+    "add_phone": "Handynummer hinzufügen",
+    "change_phone": "Handynummer wechseln"
+  },
+  "subtitle": "Virtuelle Karten werden Ihnen als SMS mitgeteilt. Bitte bestätigen Sie Ihre Telefonnummer, um das Anfrageformular freizuschalten."
+}

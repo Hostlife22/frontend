@@ -1,0 +1,28 @@
+{
+  "cancel_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Si prega di descrivere il motivo dell'annullamento ",
+    "placeholder": "Descrivi il motivo della cancellazione",
+    "submit": "Cancella elemento",
+    "title": "Vuoi cancellare l' articolo?"
+  },
+  "delete": {
+    "close": "$t(common:cancel)",
+    "description": "Eliminazione di {{what}} non può essere effettutata",
+    "submit": "$t(common:delete)",
+    "title": "Elimina {{what}}?"
+  },
+  "reject_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Descrivi il motivo del rifiuto",
+    "placeholder": "Descrivi il motivo del rifiuto",
+    "submit": "$t(common:reject)",
+    "title": "Sei sicuro di voler rifiutare?"
+  },
+  "revoke_virtual_card": {
+    "close": "$t(common:cancel)",
+    "description": "La revoca della carta virtuale non può essere annullata",
+    "submit": "$t(common:revoke)",
+    "title": "Sei sicuro di voler revocare la carta virtuale?"
+  }
+}

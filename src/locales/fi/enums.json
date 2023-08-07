@@ -1,0 +1,23 @@
+{
+  "AccountUseType": {
+    "BUYER": "Ostaja"
+  },
+  "CountryCode": {
+    "DK": "Tanska"
+  },
+  "CustomFieldFormableClass": {
+    "REQUEST_ITEM": "$t(common:request_item)"
+  },
+  "DataViewResourceType": {
+    "ACCOUNT": "$t(common:account)",
+    "ADDRESS": "$t(common:address)",
+    "CURRENCY": "$t(common:currency)",
+    "DOCUMENT": "$t(common:document)"
+  },
+  "DocumentClassification": {
+    "INVOICE": "$t(common:invoice)"
+  },
+  "UserSecurityRole": {
+    "MANAGE_ACCOUNT": "Tilin hallinta"
+  }
+}

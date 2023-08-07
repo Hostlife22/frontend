@@ -1,0 +1,57 @@
+{
+  "definition": {
+    "bymonth": "I {{month}}",
+    "bymonthday": "På {{monthday}}",
+    "byweekday": "På {{weekday}}",
+    "freq": "Upprepa {{frequency}}",
+    "interval": "Varje {{interval}}"
+  },
+  "errors": {
+    "ends_at": {
+      "must_be_in_future": "Slutdatum kan inte vara tidigare och före startdatum"
+    },
+    "starts_at": {
+      "must_be_in_present_or_future": "Start vid datum får inte vara tidigare och efter slutdatum"
+    }
+  },
+  "frequency": {
+    "DAILY": "Dagligen",
+    "MONTHLY": "Månadsvis",
+    "WEEKLY": "Veckovis",
+    "YEARLY": "Årsvis"
+  },
+  "interval": {
+    "DAILY": "Dag",
+    "DAILY_plural": "Dagar",
+    "MONTHLY": "Månad",
+    "MONTHLY_plural": "Månader",
+    "WEEKLY": "Vecka",
+    "WEEKLY_plural": "Veckor",
+    "YEARLY": "År",
+    "YEARLY_plural": "År"
+  },
+  "month": [
+    null,
+    "Januari",
+    "Februari",
+    "Mars",
+    "April",
+    "Maj",
+    "Juni",
+    "Juli",
+    "Augusti",
+    "September",
+    "Oktober",
+    "November",
+    "December"
+  ],
+  "weekday": {
+    "FR": "Fredag",
+    "MO": "Måndag",
+    "SA": "Lördag",
+    "SU": "Söndag",
+    "TH": "Torsdag",
+    "TU": "Tisdag",
+    "WE": "Onsdag"
+  }
+}

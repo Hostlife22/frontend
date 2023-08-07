@@ -1,0 +1,21 @@
+{
+  "cancel_purchase_request_item": {
+    "description": "Palun esitage tühistamise põhjus",
+    "placeholder": "Kirjeldage tühistamise põhjust",
+    "submit": "Tühista üksus",
+    "title": "Kas oled kindel, et tahad tühistada?"
+  },
+  "delete": {
+    "description": "{{what}} kustutamist ei saa tagasi võtta",
+    "title": "Kustuta {{what}}?"
+  },
+  "reject_purchase_request_item": {
+    "description": "Esitage tagasilükkamise põhjus",
+    "placeholder": "Kirjeldage tagasilükkamise põhjust",
+    "title": "Kas olete kindel, et soovite tagasi lükata?"
+  },
+  "revoke_virtual_card": {
+    "description": "Virtuaalkaardi tühistamist ei saa tagasi võtta",
+    "title": "Kas oled kindel, et soovid tühistada?"
+  }
+}

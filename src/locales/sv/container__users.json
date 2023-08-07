@@ -1,0 +1,18 @@
+{
+  "countable_users_to_invite": "{{ count }} användare redo att bli inbjuden",
+  "countable_users_to_invite_plural": "{{ count }} användare redo att bjudas in",
+  "description": "Utkastanvändare kan användas i konfigurationen men kommer inte ha åtkomst till kontot innan de bjuds in",
+  "invite_all": "Bjud in alla",
+  "modal": {
+    "countable_invited_users_number": "Inbjudan kommer att skickas till {{ count }} användare",
+    "countable_invited_users_number_plural": "Inbjudningar kommer att skickas till {{ count }} användare",
+    "send_invitations": "Skicka inbjudningar",
+    "title": "Bjud in utkastanvändare"
+  },
+  "reset_filter": "Återställ filter",
+  "toasts": {
+    "invite_users_success": "{{count}} användare har bjudits in",
+    "invite_users_success_plural": "{{count}} användare har bjudits in"
+  },
+  "view_all": "Visa alla"
+}

@@ -1,0 +1,6 @@
+{
+  "create_user": {
+    "invitation_toggle_description": "Se disabilitato, l'utente verrà creato con lo stato di bozza",
+    "invitation_toggle_label": "Invia invito all'utente"
+  }
+}

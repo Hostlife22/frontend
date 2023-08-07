@@ -1,0 +1,478 @@
+{
+  "ApprovalDelegation": {
+    "endsOn": "Slutt på",
+    "from": "Deleger fra",
+    "startsOn": "Start på",
+    "to": "Deleger til",
+    "to_description": "Vi vil varsle godkjenneren når delegasjon blir aktivert"
+  },
+  "ApprovalFlowSettings": {
+    "requestForPurchase": "Forespørsel om kjøp",
+    "requestForPurchase_description": "Starter med at brukeren sender inn en forespørsel"
+  },
+  "CardSubscription": {
+    "owner": "Eier",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "serviceName": "$t(common:name)",
+    "totalSpentAmountCents": "$t(common:total_spent)"
+  },
+  "DataScopingRule": {
+    "scopeByCustomField": "Scope etter",
+    "scopeToPath": "Til"
+  },
+  "__typename": {
+    "Account": "$t(common:account)",
+    "Approval": "godkjenning",
+    "ApprovalDelegation": "Godkjenningsdelegering",
+    "ApproverCustomField": "egendefinert godkjennerfelt",
+    "Attachment": "vedlegg",
+    "AttachmentCustomField": "egendefinert vedleggfelt",
+    "BankAccount": "bankkonto",
+    "CardSubscription": "Abonnement",
+    "Category": "kategori",
+    "CategoryCustomField": "egendefinert kategorifelt",
+    "CategorySet": "kategorisett",
+    "CheckboxCustomField": "egendefinert avkrysningsboks-felt",
+    "Comment": "kommenter",
+    "CostCentre": "kostnadssted",
+    "CostCentreCustomField": "egendefinert kostnadsstedsfelt",
+    "CustomField": "$t(common:custom_field)",
+    "DataPath": "bane",
+    "DataScopingRule": "$t(common:data_scoping_rule)",
+    "DataScopingRule_description": "Begrens tilgjengelige alternativer ved scoping til en eller flere tilknytninger gjennom tilpassede felt",
+    "DataSource": "datakilde",
+    "DataSourceItem": "datakildeelement",
+    "DataView": "datavisning",
+    "DataViewField": "datavisningsfelt",
+    "DateCustomField": "egendefinert felt for dato",
+    "Document": "dokument",
+    "FlowActionApproveBy": "Godkjenn av",
+    "FlowActionAutomaticApprove": "Godkjenn",
+    "FlowActionAutomaticReject": "Avvis",
+    "FlowActionCreatePurchaseOrder": "Opprett innkjøpsordre",
+    "FlowStep": "flow-trinn",
+    "FlowStepCondition": "Betingelse",
+    "IntegerCustomField": "egendefinert heltallsfelt",
+    "InvoicePayment": "fakturabetaling",
+    "IssuerIntegration": "utstederintegrasjon",
+    "IssuerIntegrationConsumer": "utstederintegrasjoner - forbruker",
+    "IssuerIntegrationRule": "regel for utstederintegrasjon",
+    "Location": "$t(common:location)",
+    "Merchant": "forhandler",
+    "OrganisationUnit": "organisasjonsenhet",
+    "PurchaseOrder": "innkjøpsordre",
+    "PurchaseRequest": "kjøpsforespørsel",
+    "PurchaseRequestItem": "Vare i kjøpsforespørsel",
+    "Report": "rapport",
+    "ReportTemplate": "rapportmal",
+    "SelectCustomField": "velg egendefinert felt",
+    "SpendLimit": "utgiftsgrense",
+    "SupplierAccount": "leverandørkonto",
+    "TextAreaCustomField": "egendefinert tektsområdefelt",
+    "TextCustomField": "egendefinert tekstfelt",
+    "Transaction": "transaksjon",
+    "UrlCustomField": "egendefinert url-felt",
+    "User": "bruker",
+    "VirtualCard": "virtuelt kort",
+    "Workflow": "workflow"
+  },
+  "account": {
+    "address": "$t(common:address)",
+    "name": "$t(common:name)",
+    "vatNumber": "$t(common:vat_number)"
+  },
+  "address": {
+    "city": "$t(common:city)",
+    "country": "$t(common:country)",
+    "postalCode": "$t(common:postal_code)",
+    "regionName": "$t(common:region)",
+    "streetName": "Gatenavn",
+    "streetNumber": "Gatenummer"
+  },
+  "appearance_settings": {
+    "theme": "$t(common:dark_mode)",
+    "theme_description": "Forlenget batteritid og redusert eksponering for blått lys "
+  },
+  "approval": {
+    "confirmedAt": "Bekreftet",
+    "confirmedBy": "Bekreftet av",
+    "status": "$t(common:status)"
+  },
+  "approval_flow": {
+    "flowSteps": {
+      "node": "flow-trinn",
+      "node_plural": "flow-trinn"
+    }
+  },
+  "archivable": {
+    "archivedAt": "Arkivert"
+  },
+  "attachment": {
+    "byteSize": "Filstørrelse",
+    "contentType": "Filtype",
+    "createdAt": "$t(common:added_at)",
+    "downloadUrl": "$t(common:download)",
+    "filename": "Filnavn"
+  },
+  "bank_account": {
+    "createdAt": "$t(common:added_at)",
+    "createdBy": "$t(common:added_by)",
+    "currency": "$t(common:currency)",
+    "iban": "IBAN",
+    "verifiedAt": "Verifisert"
+  },
+  "buyer_account": {
+    "accountType": "Kontotype",
+    "address": "$t(common:address)",
+    "createdAt": "Aktiv siden",
+    "name": "$t(common:company_name)",
+    "publicEmail": "$t(common:email)",
+    "publicPhone": "Telefon",
+    "publicWebsite": "$t(common:website)",
+    "vatNumber": "$t(common:vat_number)"
+  },
+  "category": {
+    "childrenCount": "Underkategorier",
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "parentCode": "Overordnet kode",
+    "parentId": "Overordnet kategori",
+    "title": "$t(common:title)"
+  },
+  "category_set": {
+    "categories": "Kategorier",
+    "createdAt": "$t(common:created_at)",
+    "createdBy": "$t(common:created_by)",
+    "title": "$t(common:title)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "cost_centre": {
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "name": "$t(common:name)"
+  },
+  "create_select_custom_field_input": {
+    "dataSourceId": "Datakilde"
+  },
+  "create_user_input_attributes": {
+    "personalInvitationMessage": "Personlig invitasjonsmelding "
+  },
+  "custom_field": {
+    "__typename": {
+      "ApproverCustomField": "Godkjenner",
+      "AttachmentCustomField": "Vedlegg",
+      "CategoryCustomField": "Kategori",
+      "CheckboxCustomField": "Avkrysningsboks",
+      "CostCentreCustomField": "Kostnadssted",
+      "DateCustomField": "Dato",
+      "IntegerCustomField": "Heltall",
+      "MoneyCustomField": "Penger",
+      "SelectCustomField": "Datakilde",
+      "TextAreaCustomField": "Tekst - flere linjer",
+      "TextCustomField": "Tekst",
+      "UrlCustomField": "URL",
+      "__typename": "Type"
+    },
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "formableClass": "Ressurs",
+    "iconName": "$t(common:icon)",
+    "label": "$t(common:label)",
+    "options": "Alternativer",
+    "placeholder": "$t(common:placeholder)",
+    "required": "Påkrevd",
+    "tooltip": "Tooltip",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "data_source": {
+    "createdAt": "$t(common:created_at)",
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "items": "Varer",
+    "name": "$t(common:name)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "data_source_item": {
+    "dataSource": "Datakilde",
+    "description": "$t(common:description)",
+    "externalId": "$t(common:code)",
+    "name": "$t(common:name)"
+  },
+  "data_view": {
+    "createdBy": "$t(common:created_by)",
+    "description": "$t(common:description)",
+    "fields": "$t(common:fields)",
+    "resourceType": "Ressurs",
+    "title": "$t(common:title)"
+  },
+  "data_view_field": {
+    "formatString": "Format",
+    "label": "$t(common:label)",
+    "path": "Verdi fra",
+    "updatedAt": "$t(common:updated_at_trans)"
+  },
+  "document": {
+    "classification": "Dokumenttype",
+    "createdAt": "$t(common:date)",
+    "createdBy": "Lagt til av",
+    "currency": "$t(common:currency)",
+    "purchaseOrder": "Innkjøpsordre",
+    "supplier": "$t(common:supplier)",
+    "totalAmount": "Totalbeløp",
+    "transactions": "Transaksjoner",
+    "vatAmount": "MVA-beløp"
+  },
+  "flow_action_approve_by": {
+    "approvalType": "Godkjennelsestype",
+    "approverUsers": "Tildel til bruker",
+    "approverUsers_description": "Tildel én eller flere godkjennere",
+    "assignAll": "Tildel alle",
+    "assignAll_description": "Tildel alle brukere med godkjenningsrettigheter",
+    "assigneePaths": "Tildel til egendefinert felt",
+    "assigneePaths_description": "Tildel én eller flere egendefinerte felter"
+  },
+  "flow_step_condition": {
+    "comparator": "Betingelse",
+    "inputAttribute": "Egenskap",
+    "inputPath": "Input",
+    "inputPath_description": "Bane til input-verdi",
+    "referencePaths": "Referansebaner",
+    "referencePaths_description": "Én eller flere verdier å sammenligne mot",
+    "referenceValue": "Referanseverdi",
+    "referenceValue_description": "Skriv inn fritekst"
+  },
+  "invoice_payment": {
+    "messageToSupplier": "Melding til leverandør",
+    "scheduledPaymentDate": "Betalingsdato"
+  },
+  "issuer_integration": {
+    "billingEntity": "Faktureringsenhet",
+    "cardUseInvoice": "Faktura",
+    "cardUseMulti": "Flergangsbruk",
+    "cardUseMulti_short": "Flergangs",
+    "cardUseSingle": "Engangsbruk",
+    "cardUseSingle_short": "Enkel",
+    "consumers": "Forbrukere",
+    "consumers_description": "Administrer hvem som skal kunne utstede virtuelle kort ved bruk av integrasjon. Tilgang overføres til brukere, organisasjonsenheter og kostnadssteder.",
+    "currency": "$t(common:currency)",
+    "description": "$t(common:description)",
+    "paymentType": "Betalingstype"
+  },
+  "issuer_integration_consumer": {
+    "cardUseInvoiceFallback": "fallback for faktura",
+    "cardUseMultiFallback": "fallback for flergangsbruk",
+    "cardUseSingleFallback": "fallback for engangsbruk",
+    "consumerName": "$t(common:name)",
+    "fallback": "Fallback",
+    "fallback_description": "Tillat at integrasjonen brukes som fallback hvis ingen andre integrasjoner samsvarer med kriterier definert i regler.",
+    "invoiceFallback": "fallback for faktura",
+    "multiFallback": "fallback for flergangsbruk",
+    "singleFallback": "fallback for engangsbruk"
+  },
+  "issuer_integration_rule": {
+    "criteria": "Match etter",
+    "position": "Posisjon",
+    "strict": "Streng",
+    "strict_description": "Hvis satt til usant, så vil regelen bli ignorert hvis ingen treff blir funnet.",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "localisation_settings": {
+    "displayInCurrency": "Vis i valuta",
+    "interfaceLanguage": "Grensesnittspråk",
+    "timezone": "Tidssone"
+  },
+  "location": {
+    "address": "$t(common:address)",
+    "name": "$t(common:name)"
+  },
+  "merchant": {
+    "address": "$t(common:address)",
+    "city": "$t(common:city)",
+    "companyName": "$t(common:company_name)",
+    "country": "$t(common:country)",
+    "createdAt": "$t(common:created_at)",
+    "establishedOn": "Etablert",
+    "legalCorporateName": "Juridisk firmanavn",
+    "merchantCategoryCode": "Leverandørs kategorikode",
+    "merchantCategoryCode_abbr": "Leverandørs kategorikode (MCC)",
+    "merchantName": "Leverandørnavn",
+    "naicsCode": "NAICS-kode",
+    "totalSpent": "$t(common:total_spent)",
+    "updatedAt": "$t(common:updated_at)"
+  },
+  "notification_setting": {
+    "activityKey": "$t(common:activity)",
+    "email": "$t(common:email)",
+    "mobile": "Mobiltelefon",
+    "web": "Nett"
+  },
+  "organisation_unit": {
+    "childUsersCount": "$t(interfaces:query.users)",
+    "childrenCount": "Underenheter",
+    "classification": "Enhetstype",
+    "code": "$t(common:code)",
+    "description": "$t(common:description)",
+    "legalEntity": "Juridisk enhet",
+    "locations": "$t(interfaces:query.locations)",
+    "name": "$t(common:name)",
+    "parentId": "Overordnet enhet"
+  },
+  "payment_settings": {
+    "baseCurrency": "Grunnvaluta",
+    "baseCurrency_description": "Grunnvalutaen brukes gjennom hele applikasjonen, inkludert forespørselsskjemaet"
+  },
+  "public_address": {
+    "city": "$t(common:city)",
+    "country": "$t(common:country)",
+    "postalCode": "$t(common:postal_code)",
+    "regionName": "$t(common:region)",
+    "streetAddress": "$t(common:street)"
+  },
+  "purchase_order": {
+    "approvedBaseAmount": "Godkjent beløp ",
+    "approverAmounts": "Godkjent av",
+    "createdAt": "$t(common:created_at)",
+    "documents": "$t(common:documents)",
+    "poNumber": "Innkjøpsordrenummer ",
+    "purchaseRequest": "Forespørsel",
+    "purchaseType": "Kjøpstype ",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "requestedBy": "Forespurt av ",
+    "title": "Emne",
+    "totalSpent": "$t(common:spent)",
+    "updatedAt": "$t(common:updated_at)",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "purchase_request": {
+    "createdAt": "Opprettet",
+    "items": "Varer",
+    "requestedBy": "Forespurt av",
+    "subject": "Emne",
+    "submittedAt": "Forespurt"
+  },
+  "purchase_request_item": {
+    "approvedBaseAmount": "Godkjent beløp",
+    "description": "$t(common:description)",
+    "purchaseRequest": "Kjøpsforespørsel",
+    "purchaseType": "$t(interfaces:purchase_order.purchaseType)",
+    "requestedAmount": "Forespurt beløp",
+    "requestedBaseAmount": "Forespurt grunnbeløp",
+    "status": "$t(common:status)",
+    "supplier": "$t(common:supplier)"
+  },
+  "query": {
+    "cardSubscriptions": "Abonnementer",
+    "categories": "Kategorier",
+    "categorySets": "Kategorisett",
+    "comments": "Kommentarer",
+    "costCentres": "Kostnadssteder",
+    "customFields": "Egendefinerte felt",
+    "dataSourceItems": "Datakildeelementer",
+    "dataSources": "Datakilder",
+    "dataViewFields": "Datavisningsfelt",
+    "dataViews": "Datavisninger",
+    "issuerIntegrationRules": "Regler for utstederintegrasjon",
+    "issuerIntegrationRules_description": "En konto kan ha én eller flere utstederintegrasjoner aktivert for utstedelse av virtuelle kort. Regler for matching bidrar til å velge riktig utstederintegrasjon for et gitt scenario. Reglene brukes i rekkefølge i forhold til deres posisjon.",
+    "issuerIntegrations": "Utstederintegrasjon",
+    "locations": "Steder",
+    "organisationUnits": "Organisasjonsenheter",
+    "purchaseOrders": "Innkjøpsordre",
+    "purchaseRequests": "Kjøpsforespørsler",
+    "reportTemplates": "Rapportmaler",
+    "reports": "Rapporter",
+    "suppliers": "Leverandører",
+    "transactions": "Transaksjoner",
+    "users": "Brukere",
+    "virtualCards": "Virtuelle kort",
+    "workflows": "Workflow"
+  },
+  "range": {
+    "criterion": "Kriterie",
+    "end": "Intervallslutt",
+    "start": "Intervallstart"
+  },
+  "report": {
+    "createdAt": "$t(common:created_at)",
+    "exportFile": "$t(common:file)",
+    "reportTemplate": "Mal"
+  },
+  "report_template": {
+    "dataView": "Datavisning",
+    "description": "$t(common:description)",
+    "exportFormat": "Eksportformat",
+    "range": "Datointervall",
+    "schedule": "Tidsplan",
+    "title": "$t(common:title)"
+  },
+  "schedule": {
+    "definition": {
+      "interval": "Intervall"
+    },
+    "endsAt": "Slutter",
+    "startsAt": "Starter"
+  },
+  "single_use_card": {
+    "defaultTtlDays": "Standard TTL",
+    "defaultTtlDays_description": "Standard foreslått utløp i dager for nye forespørsler.",
+    "maxTtlDays": "Maks TTL",
+    "maxTtlDays_description": "Maksimal verdi som kan velges av en foresprørrer."
+  },
+  "spend_limit": {
+    "amount": "Grense",
+    "earlyWarningAmount": "Tidlig advarselsbeløp ",
+    "runningPeriodInDays": "Bruksperiode",
+    "scope": "Omfang"
+  },
+  "transaction": {
+    "billedAmount": "Fakturert beløp",
+    "createdAt": "Autorisasjonsdato",
+    "document": "Dokument",
+    "merchant": "Forhandler",
+    "originalAmount": "Opprinnelig beløp",
+    "postingDate": "Posteringsdato ",
+    "purchaseOrder": "Innkjøpsordre",
+    "reconciliationStatus": "$t(common:reconciliation)",
+    "review": "Revisjonsgjennomgang",
+    "transactionDate": "Transaksjonsdato",
+    "transactionId": "Transaksjons-ID",
+    "transactionType": "Transaksjonstype ",
+    "virtualCard": "$t(common:virtual_card)"
+  },
+  "user": {
+    "archived": "$t(common:archived)",
+    "currentSpend": "Forbruk",
+    "email": "$t(common:email)",
+    "firstName": "Fornavn",
+    "fullName": "$t(common:name)",
+    "is2faEnabled": "Tofaktorverifisering",
+    "is2faEnabled_description": "Bruk Google Authenticator-appen eller lignende",
+    "lastName": "Etternavn",
+    "location": "$t(common:location)",
+    "mobilePhone": "Mobiltelefon",
+    "organisationUnit": "Organisasjonsenhet",
+    "securityRoles": "Roller",
+    "status": "$t(common:status)"
+  },
+  "user_settings": {
+    "appearance": "Utseende",
+    "localisation": "Lokalisering",
+    "security": "Sikkerhet"
+  },
+  "virtual_card": {
+    "actualExpiryDate": "Utløpsdato",
+    "actualLimit": "Grense",
+    "actualNameOnCard": "Navn på kortet",
+    "cardNumberLastFour": "Kortnummer",
+    "cardUseType": "Korttype",
+    "issuedAt": "Utstedt",
+    "issuedTo": "Utstedt til",
+    "issuerIntegration": "Utstederintegrasjon",
+    "purchaseOrder": "Innkjøpsordre",
+    "requestedLimit": "Forespurt grense",
+    "status": "$t(common:status)"
+  },
+  "workflow": {
+    "publishNotes": "Publiser notater",
+    "versions": "Versjoner"
+  }
+}

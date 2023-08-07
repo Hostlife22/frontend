@@ -1,0 +1,11 @@
+{
+  "dropzone": "Sélectionnez ou déposez les fichiers",
+  "errors": {
+    "file_is_too_large": "Le fichier est trop grand",
+    "upload_failure": "Incapable de télécharger le fichier"
+  },
+  "tooltip": {
+    "label": "Fichiers supportés",
+    "popover": "Vous pouvez télécharger un fichier PDF et image, pas plus grand que {{size}}"
+  }
+}

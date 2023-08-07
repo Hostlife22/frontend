@@ -1,0 +1,28 @@
+{
+  "cancel_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Please provide a reason for cancellation",
+    "placeholder": "Describe the reason for cancellation",
+    "submit": "Cancel item",
+    "title": "Are you sure you want to cancel?"
+  },
+  "delete": {
+    "close": "$t(common:cancel)",
+    "description": "Delete of {{what}} can not be undone",
+    "submit": "$t(common:delete)",
+    "title": "Delete {{what}}?"
+  },
+  "reject_purchase_request_item": {
+    "close": "$t(common:go_back)",
+    "description": "Please provide a reason for rejection",
+    "placeholder": "Describe the reason for rejection",
+    "submit": "$t(common:reject)",
+    "title": "Are you sure you want to reject?"
+  },
+  "revoke_virtual_card": {
+    "close": "$t(common:cancel)",
+    "description": "Revoke of virtual card can not be undone",
+    "submit": "$t(common:revoke)",
+    "title": "Are you sure you want to revoke?"
+  }
+}

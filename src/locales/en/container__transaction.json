@@ -1,0 +1,48 @@
+{
+  "approver_amount": "Approved <b>{{approvalCount}}</b> item for a total of <b>{{totalApprovedAmount}}</b>",
+  "approver_amount_plural": "Approved <b>{{approvalCount}}</b> items for a total of <b>{{totalApprovedAmount}}</b>",
+  "personal_reminder": {
+    "description": "Do you want to send a personal reminder?",
+    "label": "Message",
+    "placeholder": "Enter message to {{who}}",
+    "snooze": "Snooze review for 7 days",
+    "submit": "Send personal reminder"
+  },
+  "reminders_sent": {
+    "label": "Reminders sent",
+    "opened": "Opened"
+  },
+  "resolved_reporting": {
+    "resolved": "Review approved"
+  },
+  "sidebar": {
+    "document": "Documents",
+    "reporting": "Reporting"
+  },
+  "trust_score": {
+    "approvers": {
+      "description": " ",
+      "title": "Approvers"
+    },
+    "merchant": {
+      "title": "Merchant"
+    },
+    "purchase_order": {
+      "description": " ",
+      "title": "Purchase order"
+    },
+    "requester": {
+      "description": " ",
+      "title": "Requester"
+    },
+    "title": "Trust score",
+    "transaction": {
+      "description": " ",
+      "title": "Transaction"
+    }
+  },
+  "unresolved_reporting": {
+    "alert": "This transaction has an unresolved reporting",
+    "mark_resolved": "Mark resolved"
+  }
+}

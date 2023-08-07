@@ -1,0 +1,14 @@
+{
+  "create_report_modal": {
+    "file_format": "Filformat",
+    "generating_report": "Genererer rapport",
+    "report_generated": "Rapporten genereres.",
+    "select_date": "Velg dato",
+    "send_notification": "Vi vil sende deg en beskjed når rapporten er klar."
+  },
+  "generate_report_section": {
+    "description": "Lag en rapport basert på denne datavisningen med en tilpasset start- og sluttdato.",
+    "generate_report": "Generer rapport",
+    "new_report": "Ny rapport"
+  }
+}

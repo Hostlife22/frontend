@@ -1,0 +1,31 @@
+{
+  "create_custom_field": {
+    "body": {
+      "step1": {
+        "subtitle": "Kohandatud väljad võimaldavad laiendada olemasolevate ressursside teabekihti. Neid väljasid saab kasutada ka töövoogudes.",
+        "title": "Valige ressurss"
+      },
+      "step2": {
+        "groups": {
+          "association": "Ühing",
+          "basic": "Põhiline"
+        },
+        "title": "Valige tüüp"
+      },
+      "step3": {
+        "general": "Üldine",
+        "select_options": "Valige valikud",
+        "validation": "Kinnitus"
+      }
+    },
+    "title": "Uus kohandatud väli"
+  },
+  "update_custom_field": {
+    "responsive_columns": {
+      "description": "Sõltuvalt vaateava laiusest võib ühel real olla kuni 4 veergu.",
+      "minimum_width": "Minimaalne laius",
+      "title": "Kuvamise stiil"
+    },
+    "title": "Uuenda kohandatud väli"
+  }
+}

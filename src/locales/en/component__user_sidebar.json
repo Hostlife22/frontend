@@ -1,0 +1,6 @@
+{
+  "create_user": {
+    "invitation_toggle_description": "If disabled the user will be created with draft status",
+    "invitation_toggle_label": "Send invitation to user"
+  }
+}

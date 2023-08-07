@@ -1,0 +1,79 @@
+{
+  "common": {
+    "subtitle": "L'approvisionnement est exigeant. <b>Exigez un logiciel plus intelligent.</b>",
+    "title": "Bienvenue <b>sur Mazepay</b>",
+    "website_link": "Lire plus de détails sur notre site web",
+    "website_link_title": "Voulez en savoir plus?"
+  },
+  "forms": {
+    "back_to_sign_in": "Retour à la page d'accueil",
+    "email": {
+      "errors": {
+        "invalid": "L'email n'est pas valide",
+        "required": "L'e-mail est obligatoire"
+      },
+      "label": "Email",
+      "placeholder": "Entrez l’Email de la société"
+    },
+    "header": {
+      "subtitle": {
+        "/accept_invitation": "Vous avez été invité à rejoindre Mazepay. Veuillez choisir un mot de passe pour accepter l'invitation.",
+        "/reset_password/send_email": "Entrez l'adresse e-mail que vous utilisez pour vous connecter à Mazepay",
+        "/reset_password/set_password": "Choisissez un nouveau mot de passe pour votre compte Mazepay",
+        "/signin": "Application Mazepay"
+      },
+      "title": {
+        "/accept_invitation": "Choisissez un mot de passe",
+        "/reset_password/send_email": "Réinitialisez le mot de passe",
+        "/reset_password/set_password": "Nouveau mot de passe",
+        "/signin": "Sign-in"
+      }
+    },
+    "invite_errors": {
+      "link_is_invalid": "Le lien de confirmation n'est pas valide",
+      "token_not_found": "Token introuvable ou obsolète"
+    },
+    "otp_header": {
+      "subtitle": "Entrez le code à six chiffres de votre application d'authentification",
+      "title": "Authentification à deux facteurs"
+    },
+    "password": {
+      "confirmation_label": "Confirmez le mot de passe",
+      "errors": {
+        "passwords_do_not_match": "Les mots de passe ne correspondent pas",
+        "required": "Le mot de passe est obligatoire",
+        "too_short": "Le mot de passe est trop court (le minimum est de 6 caractères)"
+      },
+      "label": "Mot de passe",
+      "placeholder": "Entrer le mot de passe"
+    },
+    "submit": {
+      "confirm_invite": "Accepter l'invitation",
+      "continue": "Continuer",
+      "reset_password_email": "Réinitialiser",
+      "set_password": "Définir le mot de passe",
+      "sign_in": "Sign-in",
+      "verify_otp": "Vérifier"
+    },
+    "unlock": {
+      "error": "Impossible de vous débloquer",
+      "unlocked": "Vous êtes débloqué",
+      "unlocking": "En train de vous débloquer"
+    },
+    "validation_errors": {
+      "reset_password_token": {
+        "invalid": "Le token n'est pas valide"
+      }
+    }
+  },
+  "links": {
+    "change": "Changer",
+    "reset_password": "Réinitialiser le mot de passe"
+  },
+  "page_title": {
+    "/accept_invitation/buyer": "Accepter l'invitation",
+    "/accept_invitation/supplier": "Accepter l'invitation",
+    "/reset_password": "Réinitialiser le mot de passe",
+    "/signin": "Sign-in"
+  }
+}

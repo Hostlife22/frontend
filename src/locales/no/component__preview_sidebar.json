@@ -1,0 +1,15 @@
+{
+  "create_document": {
+    "document_currency_mismatch": "Valutaen stemmer ikke overens med transaksjonen."
+  },
+  "import_info": {
+    "ApproverCustomField": "Må være en e-postadresse",
+    "CategoryCustomField": "Må være koden til en eksisterende kategori",
+    "CostCentreCustomField": "Må være koden til et eksisterende kostnadssted",
+    "DateCustomField": "Må være en ISO 8601-kodet dato, f.eks. ÅÅÅÅ-MM-DD",
+    "SelectCustomField": "Må være koden til et eksisterende datakildeelement"
+  },
+  "import_users": {
+    "security_roles_description": "Tildel standardroller til alle nye brukere."
+  }
+}

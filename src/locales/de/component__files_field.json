@@ -1,0 +1,11 @@
+{
+  "dropzone": "Dateien auswählen oder ablegen",
+  "errors": {
+    "file_is_too_large": "Datei ist zu groß",
+    "upload_failure": "Hochladen der Datei nicht möglich"
+  },
+  "tooltip": {
+    "label": "Unterstützte Dateien",
+    "popover": "Sie können PDF- und Bilddateien hochladen, die nicht größer sind als {{size}}"
+  }
+}

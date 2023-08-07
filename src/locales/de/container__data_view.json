@@ -1,0 +1,14 @@
+{
+  "create_report_modal": {
+    "file_format": "Datei Format",
+    "generating_report": "Bericht erstellen",
+    "report_generated": "Bericht wird erstellt.",
+    "select_date": "Datum auswählen",
+    "send_notification": "Wir senden Ihnen eine Benachrichtigung, wenn der Bericht fertig ist."
+  },
+  "generate_report_section": {
+    "description": "Erstellen Sie einen Bericht basierend auf dieser Datenansicht mit einem benutzerdefinierten Start- und Enddatum",
+    "generate_report": "Bericht generieren",
+    "new_report": "Neuer Bericht"
+  }
+}

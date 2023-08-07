@@ -1,0 +1,10 @@
+{
+  "2fa_modal": {
+    "backup_codes": "Kirjutage need varukoodid kindlasse kohta üles. Neid saab kasutada üks kord teie kontole sisselogimiseks, kui teie 2FA-seade pole saadaval. Turvalisuse huvides neid ei kuvata enam kunagi.",
+    "disable_2fa": "Keela 2FA",
+    "enable_2fa": "Luba 2FA",
+    "enter_code": "Sisestage kood",
+    "scan_qr": "Skannige QR koodi autentimisrakenduse abil",
+    "secret_codes": "Kopeerige salakoodid kindlasse kohta"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "approved_suppliers": "Fornitori approvati",
+  "document_dropzone": "Hai una ricevuta ma non hai ancora effettuato alcuna transazione? Fai click o rilascia per aggiungerlo qui.",
+  "invoices": {
+    "cancel_invoice": "Cancella pagamento",
+    "collapse_description_trans": {
+      "CANCELLED": "Pagamento cancellato da <0>{{who}}</0>",
+      "SCHEDULED": "Pagamento previsto entro <0>{{who}}</0>"
+    },
+    "invoices": "Fatture",
+    "scheduled_for": "Pianificato per",
+    "upload_invoice": "Carica fattura",
+    "uploaded_by_who": "$t(common:uploaded_by)"
+  },
+  "line_items": {
+    "goods_received": {
+      "question": "Merce ricevuta?",
+      "statement": "Merce ricevuta il <0>{{date}}</0>"
+    }
+  },
+  "status": {
+    "description": "La carta virtuale associata è scaduta e tutte le transazioni sono riconciliate. Se viene registrata una nuova transazione, l'ordine di acquisto si riaprirà automaticamente.",
+    "title": "Chiuso"
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} ricevuta mancante",
+    "countable_missing_receipts_plural": "{{ count }} ricevute mancanti",
+    "ignored_by": "Ricevuta mancante ignorata da <0>{{who}}</0>",
+    "mark_as_review_approved": "Contrassegna come revisione approvata"
+  },
+  "virtual_card": {
+    "open_preview": "Visualizza i dettagli della carta ",
+    "title": "$t(common:virtual_card)"
+  }
+}

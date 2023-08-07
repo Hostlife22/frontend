@@ -1,0 +1,17 @@
+{
+  "line_items": {
+    "goods_received": {
+      "question": "varer modtaget?",
+      "statement": "varer modtaget <0>{{date}}</0>"
+    }
+  },
+  "transactions": {
+    "countable_missing_receipts": "{{ count }} manglende kvittering",
+    "countable_missing_receipts_plural": "{{ count }} manglende kvitteringer",
+    "ignored_by": "Manglende kvittering ignoreret af <0>{{who}}</0>",
+    "mark_as_review_approved": "Godkend"
+  },
+  "virtual_card": {
+    "open_preview": "vis kortdetaljer"
+  }
+}

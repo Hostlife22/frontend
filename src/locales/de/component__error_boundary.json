@@ -1,0 +1,29 @@
+{
+  "common_errors": {
+    "application_updated": {
+      "description": "Eine neue Version wurde veröffentlicht. Bitte aktualisieren Sie die Seite.",
+      "reset_button": "Seite neu laden",
+      "title": "Anwendung aktualisiert"
+    },
+    "forbidden": {
+      "description": "Die gesuchte Ressource ist verboten.",
+      "title": "Verboten"
+    },
+    "not_found": {
+      "description": "Entschuldigung, die von Ihnen aufgerufene Seite existiert leider nicht.",
+      "title": "Nicht gefunden"
+    },
+    "unknown_error": {
+      "description": "Entschuldigung, wir arbeiten daran.",
+      "reset_button": "Zur Startseite",
+      "title": "Etwas ist schief gelaufen"
+    }
+  },
+  "node_provider": {
+    "errors": {
+      "forbidden": "Entschuldigung, es sieht so aus, als hätten Sie keine Berechtigung {{ what }} zu sehen.",
+      "not_found": "Entschuldigung, es sieht aus als würde {{ what }} nicht existieren."
+    },
+    "sidebar_reset_button": "Seitenleiste schließen"
+  }
+}

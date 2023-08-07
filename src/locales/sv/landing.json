@@ -1,0 +1,79 @@
+{
+  "common": {
+    "subtitle": "Inköp är krävande. <b>Kräv smartare mjukvara.</b>",
+    "title": "Välkommen <b>till Mazepay</b>",
+    "website_link": "Läs mer på vår hemsida",
+    "website_link_title": "Vill du veta mer?"
+  },
+  "forms": {
+    "back_to_sign_in": "Tillbaka till Logga in",
+    "email": {
+      "errors": {
+        "invalid": "E-post är inte giltig",
+        "required": "E-post kräv"
+      },
+      "label": "E-post",
+      "placeholder": "Ange företagets e-postadress"
+    },
+    "header": {
+      "subtitle": {
+        "/accept_invitation": "Du har blivit inbjuden att gå med i Mazepay. Välj ett lösenord för att acceptera inbjudan.",
+        "/reset_password/send_email": "Ange den e-postadress du använder för att logga in på Mazepay",
+        "/reset_password/set_password": "Välj ett nytt lösenord för ditt Mazepay-konto",
+        "/signin": "Mazepay-appen"
+      },
+      "title": {
+        "/accept_invitation": "Välj lösenord",
+        "/reset_password/send_email": "Återställ lösenord",
+        "/reset_password/set_password": "Nytt lösenord",
+        "/signin": "Logga in"
+      }
+    },
+    "invite_errors": {
+      "link_is_invalid": "Bekräftelselänken är ogiltig",
+      "token_not_found": "Token hittades inte eller inaktuell"
+    },
+    "otp_header": {
+      "subtitle": "Ange den sexsiffriga koden från din autentiseringsapp",
+      "title": "Tvåfaktorsautentisering"
+    },
+    "password": {
+      "confirmation_label": "Bekräfta lösenord",
+      "errors": {
+        "passwords_do_not_match": "Lösenorden matchar inte",
+        "required": "Lösenord krävs",
+        "too_short": "Lösenordet är för kort (minst 6 tecken)"
+      },
+      "label": "Lösenord",
+      "placeholder": "Ange lösenord"
+    },
+    "submit": {
+      "confirm_invite": "Acceptera inbjudan",
+      "continue": "Fortsätta",
+      "reset_password_email": "Återställa",
+      "set_password": "Välj lösenord",
+      "sign_in": "Logga in",
+      "verify_otp": "Verifiera"
+    },
+    "unlock": {
+      "error": "Det gick inte att låsa upp dig",
+      "unlocked": "Du är upplåst",
+      "unlocking": "Låser upp dig..."
+    },
+    "validation_errors": {
+      "reset_password_token": {
+        "invalid": "Token är ogiltig"
+      }
+    }
+  },
+  "links": {
+    "change": "Ändra",
+    "reset_password": "Återställ lösenord"
+  },
+  "page_title": {
+    "/accept_invitation/buyer": "Acceptera inbjudan",
+    "/accept_invitation/supplier": "Acceptera inbjudan",
+    "/reset_password": "Återställ lösenord",
+    "/signin": "Logga in"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "header": {
+    "no_pending_approvals": "Ingen ventende godkjenninger",
+    "pending_approvals_by": "Venter på godkjenninger av"
+  },
+  "items": {
+    "approval": {
+      "excess_spend_limit": "Beløpsgrensen kan ikke være høyere enn det som tidligere er blitt godkjent.",
+      "in_purchase_order": "I innkjøpsordre",
+      "initiate": "$t(common:initiate)",
+      "reject": "$t(common:reject)",
+      "spend_limit_description": "Inkludert MVA og frakt",
+      "spend_limit_title": "Godkjenn beløp",
+      "undo_approve": "Angre godkjenning",
+      "undo_cancel": "Angre avbryt",
+      "undo_initiate": "Angre initiering",
+      "undo_reject": "Angre avvisning",
+      "view_purchase_order": "Se innkjøpsordre"
+    },
+    "current_spend": {
+      "description": "Inkludert foreslått grense for gjeldende vare",
+      "title": "Forbruk til <0>{{who}}</0>"
+    },
+    "subscription_tooltip": {
+      "subscribe": "Trykk for å abonnere på aktivitetsoppdateringer",
+      "unsubscribe": "Du abonnerer på aktivitetsoppdateringer"
+    }
+  }
+}
