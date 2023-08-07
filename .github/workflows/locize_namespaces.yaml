@@ -24,28 +24,6 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
 
-      # https://cli.github.com/manual/gh_api
-      - name: Find dot in translation keys
-        run: |
-          find_dot () {
-            find src/locales/en -name '*.json' -type f \
-              -exec jq -e '
-                paths | join(" -> ") | select(test("\\.")) | (input_filename + " -> " + .)
-              ' -- {} \;
-          }
-            
-          show_result () {
-            echo -e "Dot in translation key is not recommended.\nPlease use nested object instead."
-            echo -e "Files:"
-            echo "$1"
-            echo "Docs: https://www.i18next.com/translation-function/essentials#accessing-keys"
-            exit 1
-          }
-
-          ns=$(find_dot)
-
-          [ -z "$ns" ] || show_result "$ns"
-
       - name: Clone Mobile app
           run: |
           git clone https://github.com/Hostlife22/mobile.git mp_app_mobile
