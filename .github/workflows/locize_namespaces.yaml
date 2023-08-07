@@ -23,14 +23,14 @@ jobs:
 
       - name: Clone Mobile app
         run: |
-          git clone https://github.com/Hostlife22/mobile.git mp_app_mobile
+          git clone https://github.com/Hostlife22/mobile.git
 
       - name: Copy Changes to Mobile app
         run: |
-          cp -r src/locales/en mp_app_mobile/locales/en
+          cp -r src/locales/en mobile/src/locales/en
 
       - name: Typecheck in Mobile app
         run: |
-          cd mp_app_mobile
+          cd mobile
           yarn install
           yarn typecheck
