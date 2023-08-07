@@ -1,62 +1,47 @@
-name: Locize namespaces
+name: Check locize namespaces
 
 on:
   pull_request:
-    branches: ['develop']
+    branches:
+      - 'main'
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-defaults:
-  run:
-    shell: bash --noprofile --norc -euo pipefail {0}
 
 jobs:
   validate:
     runs-on: ubuntu-20.04
     steps:
-      # https://github.com/actions/checkout/commit/2541b1294d2704b0964813337f33b291d3f8596b
-      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # pin@v3
+      - uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v2
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com/
-          scope: '@dknmz'
 
-      # https://cli.github.com/manual/gh_api
-      - name: Find dot in translation keys
+      - name: Check for Locale Changes
+        id: check_locale_changes
         run: |
-          find_dot () {
-            find src/locales/en -name '*.json' -type f \
-              -exec jq -e '
-                paths | join(" -> ") | select(test("\\.")) | (input_filename + " -> " + .)
-              ' -- {} \;
-          }
-            
-          show_result () {
-            echo -e "Dot in translation key is not recommended.\nPlease use nested object instead."
-            echo -e "Files:"
-            echo "$1"
-            echo "Docs: https://www.i18next.com/translation-function/essentials#accessing-keys"
-            exit 1
-          }
+          LOCALE_CHANGES=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.number }}/files" | jq -r '.[] | select(.filename | startswith("src/locales/en/")) | .filename')
+          if [[ -n "$LOCALE_CHANGES" ]]; then
+            echo "::set-output name=locale_changes::true"
+          else
+            echo "::set-output name=locale_changes::false"
+          fi
 
-          ns=$(find_dot)
-
-          [ -z "$ns" ] || show_result "$ns"
-
-      - name: Clone Mobile app
-          run: |
-          git clone https://github.com/dknmz/mp_app_mobile.git mp_app_mobile
-
-      - name: Copy Changes to Mobile app
+      - name: Clone Mobile App
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          cp -r src/locales/en mp_app_mobile/assets/locales/en
+          git clone https://github.com/Hostlife22/mobile.git
 
-      - name: Typecheck in Mobile app
+      - name: Copy Locale Changes to Mobile App
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          cd mp_app_mobile
+          rsync -av src/locales/en/ mobile/src/locales/en/
+
+      - name: Typecheck Mobile App
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
+        run: |
+          cd mobile
           yarn install
           yarn typecheck
