@@ -27,7 +27,7 @@ jobs:
 
       - name: Copy Changes to Mobile app
         run: |
-          cp -r src/locales/en mobile/src/locales/en
+          rsync -av src/locales/en/ mobile/src/locales/en/
 
       - name: Typecheck in Mobile app
         run: |
