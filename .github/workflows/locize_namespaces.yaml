@@ -24,7 +24,7 @@ jobs:
       - name: Check for changes in en folder
         id: check_changes
         run: |
-          if [[ -n $(git diff --name-only HEAD~1..HEAD src/locales/en) ]]; then
+          if [[ -n $(git diff --name-only ${{ github.event.before }}..${{ github.sha }} | grep '^src/locales/en/') ]]; then
             echo "Changes detected in en folder"
             echo "::set-output name=changes::true"
           else
