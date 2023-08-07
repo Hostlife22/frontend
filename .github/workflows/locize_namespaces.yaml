@@ -24,6 +24,7 @@ jobs:
         id: get_changed_files
         run: |
           CHANGED_FILES=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.number }}/files" | jq -r '.[] | select(.filename | startswith("src/locales/en/")) | .filename')
+          echo "changes Version: $CHANGED_FILES"
           echo "::set-output name=files::$CHANGED_FILES"
 
       - name: Clone Mobile app
