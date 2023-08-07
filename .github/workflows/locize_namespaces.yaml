@@ -2,7 +2,7 @@ name: Locize namespaces
 
 on:
   pull_request:
-    branches: ['develop']
+    branches: ['main']
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -23,7 +23,6 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: '@dknmz'
 
       # https://cli.github.com/manual/gh_api
       - name: Find dot in translation keys
@@ -49,7 +48,7 @@ jobs:
 
       - name: Clone Mobile app
           run: |
-          git clone https://github.com/dknmz/mp_app_mobile.git mp_app_mobile
+          git clone https://github.com/Hostlife22/mobile.git mp_app_mobile
 
       - name: Copy Changes to Mobile app
         run: |
