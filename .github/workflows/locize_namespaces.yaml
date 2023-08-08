@@ -7,6 +7,8 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
 
 jobs:
   validate:
@@ -15,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
         with: 
           persist-credentials: false
-          
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
@@ -36,7 +38,7 @@ jobs:
         run: |
           git clone https://github.com/Hostlife22/mobile.git
           echo "Installing Personal Access Token..."
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.PERSONAL_ACCESS_TOKEN }}" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${PERSONAL_ACCESS_TOKEN}" >> ~/.npmrc
 
 
       - name: Copy Locale Changes to Mobile App
