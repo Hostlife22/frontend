@@ -15,8 +15,7 @@ jobs:
       - uses: actions/checkout@v2
         with: 
           persist-credentials: false
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          fetch-depth: 1
+          
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
@@ -35,7 +34,10 @@ jobs:
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          git clone git@github.com:Hostlife22/mobile.git
+          git clone https://github.com/Hostlife22/mobile.git
+          echo "Installing Personal Access Token..."
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.PERSONAL_ACCESS_TOKEN }}" >> ~/.npmrc
+
 
       - name: Copy Locale Changes to Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
