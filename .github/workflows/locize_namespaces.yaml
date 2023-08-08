@@ -29,7 +29,8 @@ jobs:
             echo "::set-output name=locale_changes::false"
           fi
 
-      - name: Write SSH keys
+      - name: Setup SSH
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
