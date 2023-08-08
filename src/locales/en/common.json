@@ -63,6 +63,7 @@
   "currency": "Currency",
   "custom_field": "custom field",
   "cvv_abbr": "CVV",
+	"dark_mode": "Dark mode",
   "data_scoping_rule": "Scoping rule",
   "data_scoping_rules": "Scoping rules",
   "date": "Date",
