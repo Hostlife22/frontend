@@ -32,7 +32,6 @@ jobs:
           else
             echo "::set-output name=locale_changes::false"
           fi
-
       - name: Setup SSH
         uses: MrSquaare/ssh-setup-action@v2
         with:
