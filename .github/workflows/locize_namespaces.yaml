@@ -42,7 +42,6 @@ jobs:
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          git config --global credential.helper store
           git clone git clone https://Hostlife22:${PERSONAL_ACCESS_TOKEN}@github.com/Hostlife22/mobile.git
 
 
