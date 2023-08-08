@@ -36,9 +36,9 @@ jobs:
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          git clone https://github.com/Hostlife22/mobile.git
           echo "Installing Personal Access Token..."
           echo "//npm.pkg.github.com/:_authToken=${PERSONAL_ACCESS_TOKEN}" >> ~/.npmrc
+          git clone https://github.com/Hostlife22/mobile.git
 
 
       - name: Copy Locale Changes to Mobile App
