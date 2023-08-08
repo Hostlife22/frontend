@@ -32,11 +32,13 @@ jobs:
           else
             echo "::set-output name=locale_changes::false"
           fi
-      - name: Setup SSH
-        uses: MrSquaare/ssh-setup-action@v2
-        with:
-          host: github.com
-          private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          
+      - name: Configure Git
+        run: |
+          mkdir -p ~/.ssh
+          echo "${SSH_PRIVATE_KEY}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
 
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
