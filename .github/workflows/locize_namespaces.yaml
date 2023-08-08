@@ -33,11 +33,13 @@ jobs:
             echo "::set-output name=locale_changes::false"
           fi
 
+      - name: Install Personal Access Token
+        run: echo "//npm.pkg.github.com/:_authToken=${PERSONAL_ACCESS_TOKEN}" >> ~/.npmrc
+
+
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          echo "Installing Personal Access Token..."
-          echo "//npm.pkg.github.com/:_authToken=${PERSONAL_ACCESS_TOKEN}" >> ~/.npmrc
           git clone https://github.com/Hostlife22/mobile.git
 
 
