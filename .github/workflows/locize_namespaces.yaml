@@ -43,7 +43,8 @@ jobs:
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
           git config --global credential.helper store
-          git clone https://github.com/Hostlife22/mobile.git
+          git clone git clone https://Hostlife22:${PERSONAL_ACCESS_TOKEN}@github.com/Hostlife22/mobile.git
+
 
 
       - name: Copy Locale Changes to Mobile App
