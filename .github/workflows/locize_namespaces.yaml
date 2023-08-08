@@ -33,10 +33,18 @@ jobs:
             echo "::set-output name=locale_changes::false"
           fi
 
+      - name: Configure Git
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
+        run: |
+          git config --global user.email "sima.serafim2021@mail.ru"
+          git config --global user.name "Hostlife22"
+          
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          git clone https://Hostlife22:${PERSONAL_ACCESS_TOKEN}@github.com/Hostlife22/mobile.git
+          git config --global credential.helper store
+          git clone https://github.com/Hostlife22/mobile.git
+
 
       - name: Copy Locale Changes to Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
