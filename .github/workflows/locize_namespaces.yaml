@@ -25,6 +25,7 @@ jobs:
           LOCALE_CHANGES=$(curl -s -H "Authorization: Bearer ${{ github.token }}" "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.number }}/files" | jq -r '.[] | select(.filename | startswith("src/locales/en/")) | .filename')
           if [[ -n "$LOCALE_CHANGES" ]]; then
             echo "::set-output name=locale_changes::true"
+            echo "Playwright's Version: $GITHUB_TOKEN"
           else
             echo "::set-output name=locale_changes::false"
           fi
