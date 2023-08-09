@@ -7,20 +7,12 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
 jobs:
   validate:
     runs-on: ubuntu-20.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Checkout private tools
-        uses: actions/checkout@v2
-        with:
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          repository: Hostlife22/mobile
+      - uses: actions/checkout@v2
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -37,14 +29,14 @@ jobs:
             echo "::set-output name=locale_changes::false"
           fi
 
-      # - name: Setup SSH
-      #   if: steps.check_locale_changes.outputs.locale_changes == 'true'
-      #   run: |
-      #     install -m 600 -D /dev/null ~/.ssh/id_rsa
-      #     echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-      #     host='github.com'
-      #     hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
-      #     ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
+      - name: Setup SSH
+        if: steps.check_locale_changes.outputs.locale_changes == 'true'
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          host='github.com'
+          hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
+          ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
 
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
