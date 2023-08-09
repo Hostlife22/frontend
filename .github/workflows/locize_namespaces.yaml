@@ -34,7 +34,7 @@ jobs:
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          git clone https://$PERSONAL_ACCESS_TOKEN@github.com/Hostlife22/mobile.git
+          git clone https://$GITHUB_TOKEN@github.com/Hostlife22/mobile.git
 
       - name: Copy Locale Changes to Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
