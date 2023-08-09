@@ -7,6 +7,7 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
 jobs:
   validate:
@@ -28,11 +29,10 @@ jobs:
           else
             echo "::set-output name=locale_changes::false"
           fi
-
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
-          git clone https://github.com/Hostlife22/mobile.git
+          git clone https://$PERSONAL_ACCESS_TOKEN@github.com/Hostlife22/mobile.git
 
       - name: Copy Locale Changes to Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
