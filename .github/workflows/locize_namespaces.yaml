@@ -29,7 +29,6 @@ jobs:
           else
             echo "::set-output name=locale_changes::false"
           fi
-
       - name: Clone Mobile App
         if: steps.check_locale_changes.outputs.locale_changes == 'true'
         run: |
